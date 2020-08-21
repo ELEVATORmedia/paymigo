@@ -15,9 +15,9 @@
   integrity sha512-6gHT5HhPLObICXU8LFFiuoH0vCh3y1y0jl0OWDRuTZvptZ1WRS2eKcHigheytqxk+CWTH0qh0M3S5vEf1PJrSw==
 
 paymigo@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/paymigo/-/paymigo-0.1.0.tgz#db97bfefc1607c00b4e58bdd555eef207ca641fb"
-  integrity sha512-orWV0a32aB7fiBeS0Ugjt0OlFIOBPqajDg9s/eKJCneUOJO7HxhNMUDSqKFfoXeCpLPfWGn+6L88nzw1nqgzSg==
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/paymigo/-/paymigo-0.1.1.tgz#4ea732768d3debdcfcbea63c17267d836de53643"
+  integrity sha512-/7Oxe0PJgrMzrEUQaEw/58XRNmW23BtgOlgVeNSz0OQtTCwD8kRhqnSLJOdhbzwRVPwaiiDKpbWcu9WvCf+3gg==
   dependencies:
     "@paypal/checkout-server-sdk" "^1.0.2"
     qs "^6.9.4"
