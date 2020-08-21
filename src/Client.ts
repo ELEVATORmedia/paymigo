@@ -3,12 +3,18 @@ const paypal = require('@paypal/checkout-server-sdk');
 
 export type ClientMode = 'sandbox' | 'production';
 
-export type PayflowOptions = {};
+export type PayflowOptions = {
+    user: string;
+    vendor?: string;
+    partner: 'Paypal';
+    password: string;
+};
 
 export type ClientOptions = {
     mode: ClientMode;
     clientId: string;
     secretKey: string;
+    reporting?: PayflowOptions;
 };
 
 export default class PayPalClient {

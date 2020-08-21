@@ -1,3 +1,3 @@
-import PayPalClient from './lib/Client';
+import PayPalClient from './Client';
 
 export default PayPalClient;
