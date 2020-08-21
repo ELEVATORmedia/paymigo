@@ -1,0 +1,11 @@
+{
+  "name": "paymigo-basic-example",
+  "version": "0.1.0",
+  "description": "A basic example for the Paymigo library",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "paymigo": "^0.1.0"
+  }
+}
