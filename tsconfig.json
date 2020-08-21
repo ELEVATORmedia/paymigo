@@ -9,7 +9,9 @@
         "sourceMap": true,
         "allowJs": true,
         "esModuleInterop": true,
+        // "composite": true,
         "declaration": true,
+        "declarationMap": true,
         // NOTE ADDED FOR MIGRATION
         // ref: https://github.com/storybookjs/storybook/issues/9463#issuecomment-599384571
         // "skipLibCheck": true,
@@ -19,7 +21,7 @@
         },
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
-        "typeRoots": ["./node_modules/@types", "./src/types/"]
+        "typeRoots": ["./node_modules/@types", "./types/"]
     },
     "include": ["./src/**/*"]
 }

@@ -1,13 +1,15 @@
 {
   "name": "paymigo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "TypeScript wrapper and extension of PayPal Node.js SDK and REST APIs",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": "https://github.com/dallen4/paymigo.git",
   "author": "Nieky Allen <nieky.allen@elevatormag.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "private": false,
   "files": [
