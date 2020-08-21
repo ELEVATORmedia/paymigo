@@ -1,6 +1,5 @@
 {
     "compilerOptions": {
-        "declaration": true,
         "outDir": "./dist/",
         "noImplicitAny": true,
         "allowSyntheticDefaultImports": true,
@@ -8,8 +7,12 @@
         "moduleResolution": "node",
         "target": "es6",
         "sourceMap": true,
-        // "allowJs": true,
+        "allowJs": true,
         "esModuleInterop": true,
+        "declaration": true,
+        // NOTE ADDED FOR MIGRATION
+        // ref: https://github.com/storybookjs/storybook/issues/9463#issuecomment-599384571
+        // "skipLibCheck": true,
         "baseUrl": ".",
         "paths": {
             "*": ["node_modules/*", "src/*"]
@@ -18,6 +21,5 @@
         "emitDecoratorMetadata": true,
         "typeRoots": ["./node_modules/@types", "./src/types/"]
     },
-    "include": ["./src/**/*"],
-    "exclude": ["./dist/**/*"]
+    "include": ["./src/**/*"]
 }
