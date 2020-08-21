@@ -1,3 +1,5 @@
+import { BasePayPalClient } from "types/paypal";
+
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const paypal = require('@paypal/checkout-server-sdk');
 
@@ -17,12 +19,12 @@ export type ClientOptions = {
     reporting?: PayflowOptions;
 };
 
-export default class PayPalClient {
+export default class PaymigoClient {
     mode: ClientMode;
-    _client: any; // paypal client
+    private _baseClient: BasePayPalClient; // paypal client
 
     constructor(options: ClientOptions) {
-        this._client = null;
+        this._baseClient = null;
 
         let environment = null;
 
@@ -40,6 +42,6 @@ export default class PayPalClient {
         if (!environment) throw new Error('Invalid client environment configuration');
 
         this.mode = options.mode;
-        this._client = new paypal.core.PayPalHttpClient(environment);
+        this._baseClient = new paypal.core.PayPalHttpClient(environment);
     }
 }
