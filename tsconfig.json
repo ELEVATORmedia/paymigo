@@ -9,7 +9,6 @@
         "sourceMap": true,
         "allowJs": true,
         "esModuleInterop": true,
-        // "composite": true,
         "declaration": true,
         "declarationMap": true,
         // NOTE ADDED FOR MIGRATION
@@ -21,7 +20,7 @@
         },
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
-        "typeRoots": ["./node_modules/@types", "./types/"]
+        "typeRoots": ["./node_modules/@types", "src/types"]
     },
-    "include": ["./src/**/*"]
+    "include": ["./src/**/*", "src/types", "types/"]
 }
