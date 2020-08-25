@@ -1,27 +1,17 @@
-import { BasePayPalClient } from "types/paypal";
+import { OrdersClient } from 'lib/orders';
+import { ReportingClient } from 'lib/reporting';
+import { ClientMode, ClientOptions } from 'types/client';
+import { BasePayPalClient } from 'types/paypal';
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const paypal = require('@paypal/checkout-server-sdk');
 
-export type ClientMode = 'sandbox' | 'production';
-
-export type PayflowOptions = {
-    user: string;
-    vendor?: string;
-    partner: 'Paypal';
-    password: string;
-};
-
-export type ClientOptions = {
-    mode: ClientMode;
-    clientId: string;
-    secretKey: string;
-    reporting?: PayflowOptions;
-};
-
 export default class PaymigoClient {
     mode: ClientMode;
     private _baseClient: BasePayPalClient; // paypal client
+
+    orders: OrdersClient;
+    reporting: ReportingClient;
 
     constructor(options: ClientOptions) {
         this._baseClient = null;
@@ -43,5 +33,10 @@ export default class PaymigoClient {
 
         this.mode = options.mode;
         this._baseClient = new paypal.core.PayPalHttpClient(environment);
+
+        this.orders = new OrdersClient(this._baseClient);
+
+        if (options.reporting)
+            this.reporting = new ReportingClient(options.mode, options.reporting);
     }
 }
