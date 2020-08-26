@@ -1,3 +1,4 @@
+import { DisputesClient } from 'lib/disputes';
 import { OrdersClient } from 'lib/orders';
 import { ReportingClient } from 'lib/reporting';
 import { ClientMode, ClientOptions } from 'types/client';
@@ -11,6 +12,7 @@ export default class PaymigoClient {
     private _baseClient: BasePayPalClient; // paypal client
 
     orders: OrdersClient;
+    disputes: DisputesClient;
     reporting: ReportingClient;
 
     constructor(options: ClientOptions) {
@@ -35,6 +37,7 @@ export default class PaymigoClient {
         this._baseClient = new paypal.core.PayPalHttpClient(environment);
 
         this.orders = new OrdersClient(this._baseClient);
+        this.disputes = new DisputesClient(this._baseClient);
 
         if (options.reporting)
             this.reporting = new ReportingClient(options.mode, options.reporting);
