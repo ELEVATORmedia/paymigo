@@ -31,4 +31,6 @@ export class ReportingClient {
     });
 
     makeRequest = (body: any) => axios.post(this._apiUri, body);
+
+    parseResponse = (input: string) => XmlParser.parseStringPromise(input);
 }
