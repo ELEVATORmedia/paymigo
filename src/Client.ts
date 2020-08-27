@@ -1,6 +1,4 @@
-import { DisputesClient } from 'lib/disputes';
-import { OrdersClient } from 'lib/orders';
-import { ReportingClient } from 'lib/reporting';
+import { DisputesClient, OrdersClient, ReportingClient } from 'lib';
 import { ClientMode, ClientOptions } from 'types/client';
 import { BasePayPalClient } from 'types/paypal';
 
