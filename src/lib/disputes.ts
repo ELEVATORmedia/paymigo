@@ -14,6 +14,11 @@ export class DisputesClient {
         this._client = client;
     }
 
+    /**
+     * Retrieve dispute instance by its ID
+     * @param {String} disputeId - unique dispute identifier
+     * @returns dispute instance
+     */
     public async getById(disputeId: string) {
         const request = new DisputeGetRequest(disputeId);
 
