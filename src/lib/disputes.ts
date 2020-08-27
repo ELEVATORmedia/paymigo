@@ -1,8 +1,6 @@
 import DisputeGetRequest from 'legacy/DisputeGetRequest';
-import DisputesGetRequest, { DisputesGetRequestParams } from 'legacy/DisputesGetRequest';
+import DisputesGetRequest from 'legacy/DisputesGetRequest';
 import { BasePayPalClient, DisputeState } from 'types/paypal';
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const paypal = require('@paypal/checkout-server-sdk');
 
 export type DisputesListOptions = {
     startTime: Date;
@@ -27,8 +25,13 @@ export class DisputesClient {
         }
     }
 
-    public async list(params: DisputesListOptions) {
-        const request = new DisputesGetRequest(params.startTime, params.state);
+    /**
+     * Retrieve all relevant disputes based off of provided options
+     * @param options - provides `startTime` and `state` of dispute(s)
+     * @returns array of disputes
+     */
+    public async list(options: DisputesListOptions) {
+        const request = new DisputesGetRequest(options.startTime, options.state);
 
         try {
             const response = await this._client.execute(request);
