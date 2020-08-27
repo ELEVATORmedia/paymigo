@@ -1,37 +1,48 @@
 {
-  "name": "paymigo",
-  "version": "0.1.1",
-  "description": "TypeScript wrapper and extension of PayPal Node.js SDK and REST APIs",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "repository": "https://github.com/dallen4/paymigo.git",
-  "author": "Nieky Allen <nieky.allen@elevatormag.com>",
-  "license": "MIT",
-  "scripts": {
-    "build": "tsc",
-    "prepare": "npm run build"
-  },
-  "private": false,
-  "files": [
-    "dist"
-  ],
-  "dependencies": {
-    "@paypal/checkout-server-sdk": "^1.0.2",
-    "axios": "^0.20.0",
-    "qs": "^6.9.4",
-    "xml2js": "^0.4.23"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.6.0",
-    "@babel/preset-env": "^7.6.0",
-    "@babel/preset-typescript": "^7.6.0",
-    "@types/node": "^12.6.8",
-    "@types/qs": "^6.9.3",
-    "@types/xml2js": "^0.4.5",
-    "@typescript-eslint/eslint-plugin": "^2.0.0",
-    "@typescript-eslint/parser": "^2.0.0",
-    "babel-loader": "^8.0.6",
-    "eslint": "^6.2.1",
-    "typescript": "^3.5.3"
-  }
+    "name": "paymigo",
+    "version": "0.1.1",
+    "description": "TypeScript wrapper and extension of PayPal Node.js SDK and REST APIs",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "repository": "https://github.com/dallen4/paymigo.git",
+    "author": "Nieky Allen <nieky.allen@elevatormag.com>",
+    "license": "MIT",
+    "scripts": {
+        "build": "tsc",
+        "prepare": "npm run build",
+        "docs": "typedoc --plugin typedoc-plugin-markdown src/"
+    },
+    "private": false,
+    "files": [
+        "dist"
+    ],
+    "dependencies": {
+        "@paypal/checkout-server-sdk": "^1.0.2",
+        "axios": "^0.20.0",
+        "qs": "^6.9.4",
+        "xml2js": "^0.4.23"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.6.0",
+        "@babel/preset-env": "^7.6.0",
+        "@babel/preset-typescript": "^7.6.0",
+        "@types/node": "^12.6.8",
+        "@types/qs": "^6.9.3",
+        "@types/xml2js": "^0.4.5",
+        "@typescript-eslint/eslint-plugin": "^2.0.0",
+        "@typescript-eslint/parser": "^2.0.0",
+        "babel-loader": "^8.0.6",
+        "eslint": "^6.2.1",
+        "husky": "^4.2.5",
+        "prettier": "^2.1.1",
+        "pretty-quick": "^3.0.0",
+        "typedoc": "^0.18.0",
+        "typescript": "^3.5.3"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "pretty-quick --staged",
+            "pre-push": "yarn docs"
+        }
+    }
 }
