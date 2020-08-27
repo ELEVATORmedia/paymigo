@@ -23,6 +23,11 @@ export class OrdersClient {
         }
     }
 
+    /**
+     * uses a unique order ID to capture an authorized order payment
+     * @param {String} orderId - unique order identifier
+     * @returns order payment capture result
+     */
     public async capture(orderId: string) {
         const request = new paypal.orders.OrdersCaptureRequest(orderId);
         request.requestBody({});
@@ -37,13 +42,15 @@ export class OrdersClient {
     }
 
     /**
-     * uses a unique PayPal Order ID to retrieve order details to validate status and amount charged
-     * @param {String} orderId
-     * @param {Number} expectedAmount
+     * uses a unique order ID to retrieve order details to validate status and amount charged
+     * @param {String} orderId - unique order identifier
+     * @param {Number} expectedAmount - expected transaction amount
+     * @returns whether the transaction completed successfully
      */
     public async verify(orderId: string, expectedAmount: number) {
         const order = await this.getById(orderId);
 
+        // TODO modify to account for all purchase_units
         if (
             order.status !== 'COMPLETED' ||
             order.purchase_units[0].amount.value != expectedAmount
@@ -53,6 +60,11 @@ export class OrdersClient {
         return true;
     }
 
+    /**
+     * uses a unique order ID to retrieve the corresponding order
+     * @param {String} orderId - unique order identifier
+     * @returns order instance
+     */
     public async getById(orderId: string) {
         const invalidIdError = new Error('Invalid order ID provided');
         const request = new paypal.orders.OrdersGetRequest(orderId);
