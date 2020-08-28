@@ -10,7 +10,7 @@
     "scripts": {
         "build": "tsc",
         "prepare": "npm run build",
-        "docs": "node_modules/.bin/typedoc --plugin typedoc-plugin-markdown src/"
+        "docs": "cd site && yarn build && cd .."
     },
     "private": false,
     "files": [
