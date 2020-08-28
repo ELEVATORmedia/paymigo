@@ -1,6 +1,6 @@
-import { DisputesClient, OrdersClient, ReportingClient } from 'lib';
-import { ClientMode, ClientOptions } from 'types/client';
-import { BasePayPalClient } from 'types/paypal';
+import { DisputesClient, OrdersClient, ReportingClient } from './lib';
+import { ClientMode, ClientOptions } from './types/client';
+import { BasePayPalClient } from './types/paypal';
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const paypal = require('@paypal/checkout-server-sdk');
