@@ -27,7 +27,7 @@ hide_title: 'true'
 
 _Overrides [ReportingRequest](reporting.reportingrequest.md).[reportingEngineRequest](reporting.reportingrequest.md#reportingenginerequest)_
 
-_Defined in [types/reporting.ts:26](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/types/reporting.ts#L26)_
+_Defined in [types/reporting.ts:26](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/types/reporting.ts#L26)_
 
 #### Type declaration:
 

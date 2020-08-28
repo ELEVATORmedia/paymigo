@@ -58,7 +58,7 @@ hide_title: 'true'
 
 Ƭ **ClientMode**: _"sandbox" | "production"_
 
-_Defined in [types/client.ts:2](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/types/client.ts#L2)_
+_Defined in [types/client.ts:2](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/types/client.ts#L2)_
 
 ---
 
@@ -66,7 +66,7 @@ _Defined in [types/client.ts:2](https://github.com/ELEVATORmedia/paymigo/blob/30
 
 Ƭ **ClientOptions**: _object_
 
-_Defined in [types/client.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/types/client.ts#L11)_
+_Defined in [types/client.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/types/client.ts#L11)_
 
 #### Type declaration:
 
@@ -84,7 +84,7 @@ _Defined in [types/client.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/3
 
 Ƭ **DisputeOutcome**: _object_
 
-_Defined in [types/paypal.ts:18](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/types/paypal.ts#L18)_
+_Defined in [types/paypal.ts:18](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/types/paypal.ts#L18)_
 
 #### Type declaration:
 
@@ -100,7 +100,7 @@ _Defined in [types/paypal.ts:18](https://github.com/ELEVATORmedia/paymigo/blob/3
 
 Ƭ **DisputeOutcomeCode**: _"RESOLVED_BUYER_FAVOUR" | "RESOLVED_SELLER_FAVOUR" | "RESOLVED_WITH_PAYOUT" | "CANCELED_BY_BUYER" | "ACCEPTED" | "DENIED" | "NONE"_
 
-_Defined in [types/paypal.ts:24](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/types/paypal.ts#L24)_
+_Defined in [types/paypal.ts:24](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/types/paypal.ts#L24)_
 
 ---
 
@@ -108,9 +108,9 @@ _Defined in [types/paypal.ts:24](https://github.com/ELEVATORmedia/paymigo/blob/3
 
 Ƭ **DisputeState**: _"RESOLVED"_
 
-_Defined in [types/paypal.ts:16](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/types/paypal.ts#L16)_
+_Defined in [types/paypal.ts:16](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/types/paypal.ts#L16)_
 
-_Defined in [legacy/DisputesGetRequest.ts:5](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/legacy/DisputesGetRequest.ts#L5)_
+_Defined in [legacy/DisputesGetRequest.ts:5](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/legacy/DisputesGetRequest.ts#L5)_
 
 ---
 
@@ -118,7 +118,7 @@ _Defined in [legacy/DisputesGetRequest.ts:5](https://github.com/ELEVATORmedia/pa
 
 Ƭ **DisputesGetRequestParams**: _object_
 
-_Defined in [legacy/DisputesGetRequest.ts:7](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/legacy/DisputesGetRequest.ts#L7)_
+_Defined in [legacy/DisputesGetRequest.ts:7](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/legacy/DisputesGetRequest.ts#L7)_
 
 #### Type declaration:
 
@@ -132,7 +132,7 @@ _Defined in [legacy/DisputesGetRequest.ts:7](https://github.com/ELEVATORmedia/pa
 
 Ƭ **DisputesListOptions**: _object_
 
-_Defined in [lib/disputes.ts:5](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/lib/disputes.ts#L5)_
+_Defined in [lib/disputes.ts:5](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/lib/disputes.ts#L5)_
 
 #### Type declaration:
 
@@ -146,7 +146,7 @@ _Defined in [lib/disputes.ts:5](https://github.com/ELEVATORmedia/paymigo/blob/30
 
 Ƭ **PayflowCredentials**: _object_
 
-_Defined in [types/client.ts:4](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/types/client.ts#L4)_
+_Defined in [types/client.ts:4](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/types/client.ts#L4)_
 
 #### Type declaration:
 
@@ -164,7 +164,7 @@ _Defined in [types/client.ts:4](https://github.com/ELEVATORmedia/paymigo/blob/30
 
 Ƭ **RequestOptions**: _object_
 
-_Defined in [types/paypal.ts:9](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/types/paypal.ts#L9)_
+_Defined in [types/paypal.ts:9](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/types/paypal.ts#L9)_
 
 #### Type declaration:
 
@@ -182,7 +182,7 @@ _Defined in [types/paypal.ts:9](https://github.com/ELEVATORmedia/paymigo/blob/30
 
 Ƭ **RequestVerb**: _"GET" | "POST"_
 
-_Defined in [types/paypal.ts:1](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/types/paypal.ts#L1)_
+_Defined in [types/paypal.ts:1](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/types/paypal.ts#L1)_
 
 ## Variables
 
@@ -192,7 +192,7 @@ _Defined in [types/paypal.ts:1](https://github.com/ELEVATORmedia/paymigo/blob/30
 xmldec: { version: '1.0', encoding: 'UTF-8' },
 })
 
-_Defined in [lib/reporting.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/lib/reporting.ts#L10)_
+_Defined in [lib/reporting.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/lib/reporting.ts#L10)_
 
 ---
 
@@ -202,7 +202,7 @@ _Defined in [lib/reporting.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/
 valueProcessors: [parseNumbers],
 })
 
-_Defined in [lib/reporting.ts:6](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/lib/reporting.ts#L6)_
+_Defined in [lib/reporting.ts:6](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/lib/reporting.ts#L6)_
 
 ---
 
@@ -218,7 +218,7 @@ minute: 'numeric',
 second: 'numeric',
 })
 
-_Defined in [lib/util.ts:2](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/lib/util.ts#L2)_
+_Defined in [lib/util.ts:2](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/lib/util.ts#L2)_
 
 ---
 
@@ -226,9 +226,9 @@ _Defined in [lib/util.ts:2](https://github.com/ELEVATORmedia/paymigo/blob/30e920
 
 • **paypal**: _any_ = require('@paypal/checkout-server-sdk')
 
-_Defined in [Client.ts:6](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/Client.ts#L6)_
+_Defined in [Client.ts:6](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/Client.ts#L6)_
 
-_Defined in [lib/orders.ts:3](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/lib/orders.ts#L3)_
+_Defined in [lib/orders.ts:3](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/lib/orders.ts#L3)_
 
 ## Functions
 
@@ -236,7 +236,7 @@ _Defined in [lib/orders.ts:3](https://github.com/ELEVATORmedia/paymigo/blob/30e9
 
 ▸ **dateToParamString**(`input`: Date): _string_
 
-_Defined in [lib/util.ts:12](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/lib/util.ts#L12)_
+_Defined in [lib/util.ts:12](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/lib/util.ts#L12)_
 
 **Parameters:**
 
@@ -252,10 +252,10 @@ _Defined in [lib/util.ts:12](https://github.com/ELEVATORmedia/paymigo/blob/30e92
 
 ### ▪ **defaultHeaders**: _object_
 
-_Defined in [legacy/PayPalRequest.ts:3](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/legacy/PayPalRequest.ts#L3)_
+_Defined in [legacy/PayPalRequest.ts:3](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/legacy/PayPalRequest.ts#L3)_
 
 ### Content-Type
 
 • **Content-Type**: _string_ = "application/json"
 
-_Defined in [legacy/PayPalRequest.ts:4](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/legacy/PayPalRequest.ts#L4)_
+_Defined in [legacy/PayPalRequest.ts:4](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/legacy/PayPalRequest.ts#L4)_

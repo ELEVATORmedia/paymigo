@@ -27,7 +27,7 @@ hide_title: 'true'
 
 • **reportingEngineRequest**: _object_
 
-_Defined in [types/reporting.ts:9](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/types/reporting.ts#L9)_
+_Defined in [types/reporting.ts:9](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/types/reporting.ts#L9)_
 
 #### Type declaration:
 

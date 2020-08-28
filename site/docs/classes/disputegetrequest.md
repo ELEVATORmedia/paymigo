@@ -34,7 +34,7 @@ hide_title: 'true'
 
 _Overrides [PayPalRequest](paypalrequest.md).[constructor](paypalrequest.md#constructor)_
 
-_Defined in [legacy/DisputeGetRequest.ts:3](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/legacy/DisputeGetRequest.ts#L3)_
+_Defined in [legacy/DisputeGetRequest.ts:3](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/legacy/DisputeGetRequest.ts#L3)_
 
 **Parameters:**
 
@@ -52,7 +52,7 @@ _Defined in [legacy/DisputeGetRequest.ts:3](https://github.com/ELEVATORmedia/pay
 
 _Inherited from [PayPalRequest](paypalrequest.md).[body](paypalrequest.md#body)_
 
-_Defined in [legacy/PayPalRequest.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/legacy/PayPalRequest.ts#L10)_
+_Defined in [legacy/PayPalRequest.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/legacy/PayPalRequest.ts#L10)_
 
 ---
 
@@ -62,7 +62,7 @@ _Defined in [legacy/PayPalRequest.ts:10](https://github.com/ELEVATORmedia/paymig
 
 _Inherited from [PayPalRequest](paypalrequest.md).[headers](paypalrequest.md#headers)_
 
-_Defined in [legacy/PayPalRequest.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/legacy/PayPalRequest.ts#L11)_
+_Defined in [legacy/PayPalRequest.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/legacy/PayPalRequest.ts#L11)_
 
 ---
 
@@ -72,7 +72,7 @@ _Defined in [legacy/PayPalRequest.ts:11](https://github.com/ELEVATORmedia/paymig
 
 _Inherited from [PayPalRequest](paypalrequest.md).[path](paypalrequest.md#path)_
 
-_Defined in [legacy/PayPalRequest.ts:8](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/legacy/PayPalRequest.ts#L8)_
+_Defined in [legacy/PayPalRequest.ts:8](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/legacy/PayPalRequest.ts#L8)_
 
 ---
 
@@ -82,4 +82,4 @@ _Defined in [legacy/PayPalRequest.ts:8](https://github.com/ELEVATORmedia/paymigo
 
 _Inherited from [PayPalRequest](paypalrequest.md).[verb](paypalrequest.md#verb)_
 
-_Defined in [legacy/PayPalRequest.ts:9](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/legacy/PayPalRequest.ts#L9)_
+_Defined in [legacy/PayPalRequest.ts:9](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/legacy/PayPalRequest.ts#L9)_

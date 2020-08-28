@@ -31,7 +31,7 @@ hide_title: 'true'
 
 \+ **new PaymigoClient**(`options`: [ClientOptions](../globals.md#clientoptions)): _[PaymigoClient](paymigoclient.md)_
 
-_Defined in [Client.ts:14](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/Client.ts#L14)_
+_Defined in [Client.ts:14](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/Client.ts#L14)_
 
 **Parameters:**
 
@@ -47,7 +47,7 @@ _Defined in [Client.ts:14](https://github.com/ELEVATORmedia/paymigo/blob/30e9201
 
 • **\_baseClient**: _[BasePayPalClient](basepaypalclient.md)_
 
-_Defined in [Client.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/Client.ts#L10)_
+_Defined in [Client.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/Client.ts#L10)_
 
 ---
 
@@ -55,7 +55,7 @@ _Defined in [Client.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/30e9201
 
 • **disputes**: _[DisputesClient](disputesclient.md)_
 
-_Defined in [Client.ts:13](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/Client.ts#L13)_
+_Defined in [Client.ts:13](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/Client.ts#L13)_
 
 ---
 
@@ -63,7 +63,7 @@ _Defined in [Client.ts:13](https://github.com/ELEVATORmedia/paymigo/blob/30e9201
 
 • **mode**: _[ClientMode](../globals.md#clientmode)_
 
-_Defined in [Client.ts:9](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/Client.ts#L9)_
+_Defined in [Client.ts:9](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/Client.ts#L9)_
 
 ---
 
@@ -71,7 +71,7 @@ _Defined in [Client.ts:9](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/
 
 • **orders**: _[OrdersClient](ordersclient.md)_
 
-_Defined in [Client.ts:12](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/Client.ts#L12)_
+_Defined in [Client.ts:12](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/Client.ts#L12)_
 
 ---
 
@@ -79,4 +79,4 @@ _Defined in [Client.ts:12](https://github.com/ELEVATORmedia/paymigo/blob/30e9201
 
 • **reporting**: _[ReportingClient](reportingclient.md)_
 
-_Defined in [Client.ts:14](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/Client.ts#L14)_
+_Defined in [Client.ts:14](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/Client.ts#L14)_

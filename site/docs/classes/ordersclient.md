@@ -34,7 +34,7 @@ hide_title: 'true'
 
 \+ **new OrdersClient**(`client`: [BasePayPalClient](basepaypalclient.md)): _[OrdersClient](ordersclient.md)_
 
-_Defined in [lib/orders.ts:6](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/lib/orders.ts#L6)_
+_Defined in [lib/orders.ts:6](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/lib/orders.ts#L6)_
 
 **Parameters:**
 
@@ -50,7 +50,7 @@ _Defined in [lib/orders.ts:6](https://github.com/ELEVATORmedia/paymigo/blob/30e9
 
 • **\_client**: _[BasePayPalClient](basepaypalclient.md)_
 
-_Defined in [lib/orders.ts:6](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/lib/orders.ts#L6)_
+_Defined in [lib/orders.ts:6](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/lib/orders.ts#L6)_
 
 ## Methods
 
@@ -58,7 +58,7 @@ _Defined in [lib/orders.ts:6](https://github.com/ELEVATORmedia/paymigo/blob/30e9
 
 ▸ **capture**(`orderId`: string): _Promise‹any›_
 
-_Defined in [lib/orders.ts:31](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/lib/orders.ts#L31)_
+_Defined in [lib/orders.ts:31](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/lib/orders.ts#L31)_
 
 uses a unique order ID to capture an authorized order payment
 
@@ -78,7 +78,7 @@ order payment capture result
 
 ▸ **create**(`input`: any): _Promise‹any›_
 
-_Defined in [lib/orders.ts:13](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/lib/orders.ts#L13)_
+_Defined in [lib/orders.ts:13](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/lib/orders.ts#L13)_
 
 **Parameters:**
 
@@ -94,7 +94,7 @@ _Defined in [lib/orders.ts:13](https://github.com/ELEVATORmedia/paymigo/blob/30e
 
 ▸ **getById**(`orderId`: string): _Promise‹any›_
 
-_Defined in [lib/orders.ts:68](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/lib/orders.ts#L68)_
+_Defined in [lib/orders.ts:68](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/lib/orders.ts#L68)_
 
 Retrieve order instance by its ID
 
@@ -114,7 +114,7 @@ order instance
 
 ▸ **verify**(`orderId`: string, `expectedAmount`: number): _Promise‹boolean›_
 
-_Defined in [lib/orders.ts:50](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/lib/orders.ts#L50)_
+_Defined in [lib/orders.ts:50](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/lib/orders.ts#L50)_
 
 Retrieve dispute order by its ID to view order details to validate status and amount charged
 

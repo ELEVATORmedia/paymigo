@@ -27,7 +27,7 @@ hide_title: 'true'
 
 _Overrides [ReportingResponse](reporting.reportingresponse.md).[reportingEngineResponse](reporting.reportingresponse.md#reportingengineresponse)_
 
-_Defined in [types/reporting.ts:67](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/types/reporting.ts#L67)_
+_Defined in [types/reporting.ts:67](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/types/reporting.ts#L67)_
 
 #### Type declaration:
 

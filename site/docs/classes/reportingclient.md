@@ -34,7 +34,7 @@ hide_title: 'true'
 
 \+ **new ReportingClient**(`mode`: [ClientMode](../globals.md#clientmode), `credentials`: [PayflowCredentials](../globals.md#payflowcredentials)): _[ReportingClient](reportingclient.md)_
 
-_Defined in [lib/reporting.ts:16](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/lib/reporting.ts#L16)_
+_Defined in [lib/reporting.ts:16](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/lib/reporting.ts#L16)_
 
 **Parameters:**
 
@@ -51,7 +51,7 @@ _Defined in [lib/reporting.ts:16](https://github.com/ELEVATORmedia/paymigo/blob/
 
 • **\_apiUri**: _string_
 
-_Defined in [lib/reporting.ts:15](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/lib/reporting.ts#L15)_
+_Defined in [lib/reporting.ts:15](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/lib/reporting.ts#L15)_
 
 ---
 
@@ -59,7 +59,7 @@ _Defined in [lib/reporting.ts:15](https://github.com/ELEVATORmedia/paymigo/blob/
 
 • **\_payflowCredentials**: _[PayflowCredentials](../globals.md#payflowcredentials)_
 
-_Defined in [lib/reporting.ts:16](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/lib/reporting.ts#L16)_
+_Defined in [lib/reporting.ts:16](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/lib/reporting.ts#L16)_
 
 ## Methods
 
@@ -67,7 +67,7 @@ _Defined in [lib/reporting.ts:16](https://github.com/ELEVATORmedia/paymigo/blob/
 
 ▸ **buildRequestBody**(`params`: any): _any_
 
-_Defined in [lib/reporting.ts:25](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/lib/reporting.ts#L25)_
+_Defined in [lib/reporting.ts:25](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/lib/reporting.ts#L25)_
 
 **Parameters:**
 
@@ -83,7 +83,7 @@ _Defined in [lib/reporting.ts:25](https://github.com/ELEVATORmedia/paymigo/blob/
 
 ▸ **makeRequest**(`body`: any): _Promise‹AxiosResponse‹any››_
 
-_Defined in [lib/reporting.ts:33](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/lib/reporting.ts#L33)_
+_Defined in [lib/reporting.ts:33](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/lib/reporting.ts#L33)_
 
 **Parameters:**
 
@@ -99,7 +99,7 @@ _Defined in [lib/reporting.ts:33](https://github.com/ELEVATORmedia/paymigo/blob/
 
 ▸ **parseResponse**(`input`: string): _any_
 
-_Defined in [lib/reporting.ts:35](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/lib/reporting.ts#L35)_
+_Defined in [lib/reporting.ts:35](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/lib/reporting.ts#L35)_
 
 **Parameters:**
 

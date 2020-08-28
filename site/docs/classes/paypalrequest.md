@@ -34,7 +34,7 @@ hide_title: 'true'
 
 \+ **new PayPalRequest**(`__namedParameters`: object): _[PayPalRequest](paypalrequest.md)_
 
-_Defined in [legacy/PayPalRequest.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/legacy/PayPalRequest.ts#L11)_
+_Defined in [legacy/PayPalRequest.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/legacy/PayPalRequest.ts#L11)_
 
 **Parameters:**
 
@@ -55,7 +55,7 @@ _Defined in [legacy/PayPalRequest.ts:11](https://github.com/ELEVATORmedia/paymig
 
 • **body**: _any_
 
-_Defined in [legacy/PayPalRequest.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/legacy/PayPalRequest.ts#L10)_
+_Defined in [legacy/PayPalRequest.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/legacy/PayPalRequest.ts#L10)_
 
 ---
 
@@ -63,7 +63,7 @@ _Defined in [legacy/PayPalRequest.ts:10](https://github.com/ELEVATORmedia/paymig
 
 • **headers**: _any_
 
-_Defined in [legacy/PayPalRequest.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/legacy/PayPalRequest.ts#L11)_
+_Defined in [legacy/PayPalRequest.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/legacy/PayPalRequest.ts#L11)_
 
 ---
 
@@ -71,7 +71,7 @@ _Defined in [legacy/PayPalRequest.ts:11](https://github.com/ELEVATORmedia/paymig
 
 • **path**: _string_
 
-_Defined in [legacy/PayPalRequest.ts:8](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/legacy/PayPalRequest.ts#L8)_
+_Defined in [legacy/PayPalRequest.ts:8](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/legacy/PayPalRequest.ts#L8)_
 
 ---
 
@@ -79,4 +79,4 @@ _Defined in [legacy/PayPalRequest.ts:8](https://github.com/ELEVATORmedia/paymigo
 
 • **verb**: _[RequestVerb](../globals.md#requestverb)_
 
-_Defined in [legacy/PayPalRequest.ts:9](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/legacy/PayPalRequest.ts#L9)_
+_Defined in [legacy/PayPalRequest.ts:9](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/legacy/PayPalRequest.ts#L9)_

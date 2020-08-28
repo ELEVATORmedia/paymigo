@@ -27,7 +27,7 @@ hide_title: 'true'
 
 \+ **new BasePayPalClient**(`environment`: any): _[BasePayPalClient](basepaypalclient.md)_
 
-_Defined in [types/paypal.ts:3](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/types/paypal.ts#L3)_
+_Defined in [types/paypal.ts:3](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/types/paypal.ts#L3)_
 
 **Parameters:**
 
@@ -43,7 +43,7 @@ _Defined in [types/paypal.ts:3](https://github.com/ELEVATORmedia/paymigo/blob/30
 
 ▸ **execute**(`request`: any): _Promise‹any›_
 
-_Defined in [types/paypal.ts:6](https://github.com/ELEVATORmedia/paymigo/blob/30e9201/src/types/paypal.ts#L6)_
+_Defined in [types/paypal.ts:6](https://github.com/ELEVATORmedia/paymigo/blob/d7c96a7/src/types/paypal.ts#L6)_
 
 **Parameters:**
 
