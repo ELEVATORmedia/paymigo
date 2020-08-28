@@ -42,7 +42,7 @@ export class OrdersClient {
     }
 
     /**
-     * uses a unique order ID to retrieve order details to validate status and amount charged
+     * Retrieve dispute order by its ID to view order details to validate status and amount charged
      * @param {String} orderId - unique order identifier
      * @param {Number} expectedAmount - expected transaction amount
      * @returns whether the transaction completed successfully
@@ -61,7 +61,7 @@ export class OrdersClient {
     }
 
     /**
-     * uses a unique order ID to retrieve the corresponding order
+     * Retrieve order instance by its ID
      * @param {String} orderId - unique order identifier
      * @returns order instance
      */
@@ -82,9 +82,5 @@ export class OrdersClient {
         if (!order) throw invalidIdError;
 
         return order;
-    }
-
-    public async list(params: any): Promise<any[]> {
-        return [] as any[];
     }
 }
