@@ -1,6 +1,6 @@
 {
     "name": "paymigo",
-    "version": "0.1.1",
+    "version": "0.1.3",
     "description": "TypeScript wrapper and extension of PayPal Node.js SDK and REST APIs",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
