@@ -1,11 +1,11 @@
-import { BasePayPalClient } from 'types/paypal';
+import { LegacyPayPalClient } from 'types/paypal';
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const paypal = require('@paypal/checkout-server-sdk');
 
 export class OrdersClient {
-    private _client: BasePayPalClient;
+    private _client: LegacyPayPalClient;
 
-    constructor(client: BasePayPalClient) {
+    constructor(client: LegacyPayPalClient) {
         this._client = client;
     }
 

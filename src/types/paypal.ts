@@ -2,7 +2,7 @@ import PayPalRequest from '../legacy/PayPalRequest';
 
 export type RequestVerb = 'GET' | 'POST';
 
-export declare class BasePayPalClient {
+export declare class LegacyPayPalClient {
     constructor(environment: any);
     execute<T = any>(request: PayPalRequest): Promise<T>;
 }
