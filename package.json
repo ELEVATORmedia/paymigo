@@ -18,7 +18,7 @@
     ],
     "dependencies": {
         "@paypal/checkout-server-sdk": "^1.0.2",
-        "axios": "^0.20.0",
+        "axios": "^0.21.1",
         "qs": "^6.9.4",
         "xml2js": "^0.4.23"
     },
