@@ -18,10 +18,10 @@
 
 ### ▪ **defaultHeaders**: _object_
 
-_Defined in [src/legacy/Request.ts:3](https://github.com/ELEVATORmedia/paymigo/blob/db26ee3/src/legacy/Request.ts#L3)_
+_Defined in [src/legacy/Request.ts:3](https://github.com/ELEVATORmedia/paymigo/blob/7a60850/src/legacy/Request.ts#L3)_
 
 ### Content-Type
 
 • **Content-Type**: _string_ = "application/json"
 
-_Defined in [src/legacy/Request.ts:4](https://github.com/ELEVATORmedia/paymigo/blob/db26ee3/src/legacy/Request.ts#L4)_
+_Defined in [src/legacy/Request.ts:4](https://github.com/ELEVATORmedia/paymigo/blob/7a60850/src/legacy/Request.ts#L4)_
