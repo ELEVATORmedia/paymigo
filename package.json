@@ -1,6 +1,6 @@
 {
     "name": "@elevatormedia/paymigo",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "description": "TypeScript wrapper and extension of PayPal Node.js SDK and REST APIs",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -11,7 +11,8 @@
         "build": "tsc",
         "prepare": "npm run build",
         "types:legacy": "tsc node_modules/@paypal/checkout-server-sdk/lib/**/*.js --declaration --allowJs --emitDeclarationOnly --outDir legacyTypes",
-        "docs": "typedoc --out ./docs --plugin typedoc-plugin-markdown src/ && git add docs/ && git commit -m 'update docs'"
+        "docs": "typedoc --out ./docs --plugin typedoc-plugin-markdown src/ && git add docs/ && git commit -m 'update docs'",
+        "version-bump": "bump --commit --tag --push"
     },
     "private": false,
     "files": [
