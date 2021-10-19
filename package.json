@@ -10,6 +10,7 @@
     "scripts": {
         "build": "tsc",
         "prepare": "npm run build",
+        "types:legacy": "tsc node_modules/@paypal/checkout-server-sdk/lib/**/*.js --declaration --allowJs --emitDeclarationOnly --outDir legacyTypes",
         "docs": "typedoc --out ./docs --plugin typedoc-plugin-markdown src/ && git add docs/"
     },
     "private": false,
@@ -38,7 +39,7 @@
         "pretty-quick": "^3.0.0",
         "typedoc": "^0.18.0",
         "typedoc-plugin-markdown": "^2.4.2",
-        "typescript": "^3.5.3"
+        "typescript": "^4.4.4"
     },
     "husky": {
         "hooks": {
