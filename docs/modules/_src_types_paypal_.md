@@ -18,7 +18,7 @@
 
 Ƭ **DisputeOutcome**: _object_
 
-_Defined in [src/types/paypal.ts:14](https://github.com/ELEVATORmedia/paymigo/blob/0314afc/src/types/paypal.ts#L14)_
+_Defined in [src/types/paypal.ts:12](https://github.com/ELEVATORmedia/paymigo/blob/db26ee3/src/types/paypal.ts#L12)_
 
 #### Type declaration:
 
@@ -34,7 +34,7 @@ _Defined in [src/types/paypal.ts:14](https://github.com/ELEVATORmedia/paymigo/bl
 
 Ƭ **DisputeOutcomeCode**: _"RESOLVED_BUYER_FAVOUR" | "RESOLVED_SELLER_FAVOUR" | "RESOLVED_WITH_PAYOUT" | "CANCELED_BY_BUYER" | "ACCEPTED" | "DENIED" | "NONE"_
 
-_Defined in [src/types/paypal.ts:20](https://github.com/ELEVATORmedia/paymigo/blob/0314afc/src/types/paypal.ts#L20)_
+_Defined in [src/types/paypal.ts:18](https://github.com/ELEVATORmedia/paymigo/blob/db26ee3/src/types/paypal.ts#L18)_
 
 ---
 
@@ -42,7 +42,7 @@ _Defined in [src/types/paypal.ts:20](https://github.com/ELEVATORmedia/paymigo/bl
 
 Ƭ **DisputeState**: _"RESOLVED"_
 
-_Defined in [src/types/paypal.ts:12](https://github.com/ELEVATORmedia/paymigo/blob/0314afc/src/types/paypal.ts#L12)_
+_Defined in [src/types/paypal.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/db26ee3/src/types/paypal.ts#L10)_
 
 ---
 
@@ -50,7 +50,7 @@ _Defined in [src/types/paypal.ts:12](https://github.com/ELEVATORmedia/paymigo/bl
 
 Ƭ **RequestOptions**: _object_
 
-_Defined in [src/types/paypal.ts:5](https://github.com/ELEVATORmedia/paymigo/blob/0314afc/src/types/paypal.ts#L5)_
+_Defined in [src/types/paypal.ts:3](https://github.com/ELEVATORmedia/paymigo/blob/db26ee3/src/types/paypal.ts#L3)_
 
 #### Type declaration:
 
@@ -68,4 +68,4 @@ _Defined in [src/types/paypal.ts:5](https://github.com/ELEVATORmedia/paymigo/blo
 
 Ƭ **RequestVerb**: _"GET" | "POST"_
 
-_Defined in [src/types/paypal.ts:3](https://github.com/ELEVATORmedia/paymigo/blob/0314afc/src/types/paypal.ts#L3)_
+_Defined in [src/types/paypal.ts:1](https://github.com/ELEVATORmedia/paymigo/blob/db26ee3/src/types/paypal.ts#L1)_

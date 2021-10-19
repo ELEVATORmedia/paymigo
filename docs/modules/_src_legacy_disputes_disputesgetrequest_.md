@@ -19,7 +19,7 @@
 
 Ƭ **DisputeState**: _"RESOLVED"_
 
-Defined in src/legacy/disputes/DisputesGetRequest.ts:5
+_Defined in [src/legacy/disputes/DisputesGetRequest.ts:5](https://github.com/ELEVATORmedia/paymigo/blob/db26ee3/src/legacy/disputes/DisputesGetRequest.ts#L5)_
 
 ---
 
@@ -27,7 +27,7 @@ Defined in src/legacy/disputes/DisputesGetRequest.ts:5
 
 Ƭ **DisputesGetRequestParams**: _object_
 
-Defined in src/legacy/disputes/DisputesGetRequest.ts:7
+_Defined in [src/legacy/disputes/DisputesGetRequest.ts:7](https://github.com/ELEVATORmedia/paymigo/blob/db26ee3/src/legacy/disputes/DisputesGetRequest.ts#L7)_
 
 #### Type declaration:
 

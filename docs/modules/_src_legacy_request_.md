@@ -18,10 +18,10 @@
 
 ### ▪ **defaultHeaders**: _object_
 
-Defined in src/legacy/Request.ts:3
+_Defined in [src/legacy/Request.ts:3](https://github.com/ELEVATORmedia/paymigo/blob/db26ee3/src/legacy/Request.ts#L3)_
 
 ### Content-Type
 
 • **Content-Type**: _string_ = "application/json"
 
-Defined in src/legacy/Request.ts:4
+_Defined in [src/legacy/Request.ts:4](https://github.com/ELEVATORmedia/paymigo/blob/db26ee3/src/legacy/Request.ts#L4)_

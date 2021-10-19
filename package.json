@@ -11,7 +11,7 @@
         "build": "tsc",
         "prepare": "npm run build",
         "types:legacy": "tsc node_modules/@paypal/checkout-server-sdk/lib/**/*.js --declaration --allowJs --emitDeclarationOnly --outDir legacyTypes",
-        "docs": "typedoc --out ./docs --plugin typedoc-plugin-markdown src/ && git add docs/"
+        "docs": "typedoc --out ./docs --plugin typedoc-plugin-markdown src/ && git add docs/ && git commit -m 'update docs'"
     },
     "private": false,
     "files": [
