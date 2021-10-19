@@ -4,7 +4,7 @@ const defaultHeaders = {
     'Content-Type': 'application/json',
 };
 
-export default class PayPalRequest {
+export default class Request {
     public path: string;
     public verb: RequestVerb;
     public body: any;

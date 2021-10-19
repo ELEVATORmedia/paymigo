@@ -1,4 +1,4 @@
-import DisputeGetRequest from './DisputeGetRequest';
-import DisputesGetRequest from './DisputesGetRequest';
+import DisputeGetRequest from './disputes/DisputeGetRequest';
+import DisputesGetRequest from './disputes/DisputesGetRequest';
 
 export { DisputeGetRequest, DisputesGetRequest };

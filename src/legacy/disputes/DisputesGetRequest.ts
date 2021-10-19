@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/camelcase */
 import qs from 'qs';
-import PayPalRequest from './PayPalRequest';
+import Request from '../Request';
 
 export type DisputeState = 'RESOLVED';
 
@@ -9,7 +9,7 @@ export type DisputesGetRequestParams = {
     dispute_state?: DisputeState;
 };
 
-export default class DisputesGetRequest extends PayPalRequest {
+export default class DisputesGetRequest extends Request {
     constructor(startTime: Date, state?: DisputeState) {
         const paramInput: DisputesGetRequestParams = {
             start_time: startTime.toISOString(),
