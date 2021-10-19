@@ -18,7 +18,7 @@
 
 Ƭ **DisputesListOptions**: _object_
 
-_Defined in [src/lib/disputes.ts:4](https://github.com/ELEVATORmedia/paymigo/blob/7a60850/src/lib/disputes.ts#L4)_
+_Defined in [src/lib/disputes.ts:4](https://github.com/ELEVATORmedia/paymigo/blob/32caaa6/src/lib/disputes.ts#L4)_
 
 #### Type declaration:
 

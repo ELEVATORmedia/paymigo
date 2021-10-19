@@ -27,7 +27,7 @@
 
 \+ **new DisputesClient**(`client`: PayPalHttpClient): _[DisputesClient](_src_lib_disputes_.disputesclient.md)_
 
-_Defined in [src/lib/disputes.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/7a60850/src/lib/disputes.ts#L10)_
+_Defined in [src/lib/disputes.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/32caaa6/src/lib/disputes.ts#L10)_
 
 **Parameters:**
 
@@ -43,7 +43,7 @@ _Defined in [src/lib/disputes.ts:10](https://github.com/ELEVATORmedia/paymigo/bl
 
 • **\_client**: _PayPalHttpClient_
 
-_Defined in [src/lib/disputes.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/7a60850/src/lib/disputes.ts#L10)_
+_Defined in [src/lib/disputes.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/32caaa6/src/lib/disputes.ts#L10)_
 
 ## Methods
 
@@ -51,7 +51,7 @@ _Defined in [src/lib/disputes.ts:10](https://github.com/ELEVATORmedia/paymigo/bl
 
 ▸ **getById**(`disputeId`: string): _Promise‹any›_
 
-_Defined in [src/lib/disputes.ts:21](https://github.com/ELEVATORmedia/paymigo/blob/7a60850/src/lib/disputes.ts#L21)_
+_Defined in [src/lib/disputes.ts:21](https://github.com/ELEVATORmedia/paymigo/blob/32caaa6/src/lib/disputes.ts#L21)_
 
 Retrieve dispute instance by its ID
 
@@ -71,7 +71,7 @@ dispute instance
 
 ▸ **list**(`options`: [DisputesListOptions](../modules/_src_lib_disputes_.md#disputeslistoptions)): _Promise‹any[]›_
 
-_Defined in [src/lib/disputes.ts:37](https://github.com/ELEVATORmedia/paymigo/blob/7a60850/src/lib/disputes.ts#L37)_
+_Defined in [src/lib/disputes.ts:37](https://github.com/ELEVATORmedia/paymigo/blob/32caaa6/src/lib/disputes.ts#L37)_
 
 Retrieve all relevant disputes based off of provided options
 
