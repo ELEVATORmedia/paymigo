@@ -1,5 +1,5 @@
 import { DisputeGetRequest, DisputesGetRequest } from 'legacy';
-import { LegacyPayPalClient, DisputeState } from 'types/paypal';
+import { DisputeState } from 'types/paypal';
 
 export type DisputesListOptions = {
     startTime: Date;
@@ -7,9 +7,9 @@ export type DisputesListOptions = {
 };
 
 export class DisputesClient {
-    private _client: LegacyPayPalClient;
+    private _client: PayPalHttpClient;
 
-    constructor(client: LegacyPayPalClient) {
+    constructor(client: PayPalHttpClient) {
         this._client = client;
     }
 
