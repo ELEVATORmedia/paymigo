@@ -1,13 +1,13 @@
 import { DisputesClient, OrdersClient, ReportingClient } from './lib';
 import { ClientMode, ClientOptions } from './types/client';
-import { BasePayPalClient } from './types/paypal';
+import { LegacyPayPalClient } from './types/paypal';
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const paypal = require('@paypal/checkout-server-sdk');
 
 export default class PaymigoClient {
     mode: ClientMode;
-    private _baseClient: BasePayPalClient; // paypal client
+    private _baseClient: LegacyPayPalClient; // paypal client
 
     orders: OrdersClient;
     disputes: DisputesClient;
