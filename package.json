@@ -1,25 +1,25 @@
 {
-    "name": "paymigo",
+    "name": "@elevatormedia/paymigo",
     "version": "0.1.3",
     "description": "TypeScript wrapper and extension of PayPal Node.js SDK and REST APIs",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
-    "repository": "https://github.com/dallen4/paymigo.git",
+    "repository": "https://github.com/ELEVATORmedia/paymigo.git",
     "author": "Nieky Allen <nieky.allen@elevatormag.com>",
     "license": "MIT",
     "scripts": {
         "build": "tsc",
         "prepare": "npm run build",
-        "docs": "typedoc --plugin typedoc-plugin-markdown src/"
+        "docs": "typedoc --out ./docs --plugin typedoc-plugin-markdown src/ && git add docs/"
     },
     "private": false,
     "files": [
         "dist"
     ],
     "dependencies": {
-        "@paypal/checkout-server-sdk": "^1.0.2",
-        "axios": "^0.20.0",
-        "qs": "^6.9.4",
+        "@paypal/checkout-server-sdk": "^1.0.3",
+        "axios": "^0.23.0",
+        "qs": "^6.10.1",
         "xml2js": "^0.4.23"
     },
     "devDependencies": {
@@ -45,5 +45,8 @@
             "pre-commit": "pretty-quick --staged",
             "pre-push": "yarn docs"
         }
+    },
+    "publishConfig": {
+        "access": "public"
     }
 }
