@@ -1,4 +1,4 @@
-import { RequestVerb, RequestOptions } from 'types/paypal';
+import { HttpMethod, RequestOptions } from 'types/paypal';
 
 const defaultHeaders = {
     'Content-Type': 'application/json',
@@ -6,19 +6,17 @@ const defaultHeaders = {
 
 export default class Request {
     public path: string;
-    public verb: RequestVerb;
+    public verb: HttpMethod;
     public body: any;
     public headers: any;
 
-    constructor({
-        path,
-        verb = 'GET',
-        body = null,
-        headers = defaultHeaders,
-    }: RequestOptions) {
+    constructor({ path, verb = 'GET', body = null, headers = {} }: RequestOptions) {
         this.path = path;
         this.verb = verb;
         this.body = body;
-        this.headers = headers;
+        this.headers = {
+            ...defaultHeaders,
+            ...headers,
+        };
     }
 }

@@ -6,7 +6,7 @@ declare class RefreshTokenRequest {
      * @param {PayPalEnvironment} environment - The environment for this request (sandbox or live)
      * @param {string} code - The authorization code provided at the end of the user consent OAuth flow.
      */
-    constructor(environment: any, code: string);
+    constructor(environment: PayPalEnvironment, code: string);
     headers: {
         'Content-Type': string;
         Authorization: any;

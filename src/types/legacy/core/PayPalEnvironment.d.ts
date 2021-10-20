@@ -22,11 +22,11 @@ declare class PayPalEnvironment {
  * Live Environment
  */
 declare class LiveEnvironment extends PayPalEnvironment {
-    constructor(clientId: any, clientSecret: any);
+    constructor(clientId: string, clientSecret: string);
 }
 /**
  * Sandbox Environment
  */
 declare class SandboxEnvironment extends PayPalEnvironment {
-    constructor(clientId: any, clientSecret: any);
+    constructor(clientId: string, clientSecret: string);
 }

@@ -1,12 +1,8 @@
+import Request from 'legacy/Request';
+
 /**
  Shows details for an order, by ID.
  **/
-declare class OrdersGetRequest {
-    constructor(orderId: any);
-    path: string;
-    verb: string;
-    body: any;
-    headers: {
-        'Content-Type': string;
-    };
+declare class OrdersGetRequest extends Request {
+    constructor(orderId: string);
 }

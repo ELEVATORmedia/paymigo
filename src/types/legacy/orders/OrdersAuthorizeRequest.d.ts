@@ -1,16 +1,12 @@
+import Request from 'legacy/Request';
+
 /**
  Authorizes payment for an order. The response shows authorization details.
  **/
-declare class OrdersAuthorizeRequest {
-    constructor(orderId: any);
-    path: string;
-    verb: string;
-    body: any;
-    headers: {
-        'Content-Type': string;
-    };
-    payPalClientMetadataId(payPalClientMetadataId: any): OrdersAuthorizeRequest;
-    payPalRequestId(payPalRequestId: any): OrdersAuthorizeRequest;
-    prefer(prefer: any): OrdersAuthorizeRequest;
+declare class OrdersAuthorizeRequest extends Request {
+    constructor(orderId: string);
+    payPalClientMetadataId(payPalClientMetadataId: string): OrdersAuthorizeRequest;
+    payPalRequestId(payPalRequestId: string): OrdersAuthorizeRequest;
+    prefer(prefer: string): OrdersAuthorizeRequest;
     requestBody(orderActionRequest: any): OrdersAuthorizeRequest;
 }
