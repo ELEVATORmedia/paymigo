@@ -1,8 +1,8 @@
-export type RequestVerb = 'GET' | 'POST';
+export type HttpMethod = 'GET' | 'POST';
 
 export type RequestOptions = {
     path: string;
-    verb?: RequestVerb;
+    verb?: HttpMethod;
     body?: any;
     headers?: any;
 };
