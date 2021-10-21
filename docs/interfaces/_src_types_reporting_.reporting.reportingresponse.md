@@ -20,7 +20,7 @@
 
 • **reportingEngineResponse**: _object_
 
-_Defined in [src/types/reporting.ts:57](https://github.com/ELEVATORmedia/paymigo/blob/7be1a84/src/types/reporting.ts#L57)_
+_Defined in [src/types/reporting.ts:57](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/types/reporting.ts#L57)_
 
 #### Type declaration:
 

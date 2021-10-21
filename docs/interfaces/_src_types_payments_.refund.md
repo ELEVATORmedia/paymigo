@@ -26,7 +26,7 @@
 
 • **amount**: _[Amount](_src_types_common_.amount.md)_
 
-_Defined in [src/types/payments.ts:31](https://github.com/ELEVATORmedia/paymigo/blob/7be1a84/src/types/payments.ts#L31)_
+_Defined in [src/types/payments.ts:31](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/types/payments.ts#L31)_
 
 ---
 
@@ -34,7 +34,7 @@ _Defined in [src/types/payments.ts:31](https://github.com/ELEVATORmedia/paymigo/
 
 • **create_time**: _Date_
 
-_Defined in [src/types/payments.ts:36](https://github.com/ELEVATORmedia/paymigo/blob/7be1a84/src/types/payments.ts#L36)_
+_Defined in [src/types/payments.ts:36](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/types/payments.ts#L36)_
 
 ---
 
@@ -42,7 +42,7 @@ _Defined in [src/types/payments.ts:36](https://github.com/ELEVATORmedia/paymigo/
 
 • **id**: _string_
 
-_Defined in [src/types/payments.ts:30](https://github.com/ELEVATORmedia/paymigo/blob/7be1a84/src/types/payments.ts#L30)_
+_Defined in [src/types/payments.ts:30](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/types/payments.ts#L30)_
 
 ---
 
@@ -50,7 +50,7 @@ _Defined in [src/types/payments.ts:30](https://github.com/ELEVATORmedia/paymigo/
 
 • **invoice_id**: _string_
 
-_Defined in [src/types/payments.ts:35](https://github.com/ELEVATORmedia/paymigo/blob/7be1a84/src/types/payments.ts#L35)_
+_Defined in [src/types/payments.ts:35](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/types/payments.ts#L35)_
 
 ---
 
@@ -58,7 +58,7 @@ _Defined in [src/types/payments.ts:35](https://github.com/ELEVATORmedia/paymigo/
 
 • **links**: _[Link](_src_types_common_.link.md)[]_
 
-_Defined in [src/types/payments.ts:38](https://github.com/ELEVATORmedia/paymigo/blob/7be1a84/src/types/payments.ts#L38)_
+_Defined in [src/types/payments.ts:38](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/types/payments.ts#L38)_
 
 ---
 
@@ -66,7 +66,7 @@ _Defined in [src/types/payments.ts:38](https://github.com/ELEVATORmedia/paymigo/
 
 • **note_to_payer**: _string_
 
-_Defined in [src/types/payments.ts:33](https://github.com/ELEVATORmedia/paymigo/blob/7be1a84/src/types/payments.ts#L33)_
+_Defined in [src/types/payments.ts:33](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/types/payments.ts#L33)_
 
 ---
 
@@ -74,7 +74,7 @@ _Defined in [src/types/payments.ts:33](https://github.com/ELEVATORmedia/paymigo/
 
 • **seller_payable_breakdown**: _[SellerPayableBreakdown](_src_types_payments_.sellerpayablebreakdown.md)_
 
-_Defined in [src/types/payments.ts:34](https://github.com/ELEVATORmedia/paymigo/blob/7be1a84/src/types/payments.ts#L34)_
+_Defined in [src/types/payments.ts:34](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/types/payments.ts#L34)_
 
 ---
 
@@ -82,7 +82,7 @@ _Defined in [src/types/payments.ts:34](https://github.com/ELEVATORmedia/paymigo/
 
 • **status**: _string_
 
-_Defined in [src/types/payments.ts:32](https://github.com/ELEVATORmedia/paymigo/blob/7be1a84/src/types/payments.ts#L32)_
+_Defined in [src/types/payments.ts:32](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/types/payments.ts#L32)_
 
 ---
 
@@ -90,4 +90,4 @@ _Defined in [src/types/payments.ts:32](https://github.com/ELEVATORmedia/paymigo/
 
 • **update_time**: _Date_
 
-_Defined in [src/types/payments.ts:37](https://github.com/ELEVATORmedia/paymigo/blob/7be1a84/src/types/payments.ts#L37)_
+_Defined in [src/types/payments.ts:37](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/types/payments.ts#L37)_

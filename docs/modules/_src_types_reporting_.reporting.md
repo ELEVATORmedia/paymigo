@@ -23,7 +23,7 @@
 
 Ƭ **ReportName**: _"SettlementReport" | "TransactionSummaryReport" | "DailyActivityReport"_
 
-_Defined in [src/types/reporting.ts:3](https://github.com/ELEVATORmedia/paymigo/blob/7be1a84/src/types/reporting.ts#L3)_
+_Defined in [src/types/reporting.ts:3](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/types/reporting.ts#L3)_
 
 ---
 
@@ -31,7 +31,7 @@ _Defined in [src/types/reporting.ts:3](https://github.com/ELEVATORmedia/paymigo/
 
 Ƭ **ReportParam**: _object_
 
-_Defined in [src/types/reporting.ts:20](https://github.com/ELEVATORmedia/paymigo/blob/7be1a84/src/types/reporting.ts#L20)_
+_Defined in [src/types/reporting.ts:20](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/types/reporting.ts#L20)_
 
 #### Type declaration:
 

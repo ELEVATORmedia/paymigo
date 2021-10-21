@@ -19,7 +19,7 @@
 
 • **purchase_url**: _string_
 
-_Defined in [src/types/disputes.ts:59](https://github.com/ELEVATORmedia/paymigo/blob/7be1a84/src/types/disputes.ts#L59)_
+_Defined in [src/types/disputes.ts:59](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/types/disputes.ts#L59)_
 
 ---
 
@@ -27,4 +27,4 @@ _Defined in [src/types/disputes.ts:59](https://github.com/ELEVATORmedia/paymigo/
 
 • **sub_reasons**: _Array‹string›_
 
-_Defined in [src/types/disputes.ts:58](https://github.com/ELEVATORmedia/paymigo/blob/7be1a84/src/types/disputes.ts#L58)_
+_Defined in [src/types/disputes.ts:58](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/types/disputes.ts#L58)_

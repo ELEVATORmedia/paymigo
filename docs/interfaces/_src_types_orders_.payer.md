@@ -20,7 +20,7 @@
 
 • **email_address**: _string_
 
-_Defined in [src/types/orders.ts:15](https://github.com/ELEVATORmedia/paymigo/blob/7be1a84/src/types/orders.ts#L15)_
+_Defined in [src/types/orders.ts:15](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/types/orders.ts#L15)_
 
 ---
 
@@ -28,7 +28,7 @@ _Defined in [src/types/orders.ts:15](https://github.com/ELEVATORmedia/paymigo/bl
 
 • **name**: _[Name](_src_types_orders_.name.md)_
 
-_Defined in [src/types/orders.ts:14](https://github.com/ELEVATORmedia/paymigo/blob/7be1a84/src/types/orders.ts#L14)_
+_Defined in [src/types/orders.ts:14](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/types/orders.ts#L14)_
 
 ---
 
@@ -36,4 +36,4 @@ _Defined in [src/types/orders.ts:14](https://github.com/ELEVATORmedia/paymigo/bl
 
 • **payer_id**: _string_
 
-_Defined in [src/types/orders.ts:16](https://github.com/ELEVATORmedia/paymigo/blob/7be1a84/src/types/orders.ts#L16)_
+_Defined in [src/types/orders.ts:16](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/types/orders.ts#L16)_

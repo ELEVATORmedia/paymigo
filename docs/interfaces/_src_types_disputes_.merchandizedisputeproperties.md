@@ -19,7 +19,7 @@
 
 • **issue_type**: _string_
 
-_Defined in [src/types/disputes.ts:53](https://github.com/ELEVATORmedia/paymigo/blob/7be1a84/src/types/disputes.ts#L53)_
+_Defined in [src/types/disputes.ts:53](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/types/disputes.ts#L53)_
 
 ---
 
@@ -27,4 +27,4 @@ _Defined in [src/types/disputes.ts:53](https://github.com/ELEVATORmedia/paymigo/
 
 • **service_details**: _[ServiceDetails](_src_types_disputes_.servicedetails.md)_
 
-_Defined in [src/types/disputes.ts:54](https://github.com/ELEVATORmedia/paymigo/blob/7be1a84/src/types/disputes.ts#L54)_
+_Defined in [src/types/disputes.ts:54](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/types/disputes.ts#L54)_
