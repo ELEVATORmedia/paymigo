@@ -21,7 +21,7 @@
 
 • **gross_amount**: _[Amount](_src_types_common_.amount.md)_
 
-_Defined in [src/types/payments.ts:56](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/types/payments.ts#L56)_
+_Defined in [src/types/payments.ts:56](https://github.com/ELEVATORmedia/paymigo/blob/c28bc6c/src/types/payments.ts#L56)_
 
 ---
 
@@ -29,7 +29,7 @@ _Defined in [src/types/payments.ts:56](https://github.com/ELEVATORmedia/paymigo/
 
 • **net_amount**: _[Amount](_src_types_common_.amount.md)_
 
-_Defined in [src/types/payments.ts:58](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/types/payments.ts#L58)_
+_Defined in [src/types/payments.ts:58](https://github.com/ELEVATORmedia/paymigo/blob/c28bc6c/src/types/payments.ts#L58)_
 
 ---
 
@@ -37,7 +37,7 @@ _Defined in [src/types/payments.ts:58](https://github.com/ELEVATORmedia/paymigo/
 
 • **paypal_fee**: _[Amount](_src_types_common_.amount.md)_
 
-_Defined in [src/types/payments.ts:57](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/types/payments.ts#L57)_
+_Defined in [src/types/payments.ts:57](https://github.com/ELEVATORmedia/paymigo/blob/c28bc6c/src/types/payments.ts#L57)_
 
 ---
 
@@ -45,4 +45,4 @@ _Defined in [src/types/payments.ts:57](https://github.com/ELEVATORmedia/paymigo/
 
 • **total_refunded_amount**: _[Amount](_src_types_common_.amount.md)_
 
-_Defined in [src/types/payments.ts:59](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/types/payments.ts#L59)_
+_Defined in [src/types/payments.ts:59](https://github.com/ELEVATORmedia/paymigo/blob/c28bc6c/src/types/payments.ts#L59)_

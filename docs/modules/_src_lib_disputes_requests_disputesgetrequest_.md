@@ -19,7 +19,7 @@
 
 Ƭ **DisputeState**: _"RESOLVED"_
 
-_Defined in [src/lib/disputes/requests/DisputesGetRequest.ts:5](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/lib/disputes/requests/DisputesGetRequest.ts#L5)_
+_Defined in [src/lib/disputes/requests/DisputesGetRequest.ts:5](https://github.com/ELEVATORmedia/paymigo/blob/c28bc6c/src/lib/disputes/requests/DisputesGetRequest.ts#L5)_
 
 ---
 
@@ -27,7 +27,7 @@ _Defined in [src/lib/disputes/requests/DisputesGetRequest.ts:5](https://github.c
 
 Ƭ **DisputesGetRequestParams**: _object_
 
-_Defined in [src/lib/disputes/requests/DisputesGetRequest.ts:7](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/lib/disputes/requests/DisputesGetRequest.ts#L7)_
+_Defined in [src/lib/disputes/requests/DisputesGetRequest.ts:7](https://github.com/ELEVATORmedia/paymigo/blob/c28bc6c/src/lib/disputes/requests/DisputesGetRequest.ts#L7)_
 
 #### Type declaration:
 

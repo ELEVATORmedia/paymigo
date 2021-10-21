@@ -19,7 +19,7 @@
 
 • **currency_code**: _string_
 
-_Defined in [src/types/payments.ts:74](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/types/payments.ts#L74)_
+_Defined in [src/types/payments.ts:74](https://github.com/ELEVATORmedia/paymigo/blob/c28bc6c/src/types/payments.ts#L74)_
 
 ---
 
@@ -27,4 +27,4 @@ _Defined in [src/types/payments.ts:74](https://github.com/ELEVATORmedia/paymigo/
 
 • **value**: _string_
 
-_Defined in [src/types/payments.ts:75](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/types/payments.ts#L75)_
+_Defined in [src/types/payments.ts:75](https://github.com/ELEVATORmedia/paymigo/blob/c28bc6c/src/types/payments.ts#L75)_

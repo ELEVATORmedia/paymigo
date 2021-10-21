@@ -26,7 +26,7 @@
 
 \+ **new PaymigoClient**(`options`: [ClientOptions](../modules/_src_types_client_.md#clientoptions)): _[PaymigoClient](_src_client_.paymigoclient.md)_
 
-_Defined in [src/Client.ts:13](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/Client.ts#L13)_
+_Defined in [src/Client.ts:13](https://github.com/ELEVATORmedia/paymigo/blob/c28bc6c/src/Client.ts#L13)_
 
 **Parameters:**
 
@@ -42,7 +42,7 @@ _Defined in [src/Client.ts:13](https://github.com/ELEVATORmedia/paymigo/blob/a9a
 
 • **\_baseClient**: _PayPalHttpClient_
 
-_Defined in [src/Client.ts:9](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/Client.ts#L9)_
+_Defined in [src/Client.ts:9](https://github.com/ELEVATORmedia/paymigo/blob/c28bc6c/src/Client.ts#L9)_
 
 ---
 
@@ -50,7 +50,7 @@ _Defined in [src/Client.ts:9](https://github.com/ELEVATORmedia/paymigo/blob/a9a7
 
 • **disputes**: _[DisputesClient](_src_lib_disputes_disputesclient_.disputesclient.md)_
 
-_Defined in [src/Client.ts:12](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/Client.ts#L12)_
+_Defined in [src/Client.ts:12](https://github.com/ELEVATORmedia/paymigo/blob/c28bc6c/src/Client.ts#L12)_
 
 ---
 
@@ -58,7 +58,7 @@ _Defined in [src/Client.ts:12](https://github.com/ELEVATORmedia/paymigo/blob/a9a
 
 • **mode**: _[ClientMode](../modules/_src_types_client_.md#clientmode)_
 
-_Defined in [src/Client.ts:8](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/Client.ts#L8)_
+_Defined in [src/Client.ts:8](https://github.com/ELEVATORmedia/paymigo/blob/c28bc6c/src/Client.ts#L8)_
 
 ---
 
@@ -66,7 +66,7 @@ _Defined in [src/Client.ts:8](https://github.com/ELEVATORmedia/paymigo/blob/a9a7
 
 • **orders**: _[OrdersClient](_src_lib_orders_.ordersclient.md)_
 
-_Defined in [src/Client.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/Client.ts#L11)_
+_Defined in [src/Client.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/c28bc6c/src/Client.ts#L11)_
 
 ---
 
@@ -74,4 +74,4 @@ _Defined in [src/Client.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/a9a
 
 • **reporting**: _[ReportingClient](_src_lib_reporting_.reportingclient.md)_
 
-_Defined in [src/Client.ts:13](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/Client.ts#L13)_
+_Defined in [src/Client.ts:13](https://github.com/ELEVATORmedia/paymigo/blob/c28bc6c/src/Client.ts#L13)_

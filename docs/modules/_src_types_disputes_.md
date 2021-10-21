@@ -29,7 +29,7 @@
 
 Ƭ **DisputeOutcomeCode**: _"RESOLVED_BUYER_FAVOUR" | "RESOLVED_SELLER_FAVOUR" | "RESOLVED_WITH_PAYOUT" | "CANCELED_BY_BUYER" | "ACCEPTED" | "DENIED" | "NONE"_
 
-_Defined in [src/types/disputes.ts:84](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/types/disputes.ts#L84)_
+_Defined in [src/types/disputes.ts:84](https://github.com/ELEVATORmedia/paymigo/blob/c28bc6c/src/types/disputes.ts#L84)_
 
 ---
 
@@ -37,4 +37,4 @@ _Defined in [src/types/disputes.ts:84](https://github.com/ELEVATORmedia/paymigo/
 
 Ƭ **DisputeState**: _"RESOLVED"_
 
-_Defined in [src/types/disputes.ts:76](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/types/disputes.ts#L76)_
+_Defined in [src/types/disputes.ts:76](https://github.com/ELEVATORmedia/paymigo/blob/c28bc6c/src/types/disputes.ts#L76)_

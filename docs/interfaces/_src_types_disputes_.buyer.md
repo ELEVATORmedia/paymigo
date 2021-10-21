@@ -18,4 +18,4 @@
 
 • **name**: _string_
 
-_Defined in [src/types/disputes.ts:39](https://github.com/ELEVATORmedia/paymigo/blob/a9a7ad7/src/types/disputes.ts#L39)_
+_Defined in [src/types/disputes.ts:39](https://github.com/ELEVATORmedia/paymigo/blob/c28bc6c/src/types/disputes.ts#L39)_
