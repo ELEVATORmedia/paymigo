@@ -21,7 +21,7 @@
 xmldec: { version: '1.0', encoding: 'UTF-8' },
 })
 
-_Defined in [src/lib/reporting.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/c28bc6c/src/lib/reporting.ts#L10)_
+_Defined in [src/lib/reporting.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/90b1c91/src/lib/reporting.ts#L10)_
 
 ---
 
@@ -31,4 +31,4 @@ _Defined in [src/lib/reporting.ts:10](https://github.com/ELEVATORmedia/paymigo/b
 valueProcessors: [parseNumbers],
 })
 
-_Defined in [src/lib/reporting.ts:6](https://github.com/ELEVATORmedia/paymigo/blob/c28bc6c/src/lib/reporting.ts#L6)_
+_Defined in [src/lib/reporting.ts:6](https://github.com/ELEVATORmedia/paymigo/blob/90b1c91/src/lib/reporting.ts#L6)_

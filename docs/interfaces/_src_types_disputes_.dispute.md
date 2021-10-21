@@ -31,7 +31,7 @@
 
 • **create_time**: _Date_
 
-_Defined in [src/types/disputes.ts:5](https://github.com/ELEVATORmedia/paymigo/blob/c28bc6c/src/types/disputes.ts#L5)_
+_Defined in [src/types/disputes.ts:5](https://github.com/ELEVATORmedia/paymigo/blob/90b1c91/src/types/disputes.ts#L5)_
 
 ---
 
@@ -39,7 +39,7 @@ _Defined in [src/types/disputes.ts:5](https://github.com/ELEVATORmedia/paymigo/b
 
 • **dispute_amount**: _[Amount](_src_types_common_.amount.md)_
 
-_Defined in [src/types/disputes.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/c28bc6c/src/types/disputes.ts#L10)_
+_Defined in [src/types/disputes.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/90b1c91/src/types/disputes.ts#L10)_
 
 ---
 
@@ -47,7 +47,7 @@ _Defined in [src/types/disputes.ts:10](https://github.com/ELEVATORmedia/paymigo/
 
 • **dispute_channel**: _string_
 
-_Defined in [src/types/disputes.ts:13](https://github.com/ELEVATORmedia/paymigo/blob/c28bc6c/src/types/disputes.ts#L13)_
+_Defined in [src/types/disputes.ts:13](https://github.com/ELEVATORmedia/paymigo/blob/90b1c91/src/types/disputes.ts#L13)_
 
 ---
 
@@ -55,7 +55,7 @@ _Defined in [src/types/disputes.ts:13](https://github.com/ELEVATORmedia/paymigo/
 
 • **dispute_id**: _string_
 
-_Defined in [src/types/disputes.ts:4](https://github.com/ELEVATORmedia/paymigo/blob/c28bc6c/src/types/disputes.ts#L4)_
+_Defined in [src/types/disputes.ts:4](https://github.com/ELEVATORmedia/paymigo/blob/90b1c91/src/types/disputes.ts#L4)_
 
 ---
 
@@ -63,7 +63,7 @@ _Defined in [src/types/disputes.ts:4](https://github.com/ELEVATORmedia/paymigo/b
 
 • **dispute_life_cycle_stage**: _string_
 
-_Defined in [src/types/disputes.ts:12](https://github.com/ELEVATORmedia/paymigo/blob/c28bc6c/src/types/disputes.ts#L12)_
+_Defined in [src/types/disputes.ts:12](https://github.com/ELEVATORmedia/paymigo/blob/90b1c91/src/types/disputes.ts#L12)_
 
 ---
 
@@ -71,7 +71,7 @@ _Defined in [src/types/disputes.ts:12](https://github.com/ELEVATORmedia/paymigo/
 
 • **dispute_outcome**: _[DisputeOutcome](_src_types_disputes_.disputeoutcome.md)_
 
-_Defined in [src/types/disputes.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/c28bc6c/src/types/disputes.ts#L11)_
+_Defined in [src/types/disputes.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/90b1c91/src/types/disputes.ts#L11)_
 
 ---
 
@@ -79,7 +79,7 @@ _Defined in [src/types/disputes.ts:11](https://github.com/ELEVATORmedia/paymigo/
 
 • **disputed_transactions**: _Array‹[DisputedTransaction](_src_types_disputes_.disputedtransaction.md)›_
 
-_Defined in [src/types/disputes.ts:7](https://github.com/ELEVATORmedia/paymigo/blob/c28bc6c/src/types/disputes.ts#L7)_
+_Defined in [src/types/disputes.ts:7](https://github.com/ELEVATORmedia/paymigo/blob/90b1c91/src/types/disputes.ts#L7)_
 
 ---
 
@@ -87,7 +87,7 @@ _Defined in [src/types/disputes.ts:7](https://github.com/ELEVATORmedia/paymigo/b
 
 • **extensions**: _[Extensions](_src_types_disputes_.extensions.md)_
 
-_Defined in [src/types/disputes.ts:15](https://github.com/ELEVATORmedia/paymigo/blob/c28bc6c/src/types/disputes.ts#L15)_
+_Defined in [src/types/disputes.ts:15](https://github.com/ELEVATORmedia/paymigo/blob/90b1c91/src/types/disputes.ts#L15)_
 
 ---
 
@@ -95,7 +95,7 @@ _Defined in [src/types/disputes.ts:15](https://github.com/ELEVATORmedia/paymigo/
 
 • **links**: _Array‹[Link](_src_types_common_.link.md)›_
 
-_Defined in [src/types/disputes.ts:17](https://github.com/ELEVATORmedia/paymigo/blob/c28bc6c/src/types/disputes.ts#L17)_
+_Defined in [src/types/disputes.ts:17](https://github.com/ELEVATORmedia/paymigo/blob/90b1c91/src/types/disputes.ts#L17)_
 
 ---
 
@@ -103,7 +103,7 @@ _Defined in [src/types/disputes.ts:17](https://github.com/ELEVATORmedia/paymigo/
 
 • **messages**: _Array‹[Message](_src_types_disputes_.message.md)›_
 
-_Defined in [src/types/disputes.ts:14](https://github.com/ELEVATORmedia/paymigo/blob/c28bc6c/src/types/disputes.ts#L14)_
+_Defined in [src/types/disputes.ts:14](https://github.com/ELEVATORmedia/paymigo/blob/90b1c91/src/types/disputes.ts#L14)_
 
 ---
 
@@ -111,7 +111,7 @@ _Defined in [src/types/disputes.ts:14](https://github.com/ELEVATORmedia/paymigo/
 
 • **offer**: _[Offer](_src_types_disputes_.offer.md)_
 
-_Defined in [src/types/disputes.ts:16](https://github.com/ELEVATORmedia/paymigo/blob/c28bc6c/src/types/disputes.ts#L16)_
+_Defined in [src/types/disputes.ts:16](https://github.com/ELEVATORmedia/paymigo/blob/90b1c91/src/types/disputes.ts#L16)_
 
 ---
 
@@ -119,7 +119,7 @@ _Defined in [src/types/disputes.ts:16](https://github.com/ELEVATORmedia/paymigo/
 
 • **reason**: _string_
 
-_Defined in [src/types/disputes.ts:8](https://github.com/ELEVATORmedia/paymigo/blob/c28bc6c/src/types/disputes.ts#L8)_
+_Defined in [src/types/disputes.ts:8](https://github.com/ELEVATORmedia/paymigo/blob/90b1c91/src/types/disputes.ts#L8)_
 
 ---
 
@@ -127,7 +127,7 @@ _Defined in [src/types/disputes.ts:8](https://github.com/ELEVATORmedia/paymigo/b
 
 • **status**: _string_
 
-_Defined in [src/types/disputes.ts:9](https://github.com/ELEVATORmedia/paymigo/blob/c28bc6c/src/types/disputes.ts#L9)_
+_Defined in [src/types/disputes.ts:9](https://github.com/ELEVATORmedia/paymigo/blob/90b1c91/src/types/disputes.ts#L9)_
 
 ---
 
@@ -135,4 +135,4 @@ _Defined in [src/types/disputes.ts:9](https://github.com/ELEVATORmedia/paymigo/b
 
 • **update_time**: _Date_
 
-_Defined in [src/types/disputes.ts:6](https://github.com/ELEVATORmedia/paymigo/blob/c28bc6c/src/types/disputes.ts#L6)_
+_Defined in [src/types/disputes.ts:6](https://github.com/ELEVATORmedia/paymigo/blob/90b1c91/src/types/disputes.ts#L6)_
