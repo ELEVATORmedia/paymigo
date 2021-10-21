@@ -1,4 +1,4 @@
-import Request from '../Request';
+import Request from '../../Request';
 
 export default class DisputeGetRequest extends Request {
     constructor(disputeId: string) {

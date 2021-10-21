@@ -1,4 +1,4 @@
-import { HttpMethod, RequestOptions } from 'types/paypal';
+import { RequestOptions } from 'types/paypal';
 
 const defaultHeaders = {
     'Content-Type': 'application/json',
@@ -6,7 +6,7 @@ const defaultHeaders = {
 
 export default class Request {
     public path: string;
-    public verb: HttpMethod;
+    public verb: string;
     public body: any;
     public headers: any;
 

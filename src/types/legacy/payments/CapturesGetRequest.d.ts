@@ -1,8 +1,6 @@
-import Request from 'legacy/Request';
-
 /**
  Shows details for a captured payment, by ID.
  **/
-declare class CapturesGetRequest extends Request {
+declare class CapturesGetRequest {
     constructor(captureId: string);
 }

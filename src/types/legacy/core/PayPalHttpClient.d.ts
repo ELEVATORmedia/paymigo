@@ -1,4 +1,4 @@
-declare type BaseRequest = typeof import('legacy/Request');
+declare type BaseRequest = import('lib/Request').default;
 
 /**
  * PayPal Http client

@@ -1,6 +1,8 @@
-import { DisputesClient, OrdersClient, ReportingClient } from './lib';
-import { ClientMode, ClientOptions } from './types/client';
 import paypal from '@paypal/checkout-server-sdk';
+import { DisputesClient } from 'lib/disputes';
+import { OrdersClient } from 'lib/orders';
+import { ReportingClient } from 'lib/reporting';
+import { ClientMode, ClientOptions } from './types/client';
 
 export default class PaymigoClient {
     mode: ClientMode;

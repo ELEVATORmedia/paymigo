@@ -82,3 +82,5 @@ export class OrdersClient {
         return order;
     }
 }
+
+export * from 'types/orders';

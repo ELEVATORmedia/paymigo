@@ -1,9 +1,12 @@
-import Request from 'legacy/Request';
-
 /**
  Captures a payment for an order.
  **/
-declare class OrdersCaptureRequest extends Request {
+declare class OrdersCaptureRequest {
+    public path: string;
+    public verb: string;
+    public body: any;
+    public headers: any;
+
     constructor(orderId: string);
     payPalClientMetadataId(payPalClientMetadataId: string): OrdersCaptureRequest;
     payPalRequestId(payPalRequestId: string): OrdersCaptureRequest;

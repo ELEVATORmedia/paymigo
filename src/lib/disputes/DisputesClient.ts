@@ -1,4 +1,4 @@
-import { DisputeGetRequest, DisputesGetRequest } from 'legacy';
+import { DisputeGetRequest, DisputesGetRequest } from './requests';
 import { DisputeState } from 'types/paypal';
 
 export type DisputesListOptions = {
