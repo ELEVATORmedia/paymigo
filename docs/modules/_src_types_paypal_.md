@@ -9,8 +9,8 @@
 -   [DisputeOutcome](_src_types_paypal_.md#disputeoutcome)
 -   [DisputeOutcomeCode](_src_types_paypal_.md#disputeoutcomecode)
 -   [DisputeState](_src_types_paypal_.md#disputestate)
+-   [HttpMethod](_src_types_paypal_.md#httpmethod)
 -   [RequestOptions](_src_types_paypal_.md#requestoptions)
--   [RequestVerb](_src_types_paypal_.md#requestverb)
 
 ## Type aliases
 
@@ -18,7 +18,7 @@
 
 Ƭ **DisputeOutcome**: _object_
 
-_Defined in [src/types/paypal.ts:12](https://github.com/ELEVATORmedia/paymigo/blob/7e4f33e/src/types/paypal.ts#L12)_
+_Defined in [src/types/paypal.ts:12](https://github.com/ELEVATORmedia/paymigo/blob/7be1a84/src/types/paypal.ts#L12)_
 
 #### Type declaration:
 
@@ -34,7 +34,7 @@ _Defined in [src/types/paypal.ts:12](https://github.com/ELEVATORmedia/paymigo/bl
 
 Ƭ **DisputeOutcomeCode**: _"RESOLVED_BUYER_FAVOUR" | "RESOLVED_SELLER_FAVOUR" | "RESOLVED_WITH_PAYOUT" | "CANCELED_BY_BUYER" | "ACCEPTED" | "DENIED" | "NONE"_
 
-_Defined in [src/types/paypal.ts:18](https://github.com/ELEVATORmedia/paymigo/blob/7e4f33e/src/types/paypal.ts#L18)_
+_Defined in [src/types/paypal.ts:18](https://github.com/ELEVATORmedia/paymigo/blob/7be1a84/src/types/paypal.ts#L18)_
 
 ---
 
@@ -42,7 +42,15 @@ _Defined in [src/types/paypal.ts:18](https://github.com/ELEVATORmedia/paymigo/bl
 
 Ƭ **DisputeState**: _"RESOLVED"_
 
-_Defined in [src/types/paypal.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/7e4f33e/src/types/paypal.ts#L10)_
+_Defined in [src/types/paypal.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/7be1a84/src/types/paypal.ts#L10)_
+
+---
+
+### HttpMethod
+
+Ƭ **HttpMethod**: _"GET" | "POST"_
+
+_Defined in [src/types/paypal.ts:1](https://github.com/ELEVATORmedia/paymigo/blob/7be1a84/src/types/paypal.ts#L1)_
 
 ---
 
@@ -50,7 +58,7 @@ _Defined in [src/types/paypal.ts:10](https://github.com/ELEVATORmedia/paymigo/bl
 
 Ƭ **RequestOptions**: _object_
 
-_Defined in [src/types/paypal.ts:3](https://github.com/ELEVATORmedia/paymigo/blob/7e4f33e/src/types/paypal.ts#L3)_
+_Defined in [src/types/paypal.ts:3](https://github.com/ELEVATORmedia/paymigo/blob/7be1a84/src/types/paypal.ts#L3)_
 
 #### Type declaration:
 
@@ -60,12 +68,4 @@ _Defined in [src/types/paypal.ts:3](https://github.com/ELEVATORmedia/paymigo/blo
 
 -   **path**: _string_
 
--   **verb**? : _[RequestVerb](_src_types_paypal_.md#requestverb)_
-
----
-
-### RequestVerb
-
-Ƭ **RequestVerb**: _"GET" | "POST"_
-
-_Defined in [src/types/paypal.ts:1](https://github.com/ELEVATORmedia/paymigo/blob/7e4f33e/src/types/paypal.ts#L1)_
+-   **verb**? : _[HttpMethod](_src_types_paypal_.md#httpmethod)_

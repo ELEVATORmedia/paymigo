@@ -11,9 +11,9 @@
 -   [DisputeOutcome](_src_index_.md#disputeoutcome)
 -   [DisputeOutcomeCode](_src_index_.md#disputeoutcomecode)
 -   [DisputeState](_src_index_.md#disputestate)
+-   [HttpMethod](_src_index_.md#httpmethod)
 -   [PayflowCredentials](_src_index_.md#payflowcredentials)
 -   [RequestOptions](_src_index_.md#requestoptions)
--   [RequestVerb](_src_index_.md#requestverb)
 -   [reporting](_src_index_.md#reporting)
 
 ## References
@@ -48,6 +48,12 @@
 
 ---
 
+### HttpMethod
+
+• **HttpMethod**:
+
+---
+
 ### PayflowCredentials
 
 • **PayflowCredentials**:
@@ -57,12 +63,6 @@
 ### RequestOptions
 
 • **RequestOptions**:
-
----
-
-### RequestVerb
-
-• **RequestVerb**:
 
 ---
 
