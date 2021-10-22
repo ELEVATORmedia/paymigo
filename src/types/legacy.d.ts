@@ -1,5 +1,5 @@
 declare type EventEmitter = import('events').EventEmitter;
-declare type BaseRequest = import('../../lib/Request').default;
+declare type BaseRequest = import('../lib/Request').default;
 
 declare const paypalCheckout: paypal.PayPalCheckout;
 
@@ -22,22 +22,22 @@ declare namespace paypal {
     }
 
     interface OrdersResource {
-        OrdersAuthorizeRequest: typeof OrdersAuthorizeRequest;
-        OrdersCaptureRequest: typeof OrdersCaptureRequest;
-        OrdersCreateRequest: typeof OrdersCreateRequest;
-        OrdersGetRequest: typeof OrdersGetRequest;
-        OrdersPatchRequest: typeof OrdersPatchRequest;
-        OrdersValidateRequest: typeof OrdersValidateRequest;
+        OrdersAuthorizeRequest: typeof orders.OrdersAuthorizeRequest;
+        OrdersCaptureRequest: typeof orders.OrdersCaptureRequest;
+        OrdersCreateRequest: typeof orders.OrdersCreateRequest;
+        OrdersGetRequest: typeof orders.OrdersGetRequest;
+        OrdersPatchRequest: typeof orders.OrdersPatchRequest;
+        OrdersValidateRequest: typeof orders.OrdersValidateRequest;
     }
 
     interface PaymentsResource {
-        AuthorizationsCaptureRequest: typeof AuthorizationsCaptureRequest;
-        AuthorizationsGetRequest: typeof AuthorizationsGetRequest;
-        AuthorizationsReauthorizeRequest: typeof AuthorizationsReauthorizeRequest;
-        AuthorizationsVoidRequest: typeof AuthorizationsVoidRequest;
-        CapturesGetRequest: typeof CapturesGetRequest;
-        CapturesRefundRequest: typeof CapturesRefundRequest;
-        RefundsGetRequest: typeof RefundsGetRequest;
+        AuthorizationsCaptureRequest: typeof payments.AuthorizationsCaptureRequest;
+        AuthorizationsGetRequest: typeof payments.AuthorizationsGetRequest;
+        AuthorizationsReauthorizeRequest: typeof payments.AuthorizationsReauthorizeRequest;
+        AuthorizationsVoidRequest: typeof payments.AuthorizationsVoidRequest;
+        CapturesGetRequest: typeof payments.CapturesGetRequest;
+        CapturesRefundRequest: typeof payments.CapturesRefundRequest;
+        RefundsGetRequest: typeof payments.RefundsGetRequest;
     }
 
     namespace core {
@@ -226,22 +226,155 @@ declare namespace paypal {
     }
 
     namespace orders {
-        type OrdersAuthorizeRequest = typeof OrdersAuthorizeRequest;
-        type OrdersCaptureRequest = typeof OrdersCaptureRequest;
-        type OrdersCreateRequest = typeof OrdersCreateRequest;
-        type OrdersGetRequest = typeof OrdersGetRequest;
-        type OrdersPatchRequest = typeof OrdersPatchRequest;
-        type OrdersValidateRequest = typeof OrdersValidateRequest;
+        /**
+         * Authorizes payment for an order. The response shows authorization details.
+         */
+        class OrdersAuthorizeRequest {
+            public path: string;
+            public verb: string;
+            public body: any;
+            public headers: any;
+
+            constructor(orderId: string);
+            payPalClientMetadataId(
+                payPalClientMetadataId: string,
+            ): OrdersAuthorizeRequest;
+            payPalRequestId(payPalRequestId: string): OrdersAuthorizeRequest;
+            prefer(prefer: string): OrdersAuthorizeRequest;
+            requestBody(orderActionRequest: any): OrdersAuthorizeRequest;
+        }
+
+        /**
+         * Captures a payment for an order.
+         */
+        class OrdersCaptureRequest {
+            public path: string;
+            public verb: string;
+            public body: any;
+            public headers: any;
+
+            constructor(orderId: string);
+            payPalClientMetadataId(payPalClientMetadataId: string): OrdersCaptureRequest;
+            payPalRequestId(payPalRequestId: string): OrdersCaptureRequest;
+            prefer(prefer: string): OrdersCaptureRequest;
+            requestBody(orderActionRequest: any): OrdersCaptureRequest;
+        }
+
+        /**
+         * Creates an order.
+         */
+        class OrdersCreateRequest {
+            public path: string;
+            public verb: string;
+            public body: any;
+            public headers: any;
+
+            payPalPartnerAttributionId(
+                payPalPartnerAttributionId: any,
+            ): OrdersCreateRequest;
+            prefer(prefer: any): OrdersCreateRequest;
+            requestBody(order: any): OrdersCreateRequest;
+        }
+
+        /**
+         * Shows details for an order, by ID.
+         */
+        class OrdersGetRequest {
+            public path: string;
+            public verb: string;
+            public body: any;
+            public headers: any;
+            constructor(orderId: string);
+        }
+
+        /**
+         * Updates an order. You can update an order with `CREATED` or `APPROVED` status. You cannot update an order with `COMPLETED` status. The following attributes and objects are patchable:<ul><li><code>intent</code>. Supported operation is <code>replace</code>.</li><li><code>purchase_units</code>. Supported operations are <code>add</code> and <code>replace</code>.</li><li><code>purchase_units[].custom_id</code>. Supported operations are <code>add</code> and <code>replace</code> and <code>remove</code>.</li><li><code>purchase_units[].description</code>. Supported operations are <code>add</code> and <code>replace</code> and <code>remove</code>.</li><li><code>purchase_units[].payee.email</code>. Supported operations are <code>add</code> and <code>replace</code>.</li><li><code>purchase_units[].shipping_address</code>. Supported operations are <code>add</code> and <code>replace</code> and <code>remove</code>.</li><li><code>purchase_units[].soft_descriptor</code>. Supported operations are <code>add</code> and <code>replace</code> and <code>remove</code>.</li><li><code>purchase_units[].amount</code>. Supported operation is <code>replace</code>.</li></ul>
+         */
+        class OrdersPatchRequest {
+            constructor(orderId: string);
+            requestBody(patchRequest: any): OrdersPatchRequest;
+        }
+
+        /**
+         * Validates a payment method and checks it for contingencies.
+         */
+        class OrdersValidateRequest {
+            constructor(orderId: string);
+            payPalClientMetadataId(payPalClientMetadataId: string): OrdersValidateRequest;
+            requestBody(orderActionRequest: any): OrdersValidateRequest;
+        }
     }
 
     namespace payments {
-        type AuthorizationsCaptureRequest = typeof AuthorizationsCaptureRequest;
-        type AuthorizationsGetRequest = typeof AuthorizationsGetRequest;
-        type AuthorizationsReauthorizeRequest = typeof AuthorizationsReauthorizeRequest;
-        type AuthorizationsVoidRequest = typeof AuthorizationsVoidRequest;
-        type CapturesGetRequest = typeof CapturesGetRequest;
-        type CapturesRefundRequest = typeof CapturesRefundRequest;
-        type RefundsGetRequest = typeof RefundsGetRequest;
+        /**
+         * Captures an authorized payment, by ID.
+         */
+        class AuthorizationsCaptureRequest {
+            constructor(authorizationId: string);
+            payPalRequestId(payPalRequestId: string): AuthorizationsCaptureRequest;
+            prefer(prefer: string): AuthorizationsCaptureRequest;
+            requestBody(capture: any): AuthorizationsCaptureRequest;
+        }
+
+        /**
+         * Shows details for an authorized payment, by ID.
+         */
+        class AuthorizationsGetRequest {
+            constructor(authorizationId: string);
+        }
+
+        /**
+         * Reauthorizes an authorized PayPal account payment, by ID. To ensure that funds are still available, reauthorize an authorized payment after its initial three-day honor period expires.<br/><br/>After the three-day honor period expires, you can reauthorize an authorized payment only once from days four to 29. If 30 days have passed since the date of the authorized payment, you must create an authorized payment instead.<br/><br/>A reauthorized payment itself has a new three-day honor period. You can reauthorize an authorized payment once for up to 115% of the original authorized amount and not to exceed an increase of $75 USD.<br/><br/>Supports the <code>amount</code> request parameter only.
+         */
+        class AuthorizationsReauthorizeRequest {
+            constructor(authorizationId: string);
+            payPalRequestId(payPalRequestId: string): AuthorizationsReauthorizeRequest;
+            prefer(prefer: string): AuthorizationsReauthorizeRequest;
+            requestBody(reauthorizeRequest: any): AuthorizationsReauthorizeRequest;
+        }
+
+        /**
+         * Voids, or cancels, an authorized payment, by ID. You cannot void an authorized payment that has been fully captured.
+         */
+        class AuthorizationsVoidRequest {
+            constructor(authorizationId: string);
+        }
+
+        /**
+         * Shows details for a captured payment, by ID.
+         */
+        class CapturesGetRequest {
+            constructor(captureId: string);
+        }
+
+        /**
+         * Refunds a captured payment, by ID. For a full refund, include an empty payload in the JSON request body. For a partial refund, include an <code>amount</code> object in the JSON request body.
+         */
+        class CapturesRefundRequest {
+            constructor(captureId: string);
+            path: string;
+            verb: string;
+            body: any;
+            headers: {
+                'Content-Type': string;
+            };
+            payPalRequestId(payPalRequestId: string): CapturesRefundRequest;
+            prefer(prefer: string): CapturesRefundRequest;
+            requestBody(refundRequest: any): CapturesRefundRequest;
+        }
+
+        /**
+         * Shows details for a refund, by ID.
+         */
+        class RefundsGetRequest {
+            constructor(refundId: string);
+            path: string;
+            verb: string;
+            body: any;
+            headers: {
+                'Content-Type': string;
+            };
+        }
     }
 }
 
