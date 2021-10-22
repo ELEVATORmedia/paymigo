@@ -1,7 +1,7 @@
 import axios from 'axios';
 import xml2js from 'xml2js';
 import { parseNumbers } from 'xml2js/lib/processors';
-import { ClientMode, PayflowCredentials } from 'types/client';
+import { ClientMode, PayflowCredentials } from '../types/client';
 
 const XmlParser = new xml2js.Parser({
     valueProcessors: [parseNumbers],
@@ -22,13 +22,14 @@ export class ReportingClient {
         this._payflowCredentials = credentials;
     }
 
-    buildRequestBody = (params: any) => XmlBuilder.buildObject({
-        reportingEngineRequest: {
-            authRequest: this._payflowCredentials,
-            // TODO request types
-            ...params,
-        },
-    });
+    buildRequestBody = (params: any) =>
+        XmlBuilder.buildObject({
+            reportingEngineRequest: {
+                authRequest: this._payflowCredentials,
+                // TODO request types
+                ...params,
+            },
+        });
 
     makeRequest = (body: any) => axios.post(this._apiUri, body);
 

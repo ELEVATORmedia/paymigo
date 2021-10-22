@@ -1,16 +1,10 @@
 import { DisputeGetRequest, DisputesGetRequest } from './requests';
-import { DisputeState } from 'types/paypal';
+import { DisputesListOptions } from '../../types/disputes';
+import ResourceClient from '../../lib/ResourceClient';
 
-export type DisputesListOptions = {
-    startTime: Date;
-    state?: DisputeState;
-};
-
-export class DisputesClient {
-    private _client: PayPalHttpClient;
-
-    constructor(client: PayPalHttpClient) {
-        this._client = client;
+export default class DisputesClient extends ResourceClient {
+    constructor(client: paypal.core.PayPalHttpClient) {
+        super(client);
     }
 
     /**

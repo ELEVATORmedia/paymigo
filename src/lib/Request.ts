@@ -1,4 +1,4 @@
-import { RequestOptions } from 'types/paypal';
+import { RequestOptions } from '../types/paypal';
 
 const defaultHeaders = {
     'Content-Type': 'application/json',

@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/camelcase */
+import Request from '../../Request';
 import qs from 'qs';
-import Request from 'lib/Request';
 
 export type DisputeState = 'RESOLVED';
 

@@ -1,4 +1,4 @@
-import { DisputesClient } from './DisputesClient';
+import DisputesClient from './DisputesClient';
 
 export { DisputesClient };
 export * from 'types/disputes';

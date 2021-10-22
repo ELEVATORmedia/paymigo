@@ -1,10 +1,9 @@
 import paypal from '@paypal/checkout-server-sdk';
+import ResourceClient from './ResourceClient';
 
-export class OrdersClient {
-    private _client: PayPalHttpClient;
-
-    constructor(client: PayPalHttpClient) {
-        this._client = client;
+export class OrdersClient extends ResourceClient {
+    constructor(client: paypal.core.PayPalHttpClient) {
+        super(client);
     }
 
     // TODO input types
