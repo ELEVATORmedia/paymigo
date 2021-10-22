@@ -1,4 +1,5 @@
 import paypal from '@paypal/checkout-server-sdk';
+import { Order } from '../types';
 import ResourceClient from './ResourceClient';
 
 export class OrdersClient extends ResourceClient {
@@ -12,7 +13,7 @@ export class OrdersClient extends ResourceClient {
         request.requestBody(input);
 
         try {
-            const response = await this._client.execute(request);
+            const response = await this._client.execute<Order>(request);
             return response.result;
         } catch (err) {
             // TODO decide on error handling
@@ -44,7 +45,7 @@ export class OrdersClient extends ResourceClient {
      * @param {Number} expectedAmount - expected transaction amount
      * @returns whether the transaction completed successfully
      */
-    public async verify(orderId: string, expectedAmount: number) {
+    public async verify(orderId: string, expectedAmount: string) {
         const order = await this.getById(orderId);
 
         // TODO modify to account for all purchase_units
@@ -68,7 +69,7 @@ export class OrdersClient extends ResourceClient {
         let order;
 
         try {
-            const response = await this._client.execute(request);
+            const response = await this._client.execute<Order>(request);
             order = response.result;
         } catch (err) {
             // TODO decide on error handling
