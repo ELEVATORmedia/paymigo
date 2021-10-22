@@ -36,7 +36,7 @@
 
 _Overrides [ResourceClient](_lib_resourceclient_.resourceclient.md).[constructor](_lib_resourceclient_.resourceclient.md#constructor)_
 
-_Defined in [lib/payments.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/396f1ec/src/lib/payments.ts#L10)_
+_Defined in [lib/payments.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/lib/payments.ts#L10)_
 
 **Parameters:**
 
@@ -54,7 +54,7 @@ _Defined in [lib/payments.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/3
 
 _Inherited from [ResourceClient](_lib_resourceclient_.resourceclient.md).[\_client](_lib_resourceclient_.resourceclient.md#protected-_client)_
 
-_Defined in [lib/ResourceClient.ts:2](https://github.com/ELEVATORmedia/paymigo/blob/396f1ec/src/lib/ResourceClient.ts#L2)_
+_Defined in [lib/ResourceClient.ts:2](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/lib/ResourceClient.ts#L2)_
 
 ## Methods
 
@@ -62,7 +62,7 @@ _Defined in [lib/ResourceClient.ts:2](https://github.com/ELEVATORmedia/paymigo/b
 
 ▸ **captureAuthorization**(`authorizationId`: string, `amount?`: [Amount](../interfaces/_types_common_.amount.md)): _Promise‹[AuthorizationCaptureResponse](../interfaces/_types_payments_.authorizationcaptureresponse.md)›_
 
-_Defined in [lib/payments.ts:19](https://github.com/ELEVATORmedia/paymigo/blob/396f1ec/src/lib/payments.ts#L19)_
+_Defined in [lib/payments.ts:19](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/lib/payments.ts#L19)_
 
 **Parameters:**
 
@@ -79,7 +79,7 @@ _Defined in [lib/payments.ts:19](https://github.com/ELEVATORmedia/paymigo/blob/3
 
 ▸ **getAuthorization**(`authorizationId`: string): _Promise‹[Authorization](../interfaces/_types_payments_.authorization.md)›_
 
-_Defined in [lib/payments.ts:15](https://github.com/ELEVATORmedia/paymigo/blob/396f1ec/src/lib/payments.ts#L15)_
+_Defined in [lib/payments.ts:15](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/lib/payments.ts#L15)_
 
 **Parameters:**
 
@@ -95,7 +95,7 @@ _Defined in [lib/payments.ts:15](https://github.com/ELEVATORmedia/paymigo/blob/3
 
 ▸ **getCapture**(`captureId`: string): _Promise‹[Capture](../interfaces/_types_payments_.capture.md)›_
 
-_Defined in [lib/payments.ts:38](https://github.com/ELEVATORmedia/paymigo/blob/396f1ec/src/lib/payments.ts#L38)_
+_Defined in [lib/payments.ts:38](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/lib/payments.ts#L38)_
 
 **Parameters:**
 
@@ -111,7 +111,7 @@ _Defined in [lib/payments.ts:38](https://github.com/ELEVATORmedia/paymigo/blob/3
 
 ▸ **getRefund**(`refundId`: string): _Promise‹[Refund](../interfaces/_types_payments_.refund.md)›_
 
-_Defined in [lib/payments.ts:46](https://github.com/ELEVATORmedia/paymigo/blob/396f1ec/src/lib/payments.ts#L46)_
+_Defined in [lib/payments.ts:46](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/lib/payments.ts#L46)_
 
 **Parameters:**
 
@@ -127,7 +127,7 @@ _Defined in [lib/payments.ts:46](https://github.com/ELEVATORmedia/paymigo/blob/3
 
 ▸ **reauthorizeAuthorization**(`authorizationId`: string, `amount?`: [Amount](../interfaces/_types_common_.amount.md)): _Promise‹[Authorization](../interfaces/_types_payments_.authorization.md)›_
 
-_Defined in [lib/payments.ts:26](https://github.com/ELEVATORmedia/paymigo/blob/396f1ec/src/lib/payments.ts#L26)_
+_Defined in [lib/payments.ts:26](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/lib/payments.ts#L26)_
 
 **Parameters:**
 
@@ -144,7 +144,7 @@ _Defined in [lib/payments.ts:26](https://github.com/ELEVATORmedia/paymigo/blob/3
 
 ▸ **refund**(`captureId`: string): _Promise‹[Refund](../interfaces/_types_payments_.refund.md)›_
 
-_Defined in [lib/payments.ts:42](https://github.com/ELEVATORmedia/paymigo/blob/396f1ec/src/lib/payments.ts#L42)_
+_Defined in [lib/payments.ts:42](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/lib/payments.ts#L42)_
 
 **Parameters:**
 
@@ -160,7 +160,7 @@ _Defined in [lib/payments.ts:42](https://github.com/ELEVATORmedia/paymigo/blob/3
 
 ▸ **voidAuthorization**(`authorizationId`: string): _Promise‹void›_
 
-_Defined in [lib/payments.ts:33](https://github.com/ELEVATORmedia/paymigo/blob/396f1ec/src/lib/payments.ts#L33)_
+_Defined in [lib/payments.ts:33](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/lib/payments.ts#L33)_
 
 **Parameters:**
 

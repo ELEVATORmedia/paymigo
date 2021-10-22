@@ -30,7 +30,7 @@ minute: 'numeric',
 second: 'numeric',
 })
 
-_Defined in [lib/util.ts:1](https://github.com/ELEVATORmedia/paymigo/blob/396f1ec/src/lib/util.ts#L1)_
+_Defined in [lib/util.ts:1](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/lib/util.ts#L1)_
 
 ## Functions
 
@@ -38,7 +38,7 @@ _Defined in [lib/util.ts:1](https://github.com/ELEVATORmedia/paymigo/blob/396f1e
 
 ▸ **dateToParamString**(`input`: Date): _string_
 
-_Defined in [lib/util.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/396f1ec/src/lib/util.ts#L11)_
+_Defined in [lib/util.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/lib/util.ts#L11)_
 
 **Parameters:**
 
