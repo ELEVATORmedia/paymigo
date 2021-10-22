@@ -6,20 +6,3 @@ export type RequestOptions = {
     body?: any;
     headers?: any;
 };
-
-export type DisputeState = 'RESOLVED';
-
-export type DisputeOutcome = {
-    disputeId: string;
-    outcome: 'won' | 'lost';
-    amount: number;
-};
-
-export type DisputeOutcomeCode =
-    | 'RESOLVED_BUYER_FAVOUR'
-    | 'RESOLVED_SELLER_FAVOUR'
-    | 'RESOLVED_WITH_PAYOUT'
-    | 'CANCELED_BY_BUYER'
-    | 'ACCEPTED'
-    | 'DENIED'
-    | 'NONE';

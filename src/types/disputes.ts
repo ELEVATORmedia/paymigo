@@ -75,11 +75,11 @@ export interface Document {
 
 export type DisputeState = 'RESOLVED';
 
-// export type DisputeOutcome = {
-//     disputeId: string;
-//     outcome: 'won' | 'lost';
-//     amount: number;
-// };
+export type DisputeOutcomeResponse = {
+    disputeId: string;
+    outcome: 'won' | 'lost';
+    amount: number;
+};
 
 export type DisputeOutcomeCode =
     | 'RESOLVED_BUYER_FAVOUR'
@@ -89,3 +89,8 @@ export type DisputeOutcomeCode =
     | 'ACCEPTED'
     | 'DENIED'
     | 'NONE';
+
+export type DisputesListOptions = {
+    startTime: Date;
+    state?: DisputeState;
+};
