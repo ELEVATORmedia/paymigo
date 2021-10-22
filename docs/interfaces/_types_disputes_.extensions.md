@@ -18,4 +18,4 @@
 
 • **merchandize_dispute_properties**: _[MerchandizeDisputeProperties](_types_disputes_.merchandizedisputeproperties.md)_
 
-_Defined in [types/disputes.ts:49](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/types/disputes.ts#L49)_
+_Defined in [types/disputes.ts:49](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/disputes.ts#L49)_

@@ -18,4 +18,4 @@
 
 • **buyer_requested_amount**: _[Amount](_types_common_.amount.md)_
 
-_Defined in [types/disputes.ts:21](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/types/disputes.ts#L21)_
+_Defined in [types/disputes.ts:21](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/disputes.ts#L21)_

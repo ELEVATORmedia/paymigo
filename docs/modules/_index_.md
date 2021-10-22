@@ -8,6 +8,8 @@
 
 -   [Amount](_index_.md#amount)
 -   [Authorization](_index_.md#authorization)
+-   [AuthorizationCaptureResponse](_index_.md#authorizationcaptureresponse)
+-   [AuthorizationStatus](_index_.md#authorizationstatus)
 -   [Buyer](_index_.md#buyer)
 -   [Capture](_index_.md#capture)
 -   [ClientMode](_index_.md#clientmode)
@@ -55,6 +57,18 @@
 ### Authorization
 
 • **Authorization**:
+
+---
+
+### AuthorizationCaptureResponse
+
+• **AuthorizationCaptureResponse**:
+
+---
+
+### AuthorizationStatus
+
+• **AuthorizationStatus**:
 
 ---
 

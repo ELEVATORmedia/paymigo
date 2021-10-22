@@ -6,6 +6,8 @@
 
 -   **Authorization**
 
+    ↳ [AuthorizationCaptureResponse](_types_payments_.authorizationcaptureresponse.md)
+
 ## Index
 
 ### Properties
@@ -18,6 +20,7 @@
 -   [links](_types_payments_.authorization.md#links)
 -   [seller_protection](_types_payments_.authorization.md#seller_protection)
 -   [status](_types_payments_.authorization.md#status)
+-   [status_details](_types_payments_.authorization.md#optional-status_details)
 -   [update_time](_types_payments_.authorization.md#update_time)
 
 ## Properties
@@ -26,7 +29,7 @@
 
 • **amount**: _[Amount](_types_common_.amount.md)_
 
-_Defined in [types/payments.ts:6](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/types/payments.ts#L6)_
+_Defined in [types/payments.ts:7](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/payments.ts#L7)_
 
 ---
 
@@ -34,7 +37,7 @@ _Defined in [types/payments.ts:6](https://github.com/ELEVATORmedia/paymigo/blob/
 
 • **create_time**: _Date_
 
-_Defined in [types/payments.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/types/payments.ts#L10)_
+_Defined in [types/payments.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/payments.ts#L11)_
 
 ---
 
@@ -42,7 +45,7 @@ _Defined in [types/payments.ts:10](https://github.com/ELEVATORmedia/paymigo/blob
 
 • **expiration_time**: _Date_
 
-_Defined in [types/payments.ts:9](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/types/payments.ts#L9)_
+_Defined in [types/payments.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/payments.ts#L10)_
 
 ---
 
@@ -50,7 +53,7 @@ _Defined in [types/payments.ts:9](https://github.com/ELEVATORmedia/paymigo/blob/
 
 • **id**: _string_
 
-_Defined in [types/payments.ts:4](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/types/payments.ts#L4)_
+_Defined in [types/payments.ts:4](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/payments.ts#L4)_
 
 ---
 
@@ -58,7 +61,7 @@ _Defined in [types/payments.ts:4](https://github.com/ELEVATORmedia/paymigo/blob/
 
 • **invoice_id**: _string_
 
-_Defined in [types/payments.ts:7](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/types/payments.ts#L7)_
+_Defined in [types/payments.ts:8](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/payments.ts#L8)_
 
 ---
 
@@ -66,7 +69,7 @@ _Defined in [types/payments.ts:7](https://github.com/ELEVATORmedia/paymigo/blob/
 
 • **links**: _Array‹[Link](_types_common_.link.md)›_
 
-_Defined in [types/payments.ts:12](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/types/payments.ts#L12)_
+_Defined in [types/payments.ts:13](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/payments.ts#L13)_
 
 ---
 
@@ -74,15 +77,23 @@ _Defined in [types/payments.ts:12](https://github.com/ELEVATORmedia/paymigo/blob
 
 • **seller_protection**: _[SellerProtection](_types_payments_.sellerprotection.md)_
 
-_Defined in [types/payments.ts:8](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/types/payments.ts#L8)_
+_Defined in [types/payments.ts:9](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/payments.ts#L9)_
 
 ---
 
 ### status
 
-• **status**: _string_
+• **status**: _[AuthorizationStatus](../modules/_types_payments_.md#authorizationstatus)_
 
-_Defined in [types/payments.ts:5](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/types/payments.ts#L5)_
+_Defined in [types/payments.ts:5](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/payments.ts#L5)_
+
+---
+
+### `Optional` status_details
+
+• **status_details**? : _any_
+
+_Defined in [types/payments.ts:6](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/payments.ts#L6)_
 
 ---
 
@@ -90,4 +101,4 @@ _Defined in [types/payments.ts:5](https://github.com/ELEVATORmedia/paymigo/blob/
 
 • **update_time**: _Date_
 
-_Defined in [types/payments.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/types/payments.ts#L11)_
+_Defined in [types/payments.ts:12](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/payments.ts#L12)_

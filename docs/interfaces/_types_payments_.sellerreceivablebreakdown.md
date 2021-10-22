@@ -23,7 +23,7 @@
 
 • **exchange_rate**: _[ExchangeRate](_types_payments_.exchangerate.md)_
 
-_Defined in [types/payments.ts:52](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/types/payments.ts#L52)_
+_Defined in [types/payments.ts:69](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/payments.ts#L69)_
 
 ---
 
@@ -31,7 +31,7 @@ _Defined in [types/payments.ts:52](https://github.com/ELEVATORmedia/paymigo/blob
 
 • **gross_amount**: _[Amount](_types_common_.amount.md)_
 
-_Defined in [types/payments.ts:47](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/types/payments.ts#L47)_
+_Defined in [types/payments.ts:64](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/payments.ts#L64)_
 
 ---
 
@@ -39,7 +39,7 @@ _Defined in [types/payments.ts:47](https://github.com/ELEVATORmedia/paymigo/blob
 
 • **net_amount**: _[NetAmount](_types_payments_.netamount.md)_
 
-_Defined in [types/payments.ts:49](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/types/payments.ts#L49)_
+_Defined in [types/payments.ts:66](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/payments.ts#L66)_
 
 ---
 
@@ -47,7 +47,7 @@ _Defined in [types/payments.ts:49](https://github.com/ELEVATORmedia/paymigo/blob
 
 • **paypal_fee**: _[NetAmount](_types_payments_.netamount.md)_
 
-_Defined in [types/payments.ts:48](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/types/payments.ts#L48)_
+_Defined in [types/payments.ts:65](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/payments.ts#L65)_
 
 ---
 
@@ -55,7 +55,7 @@ _Defined in [types/payments.ts:48](https://github.com/ELEVATORmedia/paymigo/blob
 
 • **paypal_fee_in_receivable_currency**: _[PaypalFeeInReceivableCurrency](_types_payments_.paypalfeeinreceivablecurrency.md)_
 
-_Defined in [types/payments.ts:51](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/types/payments.ts#L51)_
+_Defined in [types/payments.ts:68](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/payments.ts#L68)_
 
 ---
 
@@ -63,4 +63,4 @@ _Defined in [types/payments.ts:51](https://github.com/ELEVATORmedia/paymigo/blob
 
 • **receivable_amount**: _[PaypalFeeInReceivableCurrency](_types_payments_.paypalfeeinreceivablecurrency.md)_
 
-_Defined in [types/payments.ts:50](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/types/payments.ts#L50)_
+_Defined in [types/payments.ts:67](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/payments.ts#L67)_

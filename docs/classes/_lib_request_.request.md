@@ -29,7 +29,7 @@
 
 \+ **new Request**(`__namedParameters`: object): _[Request](_lib_request_.request.md)_
 
-_Defined in [lib/Request.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/lib/Request.ts#L11)_
+_Defined in [lib/Request.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/lib/Request.ts#L11)_
 
 **Parameters:**
 
@@ -50,7 +50,7 @@ _Defined in [lib/Request.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/0b
 
 • **body**: _any_
 
-_Defined in [lib/Request.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/lib/Request.ts#L10)_
+_Defined in [lib/Request.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/lib/Request.ts#L10)_
 
 ---
 
@@ -58,7 +58,7 @@ _Defined in [lib/Request.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/0b
 
 • **headers**: _any_
 
-_Defined in [lib/Request.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/lib/Request.ts#L11)_
+_Defined in [lib/Request.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/lib/Request.ts#L11)_
 
 ---
 
@@ -66,7 +66,7 @@ _Defined in [lib/Request.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/0b
 
 • **path**: _string_
 
-_Defined in [lib/Request.ts:8](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/lib/Request.ts#L8)_
+_Defined in [lib/Request.ts:8](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/lib/Request.ts#L8)_
 
 ---
 
@@ -74,4 +74,4 @@ _Defined in [lib/Request.ts:8](https://github.com/ELEVATORmedia/paymigo/blob/0b6
 
 • **verb**: _string_
 
-_Defined in [lib/Request.ts:9](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/lib/Request.ts#L9)_
+_Defined in [lib/Request.ts:9](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/lib/Request.ts#L9)_

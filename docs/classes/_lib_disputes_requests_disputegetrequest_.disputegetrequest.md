@@ -29,7 +29,7 @@
 
 _Overrides [Request](_lib_request_.request.md).[constructor](_lib_request_.request.md#constructor)_
 
-_Defined in [lib/disputes/requests/DisputeGetRequest.ts:3](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/lib/disputes/requests/DisputeGetRequest.ts#L3)_
+_Defined in [lib/disputes/requests/DisputeGetRequest.ts:3](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/lib/disputes/requests/DisputeGetRequest.ts#L3)_
 
 **Parameters:**
 
@@ -47,7 +47,7 @@ _Defined in [lib/disputes/requests/DisputeGetRequest.ts:3](https://github.com/EL
 
 _Inherited from [Request](_lib_request_.request.md).[body](_lib_request_.request.md#body)_
 
-_Defined in [lib/Request.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/lib/Request.ts#L10)_
+_Defined in [lib/Request.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/lib/Request.ts#L10)_
 
 ---
 
@@ -57,7 +57,7 @@ _Defined in [lib/Request.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/0b
 
 _Inherited from [Request](_lib_request_.request.md).[headers](_lib_request_.request.md#headers)_
 
-_Defined in [lib/Request.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/lib/Request.ts#L11)_
+_Defined in [lib/Request.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/lib/Request.ts#L11)_
 
 ---
 
@@ -67,7 +67,7 @@ _Defined in [lib/Request.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/0b
 
 _Inherited from [Request](_lib_request_.request.md).[path](_lib_request_.request.md#path)_
 
-_Defined in [lib/Request.ts:8](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/lib/Request.ts#L8)_
+_Defined in [lib/Request.ts:8](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/lib/Request.ts#L8)_
 
 ---
 
@@ -77,4 +77,4 @@ _Defined in [lib/Request.ts:8](https://github.com/ELEVATORmedia/paymigo/blob/0b6
 
 _Inherited from [Request](_lib_request_.request.md).[verb](_lib_request_.request.md#verb)_
 
-_Defined in [lib/Request.ts:9](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/lib/Request.ts#L9)_
+_Defined in [lib/Request.ts:9](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/lib/Request.ts#L9)_

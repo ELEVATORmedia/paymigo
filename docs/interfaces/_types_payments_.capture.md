@@ -28,7 +28,7 @@
 
 • **amount**: _[Amount](_types_common_.amount.md)_
 
-_Defined in [types/payments.ts:19](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/types/payments.ts#L19)_
+_Defined in [types/payments.ts:36](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/payments.ts#L36)_
 
 ---
 
@@ -36,7 +36,7 @@ _Defined in [types/payments.ts:19](https://github.com/ELEVATORmedia/paymigo/blob
 
 • **create_time**: _Date_
 
-_Defined in [types/payments.ts:24](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/types/payments.ts#L24)_
+_Defined in [types/payments.ts:41](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/payments.ts#L41)_
 
 ---
 
@@ -44,7 +44,7 @@ _Defined in [types/payments.ts:24](https://github.com/ELEVATORmedia/paymigo/blob
 
 • **final_capture**: _boolean_
 
-_Defined in [types/payments.ts:20](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/types/payments.ts#L20)_
+_Defined in [types/payments.ts:37](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/payments.ts#L37)_
 
 ---
 
@@ -52,7 +52,7 @@ _Defined in [types/payments.ts:20](https://github.com/ELEVATORmedia/paymigo/blob
 
 • **id**: _string_
 
-_Defined in [types/payments.ts:16](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/types/payments.ts#L16)_
+_Defined in [types/payments.ts:33](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/payments.ts#L33)_
 
 ---
 
@@ -60,7 +60,7 @@ _Defined in [types/payments.ts:16](https://github.com/ELEVATORmedia/paymigo/blob
 
 • **invoice_id**: _string_
 
-_Defined in [types/payments.ts:23](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/types/payments.ts#L23)_
+_Defined in [types/payments.ts:40](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/payments.ts#L40)_
 
 ---
 
@@ -68,7 +68,7 @@ _Defined in [types/payments.ts:23](https://github.com/ELEVATORmedia/paymigo/blob
 
 • **links**: _[Link](_types_common_.link.md)[]_
 
-_Defined in [types/payments.ts:26](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/types/payments.ts#L26)_
+_Defined in [types/payments.ts:43](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/payments.ts#L43)_
 
 ---
 
@@ -76,7 +76,7 @@ _Defined in [types/payments.ts:26](https://github.com/ELEVATORmedia/paymigo/blob
 
 • **seller_protection**: _[SellerProtection](_types_payments_.sellerprotection.md)_
 
-_Defined in [types/payments.ts:21](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/types/payments.ts#L21)_
+_Defined in [types/payments.ts:38](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/payments.ts#L38)_
 
 ---
 
@@ -84,7 +84,7 @@ _Defined in [types/payments.ts:21](https://github.com/ELEVATORmedia/paymigo/blob
 
 • **seller_receivable_breakdown**: _[SellerReceivableBreakdown](_types_payments_.sellerreceivablebreakdown.md)_
 
-_Defined in [types/payments.ts:22](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/types/payments.ts#L22)_
+_Defined in [types/payments.ts:39](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/payments.ts#L39)_
 
 ---
 
@@ -92,7 +92,7 @@ _Defined in [types/payments.ts:22](https://github.com/ELEVATORmedia/paymigo/blob
 
 • **status**: _string_
 
-_Defined in [types/payments.ts:17](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/types/payments.ts#L17)_
+_Defined in [types/payments.ts:34](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/payments.ts#L34)_
 
 ---
 
@@ -100,7 +100,7 @@ _Defined in [types/payments.ts:17](https://github.com/ELEVATORmedia/paymigo/blob
 
 • **status_details**: _[StatusDetails](_types_payments_.statusdetails.md)_
 
-_Defined in [types/payments.ts:18](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/types/payments.ts#L18)_
+_Defined in [types/payments.ts:35](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/payments.ts#L35)_
 
 ---
 
@@ -108,4 +108,4 @@ _Defined in [types/payments.ts:18](https://github.com/ELEVATORmedia/paymigo/blob
 
 • **update_time**: _Date_
 
-_Defined in [types/payments.ts:25](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/types/payments.ts#L25)_
+_Defined in [types/payments.ts:42](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/payments.ts#L42)_

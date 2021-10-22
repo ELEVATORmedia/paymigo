@@ -20,7 +20,7 @@
 
 • **href**: _string_
 
-_Defined in [types/common.ts:7](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/types/common.ts#L7)_
+_Defined in [types/common.ts:7](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/common.ts#L7)_
 
 ---
 
@@ -28,7 +28,7 @@ _Defined in [types/common.ts:7](https://github.com/ELEVATORmedia/paymigo/blob/0b
 
 • **method**: _string_
 
-_Defined in [types/common.ts:9](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/types/common.ts#L9)_
+_Defined in [types/common.ts:9](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/common.ts#L9)_
 
 ---
 
@@ -36,4 +36,4 @@ _Defined in [types/common.ts:9](https://github.com/ELEVATORmedia/paymigo/blob/0b
 
 • **rel**: _string_
 
-_Defined in [types/common.ts:8](https://github.com/ELEVATORmedia/paymigo/blob/0b66b83/src/types/common.ts#L8)_
+_Defined in [types/common.ts:8](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/common.ts#L8)_
