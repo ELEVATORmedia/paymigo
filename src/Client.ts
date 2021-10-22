@@ -1,19 +1,19 @@
 import paypal from '@paypal/checkout-server-sdk';
-import { DisputesClient } from 'lib/disputes';
-import { OrdersClient } from 'lib/orders';
-import { ReportingClient } from 'lib/reporting';
+import { DisputesClient } from './lib/disputes';
+import { OrdersClient } from './lib/orders';
+import { ReportingClient } from './lib/reporting';
 import { ClientMode, ClientOptions } from './types/client';
 
 export default class PaymigoClient {
     mode: ClientMode;
-    private _baseClient: PayPalHttpClient; // paypal client
+    private _client: paypal.core.PayPalHttpClient; // paypal client
 
     orders: OrdersClient;
     disputes: DisputesClient;
     reporting: ReportingClient;
 
     constructor(options: ClientOptions) {
-        this._baseClient = null;
+        this._client = null;
 
         let environment = null;
 
@@ -31,10 +31,10 @@ export default class PaymigoClient {
         if (!environment) throw new Error('Invalid client environment configuration');
 
         this.mode = options.mode;
-        this._baseClient = new paypal.core.PayPalHttpClient(environment);
+        this._client = new paypal.core.PayPalHttpClient(environment);
 
-        this.orders = new OrdersClient(this._baseClient);
-        this.disputes = new DisputesClient(this._baseClient);
+        this.orders = new OrdersClient(this._client);
+        this.disputes = new DisputesClient(this._client);
 
         if (options.reporting)
             this.reporting = new ReportingClient(options.mode, options.reporting);
