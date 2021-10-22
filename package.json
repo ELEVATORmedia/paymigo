@@ -1,11 +1,16 @@
 {
     "name": "@elevatormedia/paymigo",
-    "version": "0.1.5",
+    "version": "0.1.5-alpha",
     "description": "TypeScript wrapper and extension of PayPal Node.js SDK and REST APIs",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "repository": "https://github.com/ELEVATORmedia/paymigo.git",
     "author": "Nieky Allen <nieky.allen@elevatormag.com>",
+    "keywords": [
+        "paypal",
+        "payments",
+        "ecommerce"
+    ],
     "license": "MIT",
     "scripts": {
         "build": "tsc",
@@ -34,6 +39,7 @@
         "@typescript-eslint/eslint-plugin": "^2.0.0",
         "@typescript-eslint/parser": "^2.0.0",
         "babel-loader": "^8.0.6",
+        "copyfiles": "^2.4.1",
         "eslint": "^6.2.1",
         "husky": "^4.2.5",
         "prettier": "^2.1.1",

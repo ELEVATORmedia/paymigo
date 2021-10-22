@@ -7,20 +7,14 @@
         "moduleResolution": "node",
         "target": "es6",
         "sourceMap": true,
-        "allowJs": true,
         "esModuleInterop": true,
         "declaration": true,
         "declarationMap": true,
-        // NOTE ADDED FOR MIGRATION
-        // ref: https://github.com/storybookjs/storybook/issues/9463#issuecomment-599384571
-        // "skipLibCheck": true,
-        "baseUrl": ".",
+        "baseUrl": "src/",
         "paths": {
-            "*": ["node_modules/*", "src/*"]
+            "*": ["node_modules/*", "./*"]
         },
-        "experimentalDecorators": true,
-        "emitDecoratorMetadata": true,
         "typeRoots": ["./node_modules/@types", "src/types"]
     },
-    "include": ["./src/**/*", "src/types", "types/"]
+    "include": ["./src/**/*"]
 }
