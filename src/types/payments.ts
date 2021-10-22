@@ -2,7 +2,8 @@ import { Amount, Link } from './common';
 
 export interface Authorization {
     id: string;
-    status: string;
+    status: AuthorizationStatus;
+    status_details?: any;
     amount: Amount;
     invoice_id: string;
     seller_protection: SellerProtection;
@@ -11,6 +12,22 @@ export interface Authorization {
     update_time: Date;
     links: Array<Link>;
 }
+
+export interface AuthorizationCaptureResponse extends Authorization {
+    final_capture: boolean;
+    seller_receivable_breakdown: SellerReceivableBreakdown;
+    disbursement_mode: 'INSTANT' | 'DELAYED';
+}
+
+export type AuthorizationStatus =
+    | 'CREATED'
+    | 'CAPTURED'
+    | 'DENIED'
+    | 'EXPIRED'
+    | 'PARTIALLY_CAPTURED'
+    | 'PARTIALLY_CREATED'
+    | 'VOIDED'
+    | 'PENDING';
 
 export interface Capture {
     id: string;

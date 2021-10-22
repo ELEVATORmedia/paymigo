@@ -1,6 +1,7 @@
 import paypal from '@paypal/checkout-server-sdk';
-import { DisputesClient } from './lib/disputes';
 import { OrdersClient } from './lib/orders';
+import { PaymentsClient } from './lib/payments';
+import { DisputesClient } from './lib/disputes';
 import { ReportingClient } from './lib/reporting';
 import { ClientMode, ClientOptions } from './types/client';
 
@@ -9,6 +10,7 @@ export default class PaymigoClient {
     private _client: paypal.core.PayPalHttpClient; // paypal client
 
     orders: OrdersClient;
+    payments: PaymentsClient;
     disputes: DisputesClient;
     reporting: ReportingClient;
 
@@ -34,6 +36,7 @@ export default class PaymigoClient {
         this._client = new paypal.core.PayPalHttpClient(environment);
 
         this.orders = new OrdersClient(this._client);
+        this.payments = new PaymentsClient(this._client);
         this.disputes = new DisputesClient(this._client);
 
         if (options.reporting)
