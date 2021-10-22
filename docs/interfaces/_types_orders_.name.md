@@ -19,7 +19,7 @@
 
 • **given_name**: _string_
 
-_Defined in [types/orders.ts:20](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/orders.ts#L20)_
+_Defined in [types/orders.ts:20](https://github.com/ELEVATORmedia/paymigo/blob/396f1ec/src/types/orders.ts#L20)_
 
 ---
 
@@ -27,4 +27,4 @@ _Defined in [types/orders.ts:20](https://github.com/ELEVATORmedia/paymigo/blob/e
 
 • **surname**: _string_
 
-_Defined in [types/orders.ts:21](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/orders.ts#L21)_
+_Defined in [types/orders.ts:21](https://github.com/ELEVATORmedia/paymigo/blob/396f1ec/src/types/orders.ts#L21)_

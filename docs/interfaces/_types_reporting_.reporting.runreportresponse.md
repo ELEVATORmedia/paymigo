@@ -22,7 +22,7 @@
 
 _Overrides [ReportingResponse](_types_reporting_.reporting.reportingresponse.md).[reportingEngineResponse](_types_reporting_.reporting.reportingresponse.md#reportingengineresponse)_
 
-_Defined in [types/reporting.ts:67](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/reporting.ts#L67)_
+_Defined in [types/reporting.ts:67](https://github.com/ELEVATORmedia/paymigo/blob/396f1ec/src/types/reporting.ts#L67)_
 
 #### Type declaration:
 

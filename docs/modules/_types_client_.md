@@ -16,7 +16,7 @@
 
 Ƭ **ClientMode**: _"sandbox" | "production"_
 
-_Defined in [types/client.ts:2](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/client.ts#L2)_
+_Defined in [types/client.ts:2](https://github.com/ELEVATORmedia/paymigo/blob/396f1ec/src/types/client.ts#L2)_
 
 ---
 
@@ -24,7 +24,7 @@ _Defined in [types/client.ts:2](https://github.com/ELEVATORmedia/paymigo/blob/ea
 
 Ƭ **ClientOptions**: _object_
 
-_Defined in [types/client.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/client.ts#L11)_
+_Defined in [types/client.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/396f1ec/src/types/client.ts#L11)_
 
 #### Type declaration:
 
@@ -42,7 +42,7 @@ _Defined in [types/client.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/e
 
 Ƭ **PayflowCredentials**: _object_
 
-_Defined in [types/client.ts:4](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/types/client.ts#L4)_
+_Defined in [types/client.ts:4](https://github.com/ELEVATORmedia/paymigo/blob/396f1ec/src/types/client.ts#L4)_
 
 #### Type declaration:
 

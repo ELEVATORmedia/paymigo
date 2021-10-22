@@ -4,6 +4,10 @@
 
 ## Index
 
+### Enumerations
+
+-   [ErrorCodes](../enums/_lib_util_.errorcodes.md)
+
 ### Variables
 
 -   [formatter](_lib_util_.md#const-formatter)
@@ -26,7 +30,7 @@ minute: 'numeric',
 second: 'numeric',
 })
 
-_Defined in [lib/util.ts:2](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/lib/util.ts#L2)_
+_Defined in [lib/util.ts:1](https://github.com/ELEVATORmedia/paymigo/blob/396f1ec/src/lib/util.ts#L1)_
 
 ## Functions
 
@@ -34,7 +38,7 @@ _Defined in [lib/util.ts:2](https://github.com/ELEVATORmedia/paymigo/blob/eaf52d
 
 ▸ **dateToParamString**(`input`: Date): _string_
 
-_Defined in [lib/util.ts:12](https://github.com/ELEVATORmedia/paymigo/blob/eaf52dd/src/lib/util.ts#L12)_
+_Defined in [lib/util.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/396f1ec/src/lib/util.ts#L11)_
 
 **Parameters:**
 
