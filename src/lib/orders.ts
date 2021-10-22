@@ -1,5 +1,5 @@
 import paypal from '@paypal/checkout-server-sdk';
-import { Order } from '../types';
+import { Amount, Order } from '../types';
 import ResourceClient from './ResourceClient';
 
 export class OrdersClient extends ResourceClient {
@@ -12,13 +12,8 @@ export class OrdersClient extends ResourceClient {
         const request = new paypal.orders.OrdersCreateRequest();
         request.requestBody(input);
 
-        try {
-            const response = await this._client.execute<Order>(request);
-            return response.result;
-        } catch (err) {
-            // TODO decide on error handling
-            console.error(err);
-        }
+        const response = await this._client.execute<Order>(request);
+        return response.result;
     }
 
     /**
@@ -30,13 +25,8 @@ export class OrdersClient extends ResourceClient {
         const request = new paypal.orders.OrdersCaptureRequest(orderId);
         request.requestBody({});
 
-        try {
-            const response = await this._client.execute(request);
-            return response.result;
-        } catch (err) {
-            // TODO decide on error handling
-            console.error(err);
-        }
+        const response = await this._client.execute(request);
+        return response.result;
     }
 
     /**
@@ -45,13 +35,14 @@ export class OrdersClient extends ResourceClient {
      * @param {Number} expectedAmount - expected transaction amount
      * @returns whether the transaction completed successfully
      */
-    public async verify(orderId: string, expectedAmount: string) {
+    public async verifyOrderAmount(orderId: string, expectedAmount: Amount) {
         const order = await this.getById(orderId);
 
         // TODO modify to account for all purchase_units
         if (
             order.status !== 'COMPLETED' ||
-            order.purchase_units[0].amount.value != expectedAmount
+            order.purchase_units[0].amount.value != expectedAmount.value ||
+            order.purchase_units[0].amount.currency_code != expectedAmount.currency_code
         )
             throw new Error('Order has not been completed');
 
@@ -63,23 +54,11 @@ export class OrdersClient extends ResourceClient {
      * @param {String} orderId - unique order identifier
      * @returns order instance
      */
-    public async getById(orderId: string) {
-        const invalidIdError = new Error('Invalid order ID provided');
+    public async getById(orderId: string): Promise<Order> {
         const request = new paypal.orders.OrdersGetRequest(orderId);
-        let order;
 
-        try {
-            const response = await this._client.execute<Order>(request);
-            order = response.result;
-        } catch (err) {
-            // TODO decide on error handling
-            console.error(err);
-            throw invalidIdError;
-        }
-
-        if (!order) throw invalidIdError;
-
-        return order;
+        const response = await this._client.execute<Order>(request);
+        return response.result;
     }
 }
 

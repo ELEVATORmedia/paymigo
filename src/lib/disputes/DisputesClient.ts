@@ -1,5 +1,5 @@
 import { DisputeGetRequest, DisputesGetRequest } from './requests';
-import { DisputesListOptions } from '../../types/disputes';
+import { Dispute, DisputesListOptions } from '../../types/disputes';
 import ResourceClient from '../../lib/ResourceClient';
 
 export default class DisputesClient extends ResourceClient {
@@ -12,15 +12,11 @@ export default class DisputesClient extends ResourceClient {
      * @param {String} disputeId - unique dispute identifier
      * @returns dispute instance
      */
-    public async getById(disputeId: string) {
+    public async getById(disputeId: string): Promise<Dispute> {
         const request = new DisputeGetRequest(disputeId);
 
-        try {
-            const response = await this._client.execute(request);
-            return response.result;
-        } catch (err) {
-            console.error(err);
-        }
+        const response = await this._client.execute<Dispute>(request);
+        return response.result;
     }
 
     /**
@@ -31,13 +27,7 @@ export default class DisputesClient extends ResourceClient {
     public async list(options: DisputesListOptions) {
         const request = new DisputesGetRequest(options.startTime, options.state);
 
-        try {
-            const response = await this._client.execute(request);
-
-            return response.result.items as any[];
-        } catch (err) {
-            // TODO figure out error handling
-            console.error(err);
-        }
+        const response = await this._client.execute<{ items: Dispute[] }>(request);
+        return response.result.items;
     }
 }
