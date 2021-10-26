@@ -17,7 +17,7 @@ export default class PaymigoClient {
     constructor(options: ClientOptions) {
         this._client = null;
 
-        let environment = null;
+        let environment: paypal.core.PayPalEnvironment;
 
         if (options.mode === 'sandbox')
             environment = new paypal.core.SandboxEnvironment(
