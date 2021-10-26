@@ -20,7 +20,7 @@
 
 • **email**: _string_
 
-_Defined in [types/disputes.ts:43](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/types/disputes.ts#L43)_
+_Defined in [src/types/disputes.ts:43](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/types/disputes.ts#L43)_
 
 ---
 
@@ -28,7 +28,7 @@ _Defined in [types/disputes.ts:43](https://github.com/ELEVATORmedia/paymigo/blob
 
 • **merchant_id**: _string_
 
-_Defined in [types/disputes.ts:44](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/types/disputes.ts#L44)_
+_Defined in [src/types/disputes.ts:44](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/types/disputes.ts#L44)_
 
 ---
 
@@ -36,4 +36,4 @@ _Defined in [types/disputes.ts:44](https://github.com/ELEVATORmedia/paymigo/blob
 
 • **name**: _string_
 
-_Defined in [types/disputes.ts:45](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/types/disputes.ts#L45)_
+_Defined in [src/types/disputes.ts:45](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/types/disputes.ts#L45)_

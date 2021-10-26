@@ -6,6 +6,7 @@
 
 ### References
 
+-   [CreateOrderInput](_lib_orders_.md#createorderinput)
 -   [Name](_lib_orders_.md#name)
 -   [Order](_lib_orders_.md#order)
 -   [Payer](_lib_orders_.md#payer)
@@ -16,6 +17,12 @@
 -   [OrdersClient](../classes/_lib_orders_.ordersclient.md)
 
 ## References
+
+### CreateOrderInput
+
+• **CreateOrderInput**:
+
+---
 
 ### Name
 

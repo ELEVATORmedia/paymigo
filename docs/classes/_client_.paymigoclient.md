@@ -27,7 +27,7 @@
 
 \+ **new PaymigoClient**(`options`: [ClientOptions](../modules/_types_client_.md#clientoptions)): _[PaymigoClient](_client_.paymigoclient.md)_
 
-_Defined in [Client.ts:15](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/Client.ts#L15)_
+_Defined in [src/Client.ts:15](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/Client.ts#L15)_
 
 **Parameters:**
 
@@ -43,7 +43,7 @@ _Defined in [Client.ts:15](https://github.com/ELEVATORmedia/paymigo/blob/56771c5
 
 • **\_client**: _PayPalHttpClient_
 
-_Defined in [Client.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/Client.ts#L10)_
+_Defined in [src/Client.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/Client.ts#L10)_
 
 ---
 
@@ -51,7 +51,7 @@ _Defined in [Client.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/56771c5
 
 • **disputes**: _[DisputesClient](_lib_disputes_disputesclient_.disputesclient.md)_
 
-_Defined in [Client.ts:14](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/Client.ts#L14)_
+_Defined in [src/Client.ts:14](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/Client.ts#L14)_
 
 ---
 
@@ -59,7 +59,7 @@ _Defined in [Client.ts:14](https://github.com/ELEVATORmedia/paymigo/blob/56771c5
 
 • **mode**: _[ClientMode](../modules/_types_client_.md#clientmode)_
 
-_Defined in [Client.ts:9](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/Client.ts#L9)_
+_Defined in [src/Client.ts:9](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/Client.ts#L9)_
 
 ---
 
@@ -67,7 +67,7 @@ _Defined in [Client.ts:9](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/
 
 • **orders**: _[OrdersClient](_lib_orders_.ordersclient.md)_
 
-_Defined in [Client.ts:12](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/Client.ts#L12)_
+_Defined in [src/Client.ts:12](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/Client.ts#L12)_
 
 ---
 
@@ -75,7 +75,7 @@ _Defined in [Client.ts:12](https://github.com/ELEVATORmedia/paymigo/blob/56771c5
 
 • **payments**: _[PaymentsClient](_lib_payments_.paymentsclient.md)_
 
-_Defined in [Client.ts:13](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/Client.ts#L13)_
+_Defined in [src/Client.ts:13](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/Client.ts#L13)_
 
 ---
 
@@ -83,4 +83,4 @@ _Defined in [Client.ts:13](https://github.com/ELEVATORmedia/paymigo/blob/56771c5
 
 • **reporting**: _[ReportingClient](_lib_reporting_.reportingclient.md)_
 
-_Defined in [Client.ts:15](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/Client.ts#L15)_
+_Defined in [src/Client.ts:15](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/Client.ts#L15)_

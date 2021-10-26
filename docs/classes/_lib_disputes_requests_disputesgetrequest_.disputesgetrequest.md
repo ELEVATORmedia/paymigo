@@ -1,6 +1,10 @@
 [@elevatormedia/paymigo](../README.md) › [Globals](../globals.md) › ["lib/disputes/requests/DisputesGetRequest"](../modules/_lib_disputes_requests_disputesgetrequest_.md) › [DisputesGetRequest](_lib_disputes_requests_disputesgetrequest_.disputesgetrequest.md)
 
-# Class: DisputesGetRequest
+# Class: DisputesGetRequest ‹**B**›
+
+## Type parameters
+
+▪ **B**
 
 ## Hierarchy
 
@@ -29,7 +33,7 @@
 
 _Overrides [Request](_lib_request_.request.md).[constructor](_lib_request_.request.md#constructor)_
 
-_Defined in [lib/disputes/requests/DisputesGetRequest.ts:12](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/lib/disputes/requests/DisputesGetRequest.ts#L12)_
+_Defined in [src/lib/disputes/requests/DisputesGetRequest.ts:12](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/lib/disputes/requests/DisputesGetRequest.ts#L12)_
 
 **Parameters:**
 
@@ -44,11 +48,11 @@ _Defined in [lib/disputes/requests/DisputesGetRequest.ts:12](https://github.com/
 
 ### body
 
-• **body**: _any_
+• **body**: _B_
 
 _Inherited from [Request](_lib_request_.request.md).[body](_lib_request_.request.md#body)_
 
-_Defined in [lib/Request.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/lib/Request.ts#L10)_
+_Defined in [src/lib/Request.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/lib/Request.ts#L10)_
 
 ---
 
@@ -58,7 +62,7 @@ _Defined in [lib/Request.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/56
 
 _Inherited from [Request](_lib_request_.request.md).[headers](_lib_request_.request.md#headers)_
 
-_Defined in [lib/Request.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/lib/Request.ts#L11)_
+_Defined in [src/lib/Request.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/lib/Request.ts#L11)_
 
 ---
 
@@ -68,7 +72,7 @@ _Defined in [lib/Request.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/56
 
 _Inherited from [Request](_lib_request_.request.md).[path](_lib_request_.request.md#path)_
 
-_Defined in [lib/Request.ts:8](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/lib/Request.ts#L8)_
+_Defined in [src/lib/Request.ts:8](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/lib/Request.ts#L8)_
 
 ---
 
@@ -78,4 +82,4 @@ _Defined in [lib/Request.ts:8](https://github.com/ELEVATORmedia/paymigo/blob/567
 
 _Inherited from [Request](_lib_request_.request.md).[verb](_lib_request_.request.md#verb)_
 
-_Defined in [lib/Request.ts:9](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/lib/Request.ts#L9)_
+_Defined in [src/lib/Request.ts:9](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/lib/Request.ts#L9)_

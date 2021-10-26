@@ -6,6 +6,7 @@
 
 ### Interfaces
 
+-   [CreateOrderInput](../interfaces/_types_orders_.createorderinput.md)
 -   [Name](../interfaces/_types_orders_.name.md)
 -   [Order](../interfaces/_types_orders_.order.md)
 -   [Payer](../interfaces/_types_orders_.payer.md)

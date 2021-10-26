@@ -36,7 +36,7 @@
 
 _Overrides [ResourceClient](_lib_resourceclient_.resourceclient.md).[constructor](_lib_resourceclient_.resourceclient.md#constructor)_
 
-_Defined in [lib/payments.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/lib/payments.ts#L10)_
+_Defined in [src/lib/payments.ts:12](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/lib/payments.ts#L12)_
 
 **Parameters:**
 
@@ -54,7 +54,7 @@ _Defined in [lib/payments.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/5
 
 _Inherited from [ResourceClient](_lib_resourceclient_.resourceclient.md).[\_client](_lib_resourceclient_.resourceclient.md#protected-_client)_
 
-_Defined in [lib/ResourceClient.ts:2](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/lib/ResourceClient.ts#L2)_
+_Defined in [src/lib/ResourceClient.ts:2](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/lib/ResourceClient.ts#L2)_
 
 ## Methods
 
@@ -62,7 +62,7 @@ _Defined in [lib/ResourceClient.ts:2](https://github.com/ELEVATORmedia/paymigo/b
 
 ▸ **captureAuthorization**(`authorizationId`: string, `amount?`: [Amount](../interfaces/_types_common_.amount.md)): _Promise‹[AuthorizationCaptureResponse](../interfaces/_types_payments_.authorizationcaptureresponse.md)›_
 
-_Defined in [lib/payments.ts:19](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/lib/payments.ts#L19)_
+_Defined in [src/lib/payments.ts:29](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/lib/payments.ts#L29)_
 
 **Parameters:**
 
@@ -79,7 +79,7 @@ _Defined in [lib/payments.ts:19](https://github.com/ELEVATORmedia/paymigo/blob/5
 
 ▸ **getAuthorization**(`authorizationId`: string): _Promise‹[Authorization](../interfaces/_types_payments_.authorization.md)›_
 
-_Defined in [lib/payments.ts:15](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/lib/payments.ts#L15)_
+_Defined in [src/lib/payments.ts:17](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/lib/payments.ts#L17)_
 
 **Parameters:**
 
@@ -95,7 +95,7 @@ _Defined in [lib/payments.ts:15](https://github.com/ELEVATORmedia/paymigo/blob/5
 
 ▸ **getCapture**(`captureId`: string): _Promise‹[Capture](../interfaces/_types_payments_.capture.md)›_
 
-_Defined in [lib/payments.ts:38](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/lib/payments.ts#L38)_
+_Defined in [src/lib/payments.ts:79](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/lib/payments.ts#L79)_
 
 **Parameters:**
 
@@ -111,7 +111,7 @@ _Defined in [lib/payments.ts:38](https://github.com/ELEVATORmedia/paymigo/blob/5
 
 ▸ **getRefund**(`refundId`: string): _Promise‹[Refund](../interfaces/_types_payments_.refund.md)›_
 
-_Defined in [lib/payments.ts:46](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/lib/payments.ts#L46)_
+_Defined in [src/lib/payments.ts:106](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/lib/payments.ts#L106)_
 
 **Parameters:**
 
@@ -125,9 +125,9 @@ _Defined in [lib/payments.ts:46](https://github.com/ELEVATORmedia/paymigo/blob/5
 
 ### reauthorizeAuthorization
 
-▸ **reauthorizeAuthorization**(`authorizationId`: string, `amount?`: [Amount](../interfaces/_types_common_.amount.md)): _Promise‹[Authorization](../interfaces/_types_payments_.authorization.md)›_
+▸ **reauthorizeAuthorization**(`authorizationId`: string, `amount?`: [Amount](../interfaces/_types_common_.amount.md)): _Promise‹boolean›_
 
-_Defined in [lib/payments.ts:26](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/lib/payments.ts#L26)_
+_Defined in [src/lib/payments.ts:49](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/lib/payments.ts#L49)_
 
 **Parameters:**
 
@@ -136,21 +136,22 @@ _Defined in [lib/payments.ts:26](https://github.com/ELEVATORmedia/paymigo/blob/5
 | `authorizationId` | string                                           |
 | `amount?`         | [Amount](../interfaces/_types_common_.amount.md) |
 
-**Returns:** _Promise‹[Authorization](../interfaces/_types_payments_.authorization.md)›_
+**Returns:** _Promise‹boolean›_
 
 ---
 
 ### refund
 
-▸ **refund**(`captureId`: string): _Promise‹[Refund](../interfaces/_types_payments_.refund.md)›_
+▸ **refund**(`captureId`: string, `data?`: [RefundCapturedPaymentBody](../interfaces/_types_payments_.refundcapturedpaymentbody.md)): _Promise‹[Refund](../interfaces/_types_payments_.refund.md)›_
 
-_Defined in [lib/payments.ts:42](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/lib/payments.ts#L42)_
+_Defined in [src/lib/payments.ts:91](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/lib/payments.ts#L91)_
 
 **Parameters:**
 
-| Name        | Type   |
-| ----------- | ------ |
-| `captureId` | string |
+| Name        | Type                                                                                     |
+| ----------- | ---------------------------------------------------------------------------------------- |
+| `captureId` | string                                                                                   |
+| `data?`     | [RefundCapturedPaymentBody](../interfaces/_types_payments_.refundcapturedpaymentbody.md) |
 
 **Returns:** _Promise‹[Refund](../interfaces/_types_payments_.refund.md)›_
 
@@ -158,9 +159,9 @@ _Defined in [lib/payments.ts:42](https://github.com/ELEVATORmedia/paymigo/blob/5
 
 ### voidAuthorization
 
-▸ **voidAuthorization**(`authorizationId`: string): _Promise‹void›_
+▸ **voidAuthorization**(`authorizationId`: string): _Promise‹boolean›_
 
-_Defined in [lib/payments.ts:33](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/lib/payments.ts#L33)_
+_Defined in [src/lib/payments.ts:67](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/lib/payments.ts#L67)_
 
 **Parameters:**
 
@@ -168,4 +169,4 @@ _Defined in [lib/payments.ts:33](https://github.com/ELEVATORmedia/paymigo/blob/5
 | ----------------- | ------ |
 | `authorizationId` | string |
 
-**Returns:** _Promise‹void›_
+**Returns:** _Promise‹boolean›_

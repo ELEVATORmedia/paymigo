@@ -13,6 +13,7 @@
 -   [NetAmount](../interfaces/_types_payments_.netamount.md)
 -   [PaypalFeeInReceivableCurrency](../interfaces/_types_payments_.paypalfeeinreceivablecurrency.md)
 -   [Refund](../interfaces/_types_payments_.refund.md)
+-   [RefundCapturedPaymentBody](../interfaces/_types_payments_.refundcapturedpaymentbody.md)
 -   [SellerPayableBreakdown](../interfaces/_types_payments_.sellerpayablebreakdown.md)
 -   [SellerProtection](../interfaces/_types_payments_.sellerprotection.md)
 -   [SellerReceivableBreakdown](../interfaces/_types_payments_.sellerreceivablebreakdown.md)
@@ -28,4 +29,4 @@
 
 Ƭ **AuthorizationStatus**: _"CREATED" | "CAPTURED" | "DENIED" | "EXPIRED" | "PARTIALLY_CAPTURED" | "PARTIALLY_CREATED" | "VOIDED" | "PENDING"_
 
-_Defined in [types/payments.ts:22](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/types/payments.ts#L22)_
+_Defined in [src/types/payments.ts:22](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/types/payments.ts#L22)_

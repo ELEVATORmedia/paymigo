@@ -16,6 +16,7 @@
 -   ["lib/disputes/requests/DisputeGetRequest"](modules/_lib_disputes_requests_disputegetrequest_.md)
 -   ["lib/disputes/requests/DisputesGetRequest"](modules/_lib_disputes_requests_disputesgetrequest_.md)
 -   ["lib/disputes/requests/index"](modules/_lib_disputes_requests_index_.md)
+-   ["lib/errors/HttpStatusError"](modules/_lib_errors_httpstatuserror_.md)
 -   ["lib/orders"](modules/_lib_orders_.md)
 -   ["lib/payments"](modules/_lib_payments_.md)
 -   ["lib/reporting"](modules/_lib_reporting_.md)

@@ -14,6 +14,7 @@
 -   [Capture](_index_.md#capture)
 -   [ClientMode](_index_.md#clientmode)
 -   [ClientOptions](_index_.md#clientoptions)
+-   [CreateOrderInput](_index_.md#createorderinput)
 -   [Dispute](_index_.md#dispute)
 -   [DisputeOutcome](_index_.md#disputeoutcome)
 -   [DisputeOutcomeCode](_index_.md#disputeoutcomecode)
@@ -37,6 +38,7 @@
 -   [PaypalFeeInReceivableCurrency](_index_.md#paypalfeeinreceivablecurrency)
 -   [PurchaseUnit](_index_.md#purchaseunit)
 -   [Refund](_index_.md#refund)
+-   [RefundCapturedPaymentBody](_index_.md#refundcapturedpaymentbody)
 -   [RequestOptions](_index_.md#requestoptions)
 -   [Seller](_index_.md#seller)
 -   [SellerPayableBreakdown](_index_.md#sellerpayablebreakdown)
@@ -93,6 +95,12 @@
 ### ClientOptions
 
 • **ClientOptions**:
+
+---
+
+### CreateOrderInput
+
+• **CreateOrderInput**:
 
 ---
 
@@ -231,6 +239,12 @@
 ### Refund
 
 • **Refund**:
+
+---
+
+### RefundCapturedPaymentBody
+
+• **RefundCapturedPaymentBody**:
 
 ---
 

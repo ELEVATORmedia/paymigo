@@ -18,7 +18,7 @@
 
 • **testClient**: _[PaymigoClient](../classes/_client_.paymigoclient.md)‹›_ = new PaymigoClient(options)
 
-Defined in **tests**/index.ts:9
+Defined in src/**tests**/index.ts:9
 
 ## Object literals
 
@@ -26,22 +26,22 @@ Defined in **tests**/index.ts:9
 
 ### ▪ **options**: _object_
 
-Defined in **tests**/index.ts:3
+Defined in src/**tests**/index.ts:3
 
 ### clientId
 
 • **clientId**: _string_ = "CLIENT_ID"
 
-Defined in **tests**/index.ts:5
+Defined in src/**tests**/index.ts:5
 
 ### mode
 
 • **mode**: _"sandbox"_ = "sandbox"
 
-Defined in **tests**/index.ts:4
+Defined in src/**tests**/index.ts:4
 
 ### secretKey
 
 • **secretKey**: _string_ = "SECRET_KEY"
 
-Defined in **tests**/index.ts:6
+Defined in src/**tests**/index.ts:6

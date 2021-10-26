@@ -20,9 +20,11 @@
 
 ### Methods
 
+-   [authorize](_lib_orders_.ordersclient.md#authorize)
 -   [capture](_lib_orders_.ordersclient.md#capture)
 -   [create](_lib_orders_.ordersclient.md#create)
 -   [getById](_lib_orders_.ordersclient.md#getbyid)
+-   [update](_lib_orders_.ordersclient.md#update)
 -   [verifyOrderAmount](_lib_orders_.ordersclient.md#verifyorderamount)
 
 ## Constructors
@@ -33,7 +35,7 @@
 
 _Overrides [ResourceClient](_lib_resourceclient_.resourceclient.md).[constructor](_lib_resourceclient_.resourceclient.md#constructor)_
 
-_Defined in [lib/orders.ts:5](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/lib/orders.ts#L5)_
+_Defined in [src/lib/orders.ts:6](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/lib/orders.ts#L6)_
 
 **Parameters:**
 
@@ -51,15 +53,31 @@ _Defined in [lib/orders.ts:5](https://github.com/ELEVATORmedia/paymigo/blob/5677
 
 _Inherited from [ResourceClient](_lib_resourceclient_.resourceclient.md).[\_client](_lib_resourceclient_.resourceclient.md#protected-_client)_
 
-_Defined in [lib/ResourceClient.ts:2](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/lib/ResourceClient.ts#L2)_
+_Defined in [src/lib/ResourceClient.ts:2](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/lib/ResourceClient.ts#L2)_
 
 ## Methods
+
+### authorize
+
+▸ **authorize**(`orderId`: string): _Promise‹object›_
+
+_Defined in [src/lib/orders.ts:25](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/lib/orders.ts#L25)_
+
+**Parameters:**
+
+| Name      | Type   |
+| --------- | ------ |
+| `orderId` | string |
+
+**Returns:** _Promise‹object›_
+
+---
 
 ### capture
 
 ▸ **capture**(`orderId`: string): _Promise‹any›_
 
-_Defined in [lib/orders.ts:24](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/lib/orders.ts#L24)_
+_Defined in [src/lib/orders.ts:40](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/lib/orders.ts#L40)_
 
 uses a unique order ID to capture an authorized order payment
 
@@ -77,15 +95,15 @@ order payment capture result
 
 ### create
 
-▸ **create**(`input`: any): _Promise‹[Order](../interfaces/_types_orders_.order.md)›_
+▸ **create**(`input`: [CreateOrderInput](../interfaces/_types_orders_.createorderinput.md)): _Promise‹[Order](../interfaces/_types_orders_.order.md)›_
 
-_Defined in [lib/orders.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/lib/orders.ts#L11)_
+_Defined in [src/lib/orders.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/lib/orders.ts#L11)_
 
 **Parameters:**
 
-| Name    | Type |
-| ------- | ---- |
-| `input` | any  |
+| Name    | Type                                                                 |
+| ------- | -------------------------------------------------------------------- |
+| `input` | [CreateOrderInput](../interfaces/_types_orders_.createorderinput.md) |
 
 **Returns:** _Promise‹[Order](../interfaces/_types_orders_.order.md)›_
 
@@ -95,7 +113,7 @@ _Defined in [lib/orders.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/567
 
 ▸ **getById**(`orderId`: string): _Promise‹[Order](../interfaces/_types_orders_.order.md)›_
 
-_Defined in [lib/orders.ts:57](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/lib/orders.ts#L57)_
+_Defined in [src/lib/orders.ts:76](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/lib/orders.ts#L76)_
 
 Retrieve order instance by its ID
 
@@ -111,11 +129,27 @@ order instance
 
 ---
 
+### update
+
+▸ **update**(`orderId`: string): _Promise‹void›_
+
+_Defined in [src/lib/orders.ts:19](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/lib/orders.ts#L19)_
+
+**Parameters:**
+
+| Name      | Type   |
+| --------- | ------ |
+| `orderId` | string |
+
+**Returns:** _Promise‹void›_
+
+---
+
 ### verifyOrderAmount
 
 ▸ **verifyOrderAmount**(`orderId`: string, `expectedAmount`: [Amount](../interfaces/_types_common_.amount.md)): _Promise‹boolean›_
 
-_Defined in [lib/orders.ts:38](https://github.com/ELEVATORmedia/paymigo/blob/56771c5/src/lib/orders.ts#L38)_
+_Defined in [src/lib/orders.ts:57](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/lib/orders.ts#L57)_
 
 Retrieve dispute order by its ID to view order details to validate status and amount charged
 
