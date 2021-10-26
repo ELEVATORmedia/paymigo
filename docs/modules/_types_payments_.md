@@ -29,4 +29,4 @@
 
 Ƭ **AuthorizationStatus**: _"CREATED" | "CAPTURED" | "DENIED" | "EXPIRED" | "PARTIALLY_CAPTURED" | "PARTIALLY_CREATED" | "VOIDED" | "PENDING"_
 
-_Defined in [src/types/payments.ts:22](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/types/payments.ts#L22)_
+_Defined in [src/types/payments.ts:22](https://github.com/ELEVATORmedia/paymigo/blob/0815c8d/src/types/payments.ts#L22)_

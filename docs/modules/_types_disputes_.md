@@ -31,7 +31,7 @@
 
 Ƭ **DisputeOutcomeCode**: _"RESOLVED_BUYER_FAVOUR" | "RESOLVED_SELLER_FAVOUR" | "RESOLVED_WITH_PAYOUT" | "CANCELED_BY_BUYER" | "ACCEPTED" | "DENIED" | "NONE"_
 
-_Defined in [src/types/disputes.ts:84](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/types/disputes.ts#L84)_
+_Defined in [src/types/disputes.ts:84](https://github.com/ELEVATORmedia/paymigo/blob/0815c8d/src/types/disputes.ts#L84)_
 
 ---
 
@@ -39,7 +39,7 @@ _Defined in [src/types/disputes.ts:84](https://github.com/ELEVATORmedia/paymigo/
 
 Ƭ **DisputeOutcomeResponse**: _object_
 
-_Defined in [src/types/disputes.ts:78](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/types/disputes.ts#L78)_
+_Defined in [src/types/disputes.ts:78](https://github.com/ELEVATORmedia/paymigo/blob/0815c8d/src/types/disputes.ts#L78)_
 
 #### Type declaration:
 
@@ -55,7 +55,7 @@ _Defined in [src/types/disputes.ts:78](https://github.com/ELEVATORmedia/paymigo/
 
 Ƭ **DisputeState**: _"RESOLVED"_
 
-_Defined in [src/types/disputes.ts:76](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/types/disputes.ts#L76)_
+_Defined in [src/types/disputes.ts:76](https://github.com/ELEVATORmedia/paymigo/blob/0815c8d/src/types/disputes.ts#L76)_
 
 ---
 
@@ -63,7 +63,7 @@ _Defined in [src/types/disputes.ts:76](https://github.com/ELEVATORmedia/paymigo/
 
 Ƭ **DisputesListOptions**: _object_
 
-_Defined in [src/types/disputes.ts:93](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/types/disputes.ts#L93)_
+_Defined in [src/types/disputes.ts:93](https://github.com/ELEVATORmedia/paymigo/blob/0815c8d/src/types/disputes.ts#L93)_
 
 #### Type declaration:
 

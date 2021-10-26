@@ -21,7 +21,7 @@
 
 • **content**: _string_
 
-_Defined in [src/types/disputes.ts:65](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/types/disputes.ts#L65)_
+_Defined in [src/types/disputes.ts:65](https://github.com/ELEVATORmedia/paymigo/blob/0815c8d/src/types/disputes.ts#L65)_
 
 ---
 
@@ -29,7 +29,7 @@ _Defined in [src/types/disputes.ts:65](https://github.com/ELEVATORmedia/paymigo/
 
 • **documents**: _Array‹[Document](_types_disputes_.document.md)›_
 
-_Defined in [src/types/disputes.ts:66](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/types/disputes.ts#L66)_
+_Defined in [src/types/disputes.ts:66](https://github.com/ELEVATORmedia/paymigo/blob/0815c8d/src/types/disputes.ts#L66)_
 
 ---
 
@@ -37,7 +37,7 @@ _Defined in [src/types/disputes.ts:66](https://github.com/ELEVATORmedia/paymigo/
 
 • **posted_by**: _string_
 
-_Defined in [src/types/disputes.ts:63](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/types/disputes.ts#L63)_
+_Defined in [src/types/disputes.ts:63](https://github.com/ELEVATORmedia/paymigo/blob/0815c8d/src/types/disputes.ts#L63)_
 
 ---
 
@@ -45,4 +45,4 @@ _Defined in [src/types/disputes.ts:63](https://github.com/ELEVATORmedia/paymigo/
 
 • **time_posted**: _Date_
 
-_Defined in [src/types/disputes.ts:64](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/types/disputes.ts#L64)_
+_Defined in [src/types/disputes.ts:64](https://github.com/ELEVATORmedia/paymigo/blob/0815c8d/src/types/disputes.ts#L64)_

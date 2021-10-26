@@ -9,6 +9,8 @@
 -   [CreateOrderInput](_lib_orders_.md#createorderinput)
 -   [Name](_lib_orders_.md#name)
 -   [Order](_lib_orders_.md#order)
+-   [PatchOperation](_lib_orders_.md#patchoperation)
+-   [PatchOrderInput](_lib_orders_.md#patchorderinput)
 -   [Payer](_lib_orders_.md#payer)
 -   [PurchaseUnit](_lib_orders_.md#purchaseunit)
 
@@ -33,6 +35,18 @@
 ### Order
 
 • **Order**:
+
+---
+
+### PatchOperation
+
+• **PatchOperation**:
+
+---
+
+### PatchOrderInput
+
+• **PatchOrderInput**:
 
 ---
 

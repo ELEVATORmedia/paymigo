@@ -19,7 +19,7 @@
 
 • **amount**: _[Amount](_types_common_.amount.md)_
 
-_Defined in [src/types/orders.ts:35](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/types/orders.ts#L35)_
+_Defined in [src/types/orders.ts:42](https://github.com/ELEVATORmedia/paymigo/blob/0815c8d/src/types/orders.ts#L42)_
 
 ---
 
@@ -27,4 +27,4 @@ _Defined in [src/types/orders.ts:35](https://github.com/ELEVATORmedia/paymigo/bl
 
 • **reference_id**: _string_
 
-_Defined in [src/types/orders.ts:34](https://github.com/ELEVATORmedia/paymigo/blob/02f279b/src/types/orders.ts#L34)_
+_Defined in [src/types/orders.ts:41](https://github.com/ELEVATORmedia/paymigo/blob/0815c8d/src/types/orders.ts#L41)_

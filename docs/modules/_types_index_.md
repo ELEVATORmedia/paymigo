@@ -33,6 +33,8 @@
 -   [NetAmount](_types_index_.md#netamount)
 -   [Offer](_types_index_.md#offer)
 -   [Order](_types_index_.md#order)
+-   [PatchOperation](_types_index_.md#patchoperation)
+-   [PatchOrderInput](_types_index_.md#patchorderinput)
 -   [Payer](_types_index_.md#payer)
 -   [PayflowCredentials](_types_index_.md#payflowcredentials)
 -   [PaypalFeeInReceivableCurrency](_types_index_.md#paypalfeeinreceivablecurrency)
@@ -209,6 +211,18 @@
 ### Order
 
 • **Order**:
+
+---
+
+### PatchOperation
+
+• **PatchOperation**:
+
+---
+
+### PatchOrderInput
+
+• **PatchOrderInput**:
 
 ---
 
