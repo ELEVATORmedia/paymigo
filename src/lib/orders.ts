@@ -1,5 +1,6 @@
 import paypal from '@paypal/checkout-server-sdk';
-import { Amount, Order } from '../types';
+import { Amount, Order, CreateOrderInput } from '../types';
+import HttpStatusError from './errors/HttpStatusError';
 import ResourceClient from './ResourceClient';
 
 export class OrdersClient extends ResourceClient {
@@ -7,12 +8,27 @@ export class OrdersClient extends ResourceClient {
         super(client);
     }
 
-    // TODO input types
-    public async create(input: any) {
+    public async create(input: CreateOrderInput) {
         const request = new paypal.orders.OrdersCreateRequest();
         request.requestBody(input);
 
         const response = await this._client.execute<Order>(request);
+        return response.result;
+    }
+
+    public async update(orderId: string) {
+        const request = new paypal.orders.OrdersPatchRequest(orderId);
+
+        const response = await this._client.execute<{}>(request);
+    }
+
+    public async authorize(orderId: string) {
+        const request = new paypal.orders.OrdersAuthorizeRequest(orderId);
+        const response = await this._client.execute<{}>(request);
+
+        if (response.statusCode !== 201)
+            throw new HttpStatusError(response.statusCode, 201);
+
         return response.result;
     }
 
@@ -26,6 +42,9 @@ export class OrdersClient extends ResourceClient {
         request.requestBody({});
 
         const response = await this._client.execute(request);
+
+        if (response.statusCode !== 201)
+            throw new HttpStatusError(response.statusCode, 201);
         return response.result;
     }
 

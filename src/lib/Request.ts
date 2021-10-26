@@ -4,10 +4,10 @@ const defaultHeaders = {
     'Content-Type': 'application/json',
 };
 
-export default class Request {
+export default class Request<B = any> {
     public path: string;
     public verb: string;
-    public body: any;
+    public body: B;
     public headers: any;
 
     constructor({ path, verb = 'GET', body = null, headers = {} }: RequestOptions) {
