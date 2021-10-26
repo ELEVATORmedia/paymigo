@@ -1,5 +1,5 @@
 import paypal from '@paypal/checkout-server-sdk';
-import { Amount, Order, CreateOrderInput } from '../types';
+import { Amount, Order, CreateOrderInput, PatchOrderInput } from '../types';
 import HttpStatusError from './errors/HttpStatusError';
 import ResourceClient from './ResourceClient';
 
@@ -13,21 +13,37 @@ export class OrdersClient extends ResourceClient {
         request.requestBody(input);
 
         const response = await this._client.execute<Order>(request);
+
+        const expectedStatus = 201;
+
+        if (response.statusCode !== expectedStatus)
+            throw new HttpStatusError(response.statusCode, expectedStatus);
+
         return response.result;
     }
 
-    public async update(orderId: string) {
+    public async update(orderId: string, updates: PatchOrderInput) {
         const request = new paypal.orders.OrdersPatchRequest(orderId);
+        request.requestBody(updates);
 
         const response = await this._client.execute<{}>(request);
+
+        const expectedStatus = 204;
+
+        if (response.statusCode !== expectedStatus)
+            throw new HttpStatusError(response.statusCode, expectedStatus);
+
+        return response.result;
     }
 
     public async authorize(orderId: string) {
         const request = new paypal.orders.OrdersAuthorizeRequest(orderId);
         const response = await this._client.execute<{}>(request);
 
-        if (response.statusCode !== 201)
-            throw new HttpStatusError(response.statusCode, 201);
+        const expectedStatus = 201;
+
+        if (response.statusCode !== expectedStatus)
+            throw new HttpStatusError(response.statusCode, expectedStatus);
 
         return response.result;
     }
@@ -45,6 +61,7 @@ export class OrdersClient extends ResourceClient {
 
         if (response.statusCode !== 201)
             throw new HttpStatusError(response.statusCode, 201);
+
         return response.result;
     }
 

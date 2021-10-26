@@ -15,6 +15,13 @@ export interface CreateOrderInput
     application_context: any;
 }
 
+export interface PatchOrderInput {
+    op: PatchOperation;
+    path?: string;
+    value?: number | string | boolean | null | any[] | object;
+    from?: string;
+}
+
 export interface Payer {
     name: Name;
     email_address: string;
@@ -34,5 +41,7 @@ export interface PurchaseUnit {
     reference_id: string;
     amount: Amount;
 }
+
+export type PatchOperation = 'add' | 'remove' | 'replace' | 'move' | 'copy' | 'test';
 
 // generated using: https://app.quicktype.io/
