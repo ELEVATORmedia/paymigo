@@ -19,7 +19,7 @@
 
 • **amount_refunded**: _[Amount](_types_common_.amount.md)_
 
-_Defined in [src/types/disputes.ts:26](https://github.com/ELEVATORmedia/paymigo/blob/0815c8d/src/types/disputes.ts#L26)_
+_Defined in [src/types/disputes.ts:26](https://github.com/ELEVATORmedia/paymigo/blob/ae92c39/src/types/disputes.ts#L26)_
 
 ---
 
@@ -27,4 +27,4 @@ _Defined in [src/types/disputes.ts:26](https://github.com/ELEVATORmedia/paymigo/
 
 • **outcome_code**: _[DisputeOutcomeCode](../modules/_types_disputes_.md#disputeoutcomecode)_
 
-_Defined in [src/types/disputes.ts:25](https://github.com/ELEVATORmedia/paymigo/blob/0815c8d/src/types/disputes.ts#L25)_
+_Defined in [src/types/disputes.ts:25](https://github.com/ELEVATORmedia/paymigo/blob/ae92c39/src/types/disputes.ts#L25)_

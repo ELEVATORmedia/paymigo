@@ -21,7 +21,7 @@
 
 • **from**? : _string_
 
-_Defined in [src/types/orders.ts:22](https://github.com/ELEVATORmedia/paymigo/blob/0815c8d/src/types/orders.ts#L22)_
+_Defined in [src/types/orders.ts:22](https://github.com/ELEVATORmedia/paymigo/blob/ae92c39/src/types/orders.ts#L22)_
 
 ---
 
@@ -29,7 +29,7 @@ _Defined in [src/types/orders.ts:22](https://github.com/ELEVATORmedia/paymigo/bl
 
 • **op**: _[PatchOperation](../modules/_types_orders_.md#patchoperation)_
 
-_Defined in [src/types/orders.ts:19](https://github.com/ELEVATORmedia/paymigo/blob/0815c8d/src/types/orders.ts#L19)_
+_Defined in [src/types/orders.ts:19](https://github.com/ELEVATORmedia/paymigo/blob/ae92c39/src/types/orders.ts#L19)_
 
 ---
 
@@ -37,7 +37,7 @@ _Defined in [src/types/orders.ts:19](https://github.com/ELEVATORmedia/paymigo/bl
 
 • **path**? : _string_
 
-_Defined in [src/types/orders.ts:20](https://github.com/ELEVATORmedia/paymigo/blob/0815c8d/src/types/orders.ts#L20)_
+_Defined in [src/types/orders.ts:20](https://github.com/ELEVATORmedia/paymigo/blob/ae92c39/src/types/orders.ts#L20)_
 
 ---
 
@@ -45,4 +45,4 @@ _Defined in [src/types/orders.ts:20](https://github.com/ELEVATORmedia/paymigo/bl
 
 • **value**? : _number | string | boolean | null | any[] | object_
 
-_Defined in [src/types/orders.ts:21](https://github.com/ELEVATORmedia/paymigo/blob/0815c8d/src/types/orders.ts#L21)_
+_Defined in [src/types/orders.ts:21](https://github.com/ELEVATORmedia/paymigo/blob/ae92c39/src/types/orders.ts#L21)_

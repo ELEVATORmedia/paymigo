@@ -28,7 +28,7 @@
 
 \+ **new ResourceClient**(`client`: PayPalHttpClient): _[ResourceClient](_lib_resourceclient_.resourceclient.md)_
 
-_Defined in [src/lib/ResourceClient.ts:2](https://github.com/ELEVATORmedia/paymigo/blob/0815c8d/src/lib/ResourceClient.ts#L2)_
+_Defined in [src/lib/ResourceClient.ts:2](https://github.com/ELEVATORmedia/paymigo/blob/ae92c39/src/lib/ResourceClient.ts#L2)_
 
 **Parameters:**
 
@@ -44,4 +44,4 @@ _Defined in [src/lib/ResourceClient.ts:2](https://github.com/ELEVATORmedia/paymi
 
 • **\_client**: _PayPalHttpClient_
 
-_Defined in [src/lib/ResourceClient.ts:2](https://github.com/ELEVATORmedia/paymigo/blob/0815c8d/src/lib/ResourceClient.ts#L2)_
+_Defined in [src/lib/ResourceClient.ts:2](https://github.com/ELEVATORmedia/paymigo/blob/ae92c39/src/lib/ResourceClient.ts#L2)_
