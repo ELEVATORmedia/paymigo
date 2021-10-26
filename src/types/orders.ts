@@ -10,10 +10,19 @@ export interface Order {
     links: Link[];
 }
 
+export interface CreateOrderInput
+    extends Pick<Order, 'intent' | 'payer' | 'purchase_units'> {
+    application_context: any;
+}
+
 export interface Payer {
     name: Name;
     email_address: string;
     payer_id: string;
+    phone: any;
+    birth_date: string;
+    tax_info: any;
+    address: any;
 }
 
 export interface Name {

@@ -55,6 +55,9 @@ export interface Refund {
     links: Link[];
 }
 
+export interface RefundCapturedPaymentBody
+    extends Partial<Pick<Refund, 'amount' | 'invoice_id' | 'note_to_payer'>> {}
+
 export interface SellerProtection {
     status: string;
     dispute_categories: Array<string>;

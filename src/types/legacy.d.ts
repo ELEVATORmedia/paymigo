@@ -291,6 +291,10 @@ declare namespace paypal {
          * Updates an order. You can update an order with `CREATED` or `APPROVED` status. You cannot update an order with `COMPLETED` status. The following attributes and objects are patchable:<ul><li><code>intent</code>. Supported operation is <code>replace</code>.</li><li><code>purchase_units</code>. Supported operations are <code>add</code> and <code>replace</code>.</li><li><code>purchase_units[].custom_id</code>. Supported operations are <code>add</code> and <code>replace</code> and <code>remove</code>.</li><li><code>purchase_units[].description</code>. Supported operations are <code>add</code> and <code>replace</code> and <code>remove</code>.</li><li><code>purchase_units[].payee.email</code>. Supported operations are <code>add</code> and <code>replace</code>.</li><li><code>purchase_units[].shipping_address</code>. Supported operations are <code>add</code> and <code>replace</code> and <code>remove</code>.</li><li><code>purchase_units[].soft_descriptor</code>. Supported operations are <code>add</code> and <code>replace</code> and <code>remove</code>.</li><li><code>purchase_units[].amount</code>. Supported operation is <code>replace</code>.</li></ul>
          */
         class OrdersPatchRequest {
+            public path: string;
+            public verb: string;
+            public body: any;
+            public headers: any;
             constructor(orderId: string);
             requestBody(patchRequest: any): OrdersPatchRequest;
         }
@@ -299,6 +303,10 @@ declare namespace paypal {
          * Validates a payment method and checks it for contingencies.
          */
         class OrdersValidateRequest {
+            public path: string;
+            public verb: string;
+            public body: any;
+            public headers: any;
             constructor(orderId: string);
             payPalClientMetadataId(payPalClientMetadataId: string): OrdersValidateRequest;
             requestBody(orderActionRequest: any): OrdersValidateRequest;
@@ -310,6 +318,10 @@ declare namespace paypal {
          * Captures an authorized payment, by ID.
          */
         class AuthorizationsCaptureRequest {
+            public path: string;
+            public verb: string;
+            public body: any;
+            public headers: any;
             constructor(authorizationId: string);
             payPalRequestId(payPalRequestId: string): AuthorizationsCaptureRequest;
             prefer(prefer: string): AuthorizationsCaptureRequest;
@@ -320,6 +332,10 @@ declare namespace paypal {
          * Shows details for an authorized payment, by ID.
          */
         class AuthorizationsGetRequest {
+            public path: string;
+            public verb: string;
+            public body: any;
+            public headers: any;
             constructor(authorizationId: string);
         }
 
@@ -327,6 +343,10 @@ declare namespace paypal {
          * Reauthorizes an authorized PayPal account payment, by ID. To ensure that funds are still available, reauthorize an authorized payment after its initial three-day honor period expires.<br/><br/>After the three-day honor period expires, you can reauthorize an authorized payment only once from days four to 29. If 30 days have passed since the date of the authorized payment, you must create an authorized payment instead.<br/><br/>A reauthorized payment itself has a new three-day honor period. You can reauthorize an authorized payment once for up to 115% of the original authorized amount and not to exceed an increase of $75 USD.<br/><br/>Supports the <code>amount</code> request parameter only.
          */
         class AuthorizationsReauthorizeRequest {
+            public path: string;
+            public verb: string;
+            public body: any;
+            public headers: any;
             constructor(authorizationId: string);
             payPalRequestId(payPalRequestId: string): AuthorizationsReauthorizeRequest;
             prefer(prefer: string): AuthorizationsReauthorizeRequest;
@@ -337,6 +357,10 @@ declare namespace paypal {
          * Voids, or cancels, an authorized payment, by ID. You cannot void an authorized payment that has been fully captured.
          */
         class AuthorizationsVoidRequest {
+            public path: string;
+            public verb: string;
+            public body: any;
+            public headers: any;
             constructor(authorizationId: string);
         }
 
@@ -344,6 +368,10 @@ declare namespace paypal {
          * Shows details for a captured payment, by ID.
          */
         class CapturesGetRequest {
+            public path: string;
+            public verb: string;
+            public body: any;
+            public headers: any;
             constructor(captureId: string);
         }
 
