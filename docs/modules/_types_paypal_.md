@@ -15,7 +15,7 @@
 
 Ƭ **HttpMethod**: _"GET" | "POST"_
 
-_Defined in [src/types/paypal.ts:1](https://github.com/ELEVATORmedia/paymigo/blob/ae92c39/src/types/paypal.ts#L1)_
+_Defined in [src/types/paypal.ts:1](https://github.com/ELEVATORmedia/paymigo/blob/60b912d/src/types/paypal.ts#L1)_
 
 ---
 
@@ -23,7 +23,7 @@ _Defined in [src/types/paypal.ts:1](https://github.com/ELEVATORmedia/paymigo/blo
 
 Ƭ **RequestOptions**: _object_
 
-_Defined in [src/types/paypal.ts:3](https://github.com/ELEVATORmedia/paymigo/blob/ae92c39/src/types/paypal.ts#L3)_
+_Defined in [src/types/paypal.ts:3](https://github.com/ELEVATORmedia/paymigo/blob/60b912d/src/types/paypal.ts#L3)_
 
 #### Type declaration:
 

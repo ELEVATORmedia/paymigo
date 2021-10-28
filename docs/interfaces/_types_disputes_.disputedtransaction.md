@@ -23,7 +23,7 @@
 
 • **buyer**: _[Buyer](_types_disputes_.buyer.md)_
 
-_Defined in [src/types/disputes.ts:34](https://github.com/ELEVATORmedia/paymigo/blob/ae92c39/src/types/disputes.ts#L34)_
+_Defined in [src/types/disputes.ts:34](https://github.com/ELEVATORmedia/paymigo/blob/60b912d/src/types/disputes.ts#L34)_
 
 ---
 
@@ -31,7 +31,7 @@ _Defined in [src/types/disputes.ts:34](https://github.com/ELEVATORmedia/paymigo/
 
 • **create_time**: _Date_
 
-_Defined in [src/types/disputes.ts:31](https://github.com/ELEVATORmedia/paymigo/blob/ae92c39/src/types/disputes.ts#L31)_
+_Defined in [src/types/disputes.ts:31](https://github.com/ELEVATORmedia/paymigo/blob/60b912d/src/types/disputes.ts#L31)_
 
 ---
 
@@ -39,7 +39,7 @@ _Defined in [src/types/disputes.ts:31](https://github.com/ELEVATORmedia/paymigo/
 
 • **gross_amount**: _[Amount](_types_common_.amount.md)_
 
-_Defined in [src/types/disputes.ts:33](https://github.com/ELEVATORmedia/paymigo/blob/ae92c39/src/types/disputes.ts#L33)_
+_Defined in [src/types/disputes.ts:33](https://github.com/ELEVATORmedia/paymigo/blob/60b912d/src/types/disputes.ts#L33)_
 
 ---
 
@@ -47,7 +47,7 @@ _Defined in [src/types/disputes.ts:33](https://github.com/ELEVATORmedia/paymigo/
 
 • **seller**: _[Seller](_types_disputes_.seller.md)_
 
-_Defined in [src/types/disputes.ts:35](https://github.com/ELEVATORmedia/paymigo/blob/ae92c39/src/types/disputes.ts#L35)_
+_Defined in [src/types/disputes.ts:35](https://github.com/ELEVATORmedia/paymigo/blob/60b912d/src/types/disputes.ts#L35)_
 
 ---
 
@@ -55,7 +55,7 @@ _Defined in [src/types/disputes.ts:35](https://github.com/ELEVATORmedia/paymigo/
 
 • **seller_transaction_id**: _string_
 
-_Defined in [src/types/disputes.ts:30](https://github.com/ELEVATORmedia/paymigo/blob/ae92c39/src/types/disputes.ts#L30)_
+_Defined in [src/types/disputes.ts:30](https://github.com/ELEVATORmedia/paymigo/blob/60b912d/src/types/disputes.ts#L30)_
 
 ---
 
@@ -63,4 +63,4 @@ _Defined in [src/types/disputes.ts:30](https://github.com/ELEVATORmedia/paymigo/
 
 • **transaction_status**: _string_
 
-_Defined in [src/types/disputes.ts:32](https://github.com/ELEVATORmedia/paymigo/blob/ae92c39/src/types/disputes.ts#L32)_
+_Defined in [src/types/disputes.ts:32](https://github.com/ELEVATORmedia/paymigo/blob/60b912d/src/types/disputes.ts#L32)_

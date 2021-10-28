@@ -22,7 +22,7 @@
 
 _Overrides [ReportingRequest](_types_reporting_.reporting.reportingrequest.md).[reportingEngineRequest](_types_reporting_.reporting.reportingrequest.md#reportingenginerequest)_
 
-_Defined in [src/types/reporting.ts:42](https://github.com/ELEVATORmedia/paymigo/blob/ae92c39/src/types/reporting.ts#L42)_
+_Defined in [src/types/reporting.ts:42](https://github.com/ELEVATORmedia/paymigo/blob/60b912d/src/types/reporting.ts#L42)_
 
 #### Type declaration:
 

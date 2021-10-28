@@ -19,7 +19,7 @@
 
 • **dispute_categories**: _Array‹string›_
 
-_Defined in [src/types/payments.ts:63](https://github.com/ELEVATORmedia/paymigo/blob/ae92c39/src/types/payments.ts#L63)_
+_Defined in [src/types/payments.ts:63](https://github.com/ELEVATORmedia/paymigo/blob/60b912d/src/types/payments.ts#L63)_
 
 ---
 
@@ -27,4 +27,4 @@ _Defined in [src/types/payments.ts:63](https://github.com/ELEVATORmedia/paymigo/
 
 • **status**: _string_
 
-_Defined in [src/types/payments.ts:62](https://github.com/ELEVATORmedia/paymigo/blob/ae92c39/src/types/payments.ts#L62)_
+_Defined in [src/types/payments.ts:62](https://github.com/ELEVATORmedia/paymigo/blob/60b912d/src/types/payments.ts#L62)_
