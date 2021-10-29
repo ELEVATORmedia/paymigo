@@ -12,6 +12,8 @@
 
     ↳ [DisputesClient](_lib_disputes_disputesclient_.disputesclient.md)
 
+    ↳ [DisputesClient](_lib_reporting_reportingclient_.disputesclient.md)
+
 ## Index
 
 ### Constructors
@@ -28,7 +30,7 @@
 
 \+ **new ResourceClient**(`client`: PayPalHttpClient): _[ResourceClient](_lib_resourceclient_.resourceclient.md)_
 
-_Defined in [src/lib/ResourceClient.ts:2](https://github.com/ELEVATORmedia/paymigo/blob/60b912d/src/lib/ResourceClient.ts#L2)_
+_Defined in [src/lib/ResourceClient.ts:2](https://github.com/ELEVATORmedia/paymigo/blob/846a5f9/src/lib/ResourceClient.ts#L2)_
 
 **Parameters:**
 
@@ -44,4 +46,4 @@ _Defined in [src/lib/ResourceClient.ts:2](https://github.com/ELEVATORmedia/paymi
 
 • **\_client**: _PayPalHttpClient_
 
-_Defined in [src/lib/ResourceClient.ts:2](https://github.com/ELEVATORmedia/paymigo/blob/60b912d/src/lib/ResourceClient.ts#L2)_
+_Defined in [src/lib/ResourceClient.ts:2](https://github.com/ELEVATORmedia/paymigo/blob/846a5f9/src/lib/ResourceClient.ts#L2)_

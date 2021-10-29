@@ -24,7 +24,7 @@
 
 • **address**: _any_
 
-_Defined in [src/types/orders.ts:32](https://github.com/ELEVATORmedia/paymigo/blob/60b912d/src/types/orders.ts#L32)_
+_Defined in [src/types/orders.ts:32](https://github.com/ELEVATORmedia/paymigo/blob/846a5f9/src/types/orders.ts#L32)_
 
 ---
 
@@ -32,7 +32,7 @@ _Defined in [src/types/orders.ts:32](https://github.com/ELEVATORmedia/paymigo/bl
 
 • **birth_date**: _string_
 
-_Defined in [src/types/orders.ts:30](https://github.com/ELEVATORmedia/paymigo/blob/60b912d/src/types/orders.ts#L30)_
+_Defined in [src/types/orders.ts:30](https://github.com/ELEVATORmedia/paymigo/blob/846a5f9/src/types/orders.ts#L30)_
 
 ---
 
@@ -40,7 +40,7 @@ _Defined in [src/types/orders.ts:30](https://github.com/ELEVATORmedia/paymigo/bl
 
 • **email_address**: _string_
 
-_Defined in [src/types/orders.ts:27](https://github.com/ELEVATORmedia/paymigo/blob/60b912d/src/types/orders.ts#L27)_
+_Defined in [src/types/orders.ts:27](https://github.com/ELEVATORmedia/paymigo/blob/846a5f9/src/types/orders.ts#L27)_
 
 ---
 
@@ -48,7 +48,7 @@ _Defined in [src/types/orders.ts:27](https://github.com/ELEVATORmedia/paymigo/bl
 
 • **name**: _[Name](_types_orders_.name.md)_
 
-_Defined in [src/types/orders.ts:26](https://github.com/ELEVATORmedia/paymigo/blob/60b912d/src/types/orders.ts#L26)_
+_Defined in [src/types/orders.ts:26](https://github.com/ELEVATORmedia/paymigo/blob/846a5f9/src/types/orders.ts#L26)_
 
 ---
 
@@ -56,7 +56,7 @@ _Defined in [src/types/orders.ts:26](https://github.com/ELEVATORmedia/paymigo/bl
 
 • **payer_id**: _string_
 
-_Defined in [src/types/orders.ts:28](https://github.com/ELEVATORmedia/paymigo/blob/60b912d/src/types/orders.ts#L28)_
+_Defined in [src/types/orders.ts:28](https://github.com/ELEVATORmedia/paymigo/blob/846a5f9/src/types/orders.ts#L28)_
 
 ---
 
@@ -64,7 +64,7 @@ _Defined in [src/types/orders.ts:28](https://github.com/ELEVATORmedia/paymigo/bl
 
 • **phone**: _any_
 
-_Defined in [src/types/orders.ts:29](https://github.com/ELEVATORmedia/paymigo/blob/60b912d/src/types/orders.ts#L29)_
+_Defined in [src/types/orders.ts:29](https://github.com/ELEVATORmedia/paymigo/blob/846a5f9/src/types/orders.ts#L29)_
 
 ---
 
@@ -72,4 +72,4 @@ _Defined in [src/types/orders.ts:29](https://github.com/ELEVATORmedia/paymigo/bl
 
 • **tax_info**: _any_
 
-_Defined in [src/types/orders.ts:31](https://github.com/ELEVATORmedia/paymigo/blob/60b912d/src/types/orders.ts#L31)_
+_Defined in [src/types/orders.ts:31](https://github.com/ELEVATORmedia/paymigo/blob/846a5f9/src/types/orders.ts#L31)_

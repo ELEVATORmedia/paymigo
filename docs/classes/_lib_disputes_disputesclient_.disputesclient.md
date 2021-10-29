@@ -17,6 +17,7 @@
 ### Properties
 
 -   [\_client](_lib_disputes_disputesclient_.disputesclient.md#protected-_client)
+-   [apiVersion](_lib_disputes_disputesclient_.disputesclient.md#apiversion)
 
 ### Methods
 
@@ -31,7 +32,7 @@
 
 _Overrides [ResourceClient](_lib_resourceclient_.resourceclient.md).[constructor](_lib_resourceclient_.resourceclient.md#constructor)_
 
-_Defined in [src/lib/disputes/DisputesClient.ts:5](https://github.com/ELEVATORmedia/paymigo/blob/60b912d/src/lib/disputes/DisputesClient.ts#L5)_
+_Defined in [src/lib/disputes/DisputesClient.ts:6](https://github.com/ELEVATORmedia/paymigo/blob/846a5f9/src/lib/disputes/DisputesClient.ts#L6)_
 
 **Parameters:**
 
@@ -49,7 +50,15 @@ _Defined in [src/lib/disputes/DisputesClient.ts:5](https://github.com/ELEVATORme
 
 _Inherited from [ResourceClient](_lib_resourceclient_.resourceclient.md).[\_client](_lib_resourceclient_.resourceclient.md#protected-_client)_
 
-_Defined in [src/lib/ResourceClient.ts:2](https://github.com/ELEVATORmedia/paymigo/blob/60b912d/src/lib/ResourceClient.ts#L2)_
+_Defined in [src/lib/ResourceClient.ts:2](https://github.com/ELEVATORmedia/paymigo/blob/846a5f9/src/lib/ResourceClient.ts#L2)_
+
+---
+
+### apiVersion
+
+• **apiVersion**: _string_ = "v1"
+
+_Defined in [src/lib/disputes/DisputesClient.ts:6](https://github.com/ELEVATORmedia/paymigo/blob/846a5f9/src/lib/disputes/DisputesClient.ts#L6)_
 
 ## Methods
 
@@ -57,7 +66,7 @@ _Defined in [src/lib/ResourceClient.ts:2](https://github.com/ELEVATORmedia/paymi
 
 ▸ **getById**(`disputeId`: string): _Promise‹[Dispute](../interfaces/_types_disputes_.dispute.md)›_
 
-_Defined in [src/lib/disputes/DisputesClient.ts:15](https://github.com/ELEVATORmedia/paymigo/blob/60b912d/src/lib/disputes/DisputesClient.ts#L15)_
+_Defined in [src/lib/disputes/DisputesClient.ts:17](https://github.com/ELEVATORmedia/paymigo/blob/846a5f9/src/lib/disputes/DisputesClient.ts#L17)_
 
 Retrieve dispute instance by its ID
 
@@ -77,7 +86,7 @@ dispute instance
 
 ▸ **list**(`options`: [DisputesListOptions](../modules/_types_disputes_.md#disputeslistoptions)): _Promise‹[Dispute](../interfaces/_types_disputes_.dispute.md)[]›_
 
-_Defined in [src/lib/disputes/DisputesClient.ts:27](https://github.com/ELEVATORmedia/paymigo/blob/60b912d/src/lib/disputes/DisputesClient.ts#L27)_
+_Defined in [src/lib/disputes/DisputesClient.ts:29](https://github.com/ELEVATORmedia/paymigo/blob/846a5f9/src/lib/disputes/DisputesClient.ts#L29)_
 
 Retrieve all relevant disputes based off of provided options
 
