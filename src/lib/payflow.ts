@@ -11,7 +11,7 @@ const XmlBuilder = new xml2js.Builder({
     xmldec: { version: '1.0', encoding: 'UTF-8' },
 });
 
-export class ReportingClient {
+export class PayflowClient {
     private _apiUri: string;
     private _payflowCredentials: PayflowCredentials;
 
