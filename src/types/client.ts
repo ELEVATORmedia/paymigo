@@ -1,4 +1,3 @@
-
 export type ClientMode = 'sandbox' | 'production';
 
 export type PayflowCredentials = {
@@ -12,5 +11,5 @@ export type ClientOptions = {
     mode: ClientMode;
     clientId: string;
     secretKey: string;
-    reporting?: PayflowCredentials;
+    payflow?: PayflowCredentials;
 };
