@@ -36,7 +36,7 @@
 
 _Overrides [ResourceClient](_lib_resourceclient_.resourceclient.md).[constructor](_lib_resourceclient_.resourceclient.md#constructor)_
 
-_Defined in [src/lib/orders.ts:7](https://github.com/ELEVATORmedia/paymigo/blob/846a5f9/src/lib/orders.ts#L7)_
+_Defined in [src/lib/orders.ts:7](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/orders.ts#L7)_
 
 **Parameters:**
 
@@ -54,7 +54,7 @@ _Defined in [src/lib/orders.ts:7](https://github.com/ELEVATORmedia/paymigo/blob/
 
 _Inherited from [ResourceClient](_lib_resourceclient_.resourceclient.md).[\_client](_lib_resourceclient_.resourceclient.md#protected-_client)_
 
-_Defined in [src/lib/ResourceClient.ts:2](https://github.com/ELEVATORmedia/paymigo/blob/846a5f9/src/lib/ResourceClient.ts#L2)_
+_Defined in [src/lib/ResourceClient.ts:2](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/ResourceClient.ts#L2)_
 
 ---
 
@@ -62,7 +62,7 @@ _Defined in [src/lib/ResourceClient.ts:2](https://github.com/ELEVATORmedia/paymi
 
 • **apiVersion**: _string_ = "v2"
 
-_Defined in [src/lib/orders.ts:7](https://github.com/ELEVATORmedia/paymigo/blob/846a5f9/src/lib/orders.ts#L7)_
+_Defined in [src/lib/orders.ts:7](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/orders.ts#L7)_
 
 ## Methods
 
@@ -70,7 +70,7 @@ _Defined in [src/lib/orders.ts:7](https://github.com/ELEVATORmedia/paymigo/blob/
 
 ▸ **authorize**(`orderId`: string): _Promise‹object›_
 
-_Defined in [src/lib/orders.ts:41](https://github.com/ELEVATORmedia/paymigo/blob/846a5f9/src/lib/orders.ts#L41)_
+_Defined in [src/lib/orders.ts:41](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/orders.ts#L41)_
 
 **Parameters:**
 
@@ -86,7 +86,7 @@ _Defined in [src/lib/orders.ts:41](https://github.com/ELEVATORmedia/paymigo/blob
 
 ▸ **capture**(`orderId`: string): _Promise‹any›_
 
-_Defined in [src/lib/orders.ts:58](https://github.com/ELEVATORmedia/paymigo/blob/846a5f9/src/lib/orders.ts#L58)_
+_Defined in [src/lib/orders.ts:58](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/orders.ts#L58)_
 
 uses a unique order ID to capture an authorized order payment
 
@@ -106,7 +106,7 @@ order payment capture result
 
 ▸ **create**(`input`: [CreateOrderInput](../interfaces/_types_orders_.createorderinput.md)): _Promise‹[Order](../interfaces/_types_orders_.order.md)›_
 
-_Defined in [src/lib/orders.ts:13](https://github.com/ELEVATORmedia/paymigo/blob/846a5f9/src/lib/orders.ts#L13)_
+_Defined in [src/lib/orders.ts:13](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/orders.ts#L13)_
 
 **Parameters:**
 
@@ -122,7 +122,7 @@ _Defined in [src/lib/orders.ts:13](https://github.com/ELEVATORmedia/paymigo/blob
 
 ▸ **getById**(`orderId`: string): _Promise‹[Order](../interfaces/_types_orders_.order.md)›_
 
-_Defined in [src/lib/orders.ts:95](https://github.com/ELEVATORmedia/paymigo/blob/846a5f9/src/lib/orders.ts#L95)_
+_Defined in [src/lib/orders.ts:95](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/orders.ts#L95)_
 
 Retrieve order instance by its ID
 
@@ -142,7 +142,7 @@ order instance
 
 ▸ **update**(`orderId`: string, `updates`: [PatchOrderInput](../interfaces/_types_orders_.patchorderinput.md)): _Promise‹object›_
 
-_Defined in [src/lib/orders.ts:27](https://github.com/ELEVATORmedia/paymigo/blob/846a5f9/src/lib/orders.ts#L27)_
+_Defined in [src/lib/orders.ts:27](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/orders.ts#L27)_
 
 **Parameters:**
 
@@ -159,7 +159,7 @@ _Defined in [src/lib/orders.ts:27](https://github.com/ELEVATORmedia/paymigo/blob
 
 ▸ **verifyOrderAmount**(`orderId`: string, `expectedAmount`: [Amount](../interfaces/_types_common_.amount.md)): _Promise‹boolean›_
 
-_Defined in [src/lib/orders.ts:76](https://github.com/ELEVATORmedia/paymigo/blob/846a5f9/src/lib/orders.ts#L76)_
+_Defined in [src/lib/orders.ts:76](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/orders.ts#L76)_
 
 Retrieve dispute order by its ID to view order details to validate status and amount charged
 

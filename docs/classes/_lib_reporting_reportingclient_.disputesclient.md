@@ -27,7 +27,7 @@
 
 _Overrides [ResourceClient](_lib_resourceclient_.resourceclient.md).[constructor](_lib_resourceclient_.resourceclient.md#constructor)_
 
-_Defined in [src/lib/reporting/ReportingClient.ts:5](https://github.com/ELEVATORmedia/paymigo/blob/846a5f9/src/lib/reporting/ReportingClient.ts#L5)_
+_Defined in [src/lib/reporting/ReportingClient.ts:5](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/reporting/ReportingClient.ts#L5)_
 
 **Parameters:**
 
@@ -45,7 +45,7 @@ _Defined in [src/lib/reporting/ReportingClient.ts:5](https://github.com/ELEVATOR
 
 _Inherited from [ResourceClient](_lib_resourceclient_.resourceclient.md).[\_client](_lib_resourceclient_.resourceclient.md#protected-_client)_
 
-_Defined in [src/lib/ResourceClient.ts:2](https://github.com/ELEVATORmedia/paymigo/blob/846a5f9/src/lib/ResourceClient.ts#L2)_
+_Defined in [src/lib/ResourceClient.ts:2](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/ResourceClient.ts#L2)_
 
 ---
 
@@ -53,4 +53,4 @@ _Defined in [src/lib/ResourceClient.ts:2](https://github.com/ELEVATORmedia/paymi
 
 • **apiVersion**: _string_ = "v1"
 
-_Defined in [src/lib/reporting/ReportingClient.ts:5](https://github.com/ELEVATORmedia/paymigo/blob/846a5f9/src/lib/reporting/ReportingClient.ts#L5)_
+_Defined in [src/lib/reporting/ReportingClient.ts:5](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/reporting/ReportingClient.ts#L5)_

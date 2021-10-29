@@ -15,7 +15,7 @@
 
 Ƭ **TransactionEventCode**: _"T1106" | "T1107"_
 
-_Defined in [src/types/transactions.ts:1](https://github.com/ELEVATORmedia/paymigo/blob/846a5f9/src/types/transactions.ts#L1)_
+_Defined in [src/types/transactions.ts:1](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/types/transactions.ts#L1)_
 
 ---
 
@@ -23,7 +23,7 @@ _Defined in [src/types/transactions.ts:1](https://github.com/ELEVATORmedia/paymi
 
 Ƭ **TransactionsGetRequestParams**: _object_
 
-_Defined in [src/types/transactions.ts:3](https://github.com/ELEVATORmedia/paymigo/blob/846a5f9/src/types/transactions.ts#L3)_
+_Defined in [src/types/transactions.ts:3](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/types/transactions.ts#L3)_
 
 #### Type declaration:
 
