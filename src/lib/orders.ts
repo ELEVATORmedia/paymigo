@@ -4,6 +4,8 @@ import HttpStatusError from './errors/HttpStatusError';
 import ResourceClient from './ResourceClient';
 
 export class OrdersClient extends ResourceClient {
+    public apiVersion = 'v2'; // /v2/checkout
+
     constructor(client: paypal.core.PayPalHttpClient) {
         super(client);
     }

@@ -3,6 +3,8 @@ import { Dispute, DisputesListOptions } from '../../types/disputes';
 import ResourceClient from '../../lib/ResourceClient';
 
 export default class DisputesClient extends ResourceClient {
+    public apiVersion = 'v1'; // /v1/customer/disputes
+
     constructor(client: paypal.core.PayPalHttpClient) {
         super(client);
     }
