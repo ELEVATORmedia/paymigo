@@ -1,11 +1,11 @@
 {
-  "name": "paymigo-basic-ts-example",
-  "version": "0.1.0",
-  "description": "A basic TS example for the Paymigo library",
-  "main": "index.ts",
-  "license": "MIT",
-  "private": false,
-  "dependencies": {
-    "paymigo": "^0.1.0"
-  }
+    "name": "paymigo-basic-ts-example",
+    "version": "0.1.0",
+    "description": "A basic TS example for the Paymigo library",
+    "main": "index.ts",
+    "license": "MIT",
+    "private": false,
+    "dependencies": {
+        "@elevatormedia/paymigo": "^0.1.5-alpha.5"
+    }
 }
