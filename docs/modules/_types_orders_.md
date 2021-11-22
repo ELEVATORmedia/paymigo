@@ -23,4 +23,4 @@
 
 Ƭ **PatchOperation**: _"add" | "remove" | "replace" | "move" | "copy" | "test"_
 
-_Defined in [src/types/orders.ts:45](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/types/orders.ts#L45)_
+_Defined in [src/types/orders.ts:45](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/types/orders.ts#L45)_

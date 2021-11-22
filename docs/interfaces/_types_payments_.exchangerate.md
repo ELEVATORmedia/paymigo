@@ -20,7 +20,7 @@
 
 • **source_currency**: _string_
 
-_Defined in [src/types/payments.ts:83](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/types/payments.ts#L83)_
+_Defined in [src/types/payments.ts:83](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/types/payments.ts#L83)_
 
 ---
 
@@ -28,7 +28,7 @@ _Defined in [src/types/payments.ts:83](https://github.com/ELEVATORmedia/paymigo/
 
 • **target_currency**: _string_
 
-_Defined in [src/types/payments.ts:84](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/types/payments.ts#L84)_
+_Defined in [src/types/payments.ts:84](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/types/payments.ts#L84)_
 
 ---
 
@@ -36,4 +36,4 @@ _Defined in [src/types/payments.ts:84](https://github.com/ELEVATORmedia/paymigo/
 
 • **value**: _string_
 
-_Defined in [src/types/payments.ts:85](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/types/payments.ts#L85)_
+_Defined in [src/types/payments.ts:85](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/types/payments.ts#L85)_

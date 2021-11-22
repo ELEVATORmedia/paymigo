@@ -22,7 +22,7 @@
 
 • **reportingEngineRequest**: _object_
 
-_Defined in [src/types/reporting.ts:9](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/types/reporting.ts#L9)_
+_Defined in [src/types/reporting.ts:9](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/types/reporting.ts#L9)_
 
 #### Type declaration:
 

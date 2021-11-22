@@ -27,7 +27,7 @@
 
 \+ **new HttpStatusError**(`received`: number, `expected`: number | string): _[HttpStatusError](_lib_errors_httpstatuserror_.httpstatuserror.md)_
 
-_Defined in [src/lib/errors/HttpStatusError.ts:1](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/errors/HttpStatusError.ts#L1)_
+_Defined in [src/lib/errors/HttpStatusError.ts:1](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/errors/HttpStatusError.ts#L1)_
 
 **Parameters:**
 

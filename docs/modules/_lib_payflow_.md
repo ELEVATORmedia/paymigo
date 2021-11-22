@@ -21,7 +21,7 @@
 xmldec: { version: '1.0', encoding: 'UTF-8' },
 })
 
-_Defined in [src/lib/payflow.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/payflow.ts#L10)_
+_Defined in [src/lib/payflow.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/payflow.ts#L10)_
 
 ---
 
@@ -31,4 +31,4 @@ _Defined in [src/lib/payflow.ts:10](https://github.com/ELEVATORmedia/paymigo/blo
 valueProcessors: [parseNumbers],
 })
 
-_Defined in [src/lib/payflow.ts:6](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/payflow.ts#L6)_
+_Defined in [src/lib/payflow.ts:6](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/payflow.ts#L6)_

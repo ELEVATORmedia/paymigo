@@ -64,7 +64,7 @@
 
 • **AUTHENTICATION_FAILURE**: = "AUTHENTICATION_FAILURE"
 
-_Defined in [src/lib/util.ts:25](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L25)_
+_Defined in [src/lib/util.ts:25](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L25)_
 
 ---
 
@@ -72,7 +72,7 @@ _Defined in [src/lib/util.ts:25](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **AUTHORIZATION_ALREADY_CAPTURED**: = "AUTHORIZATION_ALREADY_CAPTURED"
 
-_Defined in [src/lib/util.ts:26](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L26)_
+_Defined in [src/lib/util.ts:26](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L26)_
 
 ---
 
@@ -80,7 +80,7 @@ _Defined in [src/lib/util.ts:26](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **AUTHORIZATION_DENIED**: = "AUTHORIZATION_DENIED"
 
-_Defined in [src/lib/util.ts:27](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L27)_
+_Defined in [src/lib/util.ts:27](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L27)_
 
 ---
 
@@ -88,7 +88,7 @@ _Defined in [src/lib/util.ts:27](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **AUTHORIZATION_EXPIRED**: = "AUTHORIZATION_EXPIRED"
 
-_Defined in [src/lib/util.ts:28](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L28)_
+_Defined in [src/lib/util.ts:28](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L28)_
 
 ---
 
@@ -96,7 +96,7 @@ _Defined in [src/lib/util.ts:28](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **AUTHORIZATION_VOIDED**: = "AUTHORIZATION_VOIDED"
 
-_Defined in [src/lib/util.ts:29](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L29)_
+_Defined in [src/lib/util.ts:29](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L29)_
 
 ---
 
@@ -104,7 +104,7 @@ _Defined in [src/lib/util.ts:29](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **AUTH_CAPTURE_CURRENCY_MISMATCH**: = "AUTH_CAPTURE_CURRENCY_MISMATCH"
 
-_Defined in [src/lib/util.ts:24](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L24)_
+_Defined in [src/lib/util.ts:24](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L24)_
 
 ---
 
@@ -112,7 +112,7 @@ _Defined in [src/lib/util.ts:24](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **CANNOT_BE_VOIDED**: = "CANNOT_BE_VOIDED"
 
-_Defined in [src/lib/util.ts:31](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L31)_
+_Defined in [src/lib/util.ts:31](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L31)_
 
 ---
 
@@ -120,7 +120,7 @@ _Defined in [src/lib/util.ts:31](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **CANNOT_BE_ZERO_OR_NEGATIVE**: = "CANNOT_BE_ZERO_OR_NEGATIVE"
 
-_Defined in [src/lib/util.ts:30](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L30)_
+_Defined in [src/lib/util.ts:30](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L30)_
 
 ---
 
@@ -128,7 +128,7 @@ _Defined in [src/lib/util.ts:30](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **CAPTURE_DISPUTED_PARTIAL_REFUND_NOT_ALLOWED**: = "CAPTURE_DISPUTED_PARTIAL_REFUND_NOT_ALLOWED"
 
-_Defined in [src/lib/util.ts:33](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L33)_
+_Defined in [src/lib/util.ts:33](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L33)_
 
 ---
 
@@ -136,7 +136,7 @@ _Defined in [src/lib/util.ts:33](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **CAPTURE_FULLY_REFUNDED**: = "CAPTURE_FULLY_REFUNDED"
 
-_Defined in [src/lib/util.ts:34](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L34)_
+_Defined in [src/lib/util.ts:34](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L34)_
 
 ---
 
@@ -144,7 +144,7 @@ _Defined in [src/lib/util.ts:34](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **DECIMALS_NOT_SUPPORTED**: = "DECIMALS_NOT_SUPPORTED"
 
-_Defined in [src/lib/util.ts:36](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L36)_
+_Defined in [src/lib/util.ts:36](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L36)_
 
 ---
 
@@ -152,7 +152,7 @@ _Defined in [src/lib/util.ts:36](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **DECIMAL_PRECISION**: = "DECIMAL_PRECISION"
 
-_Defined in [src/lib/util.ts:35](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L35)_
+_Defined in [src/lib/util.ts:35](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L35)_
 
 ---
 
@@ -160,7 +160,7 @@ _Defined in [src/lib/util.ts:35](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **DUPLICATE_INVOICE_ID**: = "DUPLICATE_INVOICE_ID"
 
-_Defined in [src/lib/util.ts:37](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L37)_
+_Defined in [src/lib/util.ts:37](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L37)_
 
 ---
 
@@ -168,7 +168,7 @@ _Defined in [src/lib/util.ts:37](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **INTERNAL_SERVER_ERROR**: = "INTERNAL_SERVER_ERROR"
 
-_Defined in [src/lib/util.ts:39](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L39)_
+_Defined in [src/lib/util.ts:39](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L39)_
 
 ---
 
@@ -176,7 +176,7 @@ _Defined in [src/lib/util.ts:39](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **INVALID_ACCOUNT_STATUS**: = "INVALID_ACCOUNT_STATUS"
 
-_Defined in [src/lib/util.ts:38](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L38)_
+_Defined in [src/lib/util.ts:38](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L38)_
 
 ---
 
@@ -184,7 +184,7 @@ _Defined in [src/lib/util.ts:38](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **INVALID_CURRENCY_CODE**: = "INVALID_CURRENCY_CODE"
 
-_Defined in [src/lib/util.ts:40](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L40)_
+_Defined in [src/lib/util.ts:40](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L40)_
 
 ---
 
@@ -192,7 +192,7 @@ _Defined in [src/lib/util.ts:40](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **INVALID_INVOICE_ID**: = "INVALID_INVOICE_ID"
 
-_Defined in [src/lib/util.ts:41](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L41)_
+_Defined in [src/lib/util.ts:41](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L41)_
 
 ---
 
@@ -200,7 +200,7 @@ _Defined in [src/lib/util.ts:41](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **INVALID_PARAMETER_SYNTAX**: = "INVALID_PARAMETER_SYNTAX"
 
-_Defined in [src/lib/util.ts:42](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L42)_
+_Defined in [src/lib/util.ts:42](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L42)_
 
 ---
 
@@ -208,7 +208,7 @@ _Defined in [src/lib/util.ts:42](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **INVALID_PARAMETER_VALUE**: = "INVALID_PARAMETER_VALUE"
 
-_Defined in [src/lib/util.ts:43](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L43)_
+_Defined in [src/lib/util.ts:43](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L43)_
 
 ---
 
@@ -216,7 +216,7 @@ _Defined in [src/lib/util.ts:43](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **INVALID_PAYEE_ACCOUNT**: = "INVALID_PAYEE_ACCOUNT"
 
-_Defined in [src/lib/util.ts:44](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L44)_
+_Defined in [src/lib/util.ts:44](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L44)_
 
 ---
 
@@ -224,7 +224,7 @@ _Defined in [src/lib/util.ts:44](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **INVALID_PLATFORM_FEES_AMOUNT**: = "INVALID_PLATFORM_FEES_AMOUNT"
 
-_Defined in [src/lib/util.ts:45](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L45)_
+_Defined in [src/lib/util.ts:45](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L45)_
 
 ---
 
@@ -232,7 +232,7 @@ _Defined in [src/lib/util.ts:45](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **INVALID_RESOURCE_ID**: = "INVALID_RESOURCE_ID"
 
-_Defined in [src/lib/util.ts:46](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L46)_
+_Defined in [src/lib/util.ts:46](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L46)_
 
 ---
 
@@ -240,7 +240,7 @@ _Defined in [src/lib/util.ts:46](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **INVALID_STRING_LENGTH**: = "INVALID_STRING_LENGTH"
 
-_Defined in [src/lib/util.ts:47](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L47)_
+_Defined in [src/lib/util.ts:47](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L47)_
 
 ---
 
@@ -248,7 +248,7 @@ _Defined in [src/lib/util.ts:47](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **INVALID_STRING_MAX_LENGTH**: = "INVALID_STRING_MAX_LENGTH"
 
-_Defined in [src/lib/util.ts:48](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L48)_
+_Defined in [src/lib/util.ts:48](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L48)_
 
 ---
 
@@ -256,7 +256,7 @@ _Defined in [src/lib/util.ts:48](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **MAX_CAPTURE_AMOUNT_EXCEEDED**: = "MAX_CAPTURE_AMOUNT_EXCEEDED"
 
-_Defined in [src/lib/util.ts:49](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L49)_
+_Defined in [src/lib/util.ts:49](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L49)_
 
 ---
 
@@ -264,7 +264,7 @@ _Defined in [src/lib/util.ts:49](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **MAX_CAPTURE_COUNT_EXCEEDED**: = "MAX_CAPTURE_COUNT_EXCEEDED"
 
-_Defined in [src/lib/util.ts:50](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L50)_
+_Defined in [src/lib/util.ts:50](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L50)_
 
 ---
 
@@ -272,7 +272,7 @@ _Defined in [src/lib/util.ts:50](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **MAX_NUMBER_OF_REFUNDS_EXCEEDED**: = "MAX_NUMBER_OF_REFUNDS_EXCEEDED"
 
-_Defined in [src/lib/util.ts:51](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L51)_
+_Defined in [src/lib/util.ts:51](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L51)_
 
 ---
 
@@ -280,7 +280,7 @@ _Defined in [src/lib/util.ts:51](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **MISSING_REQUIRED_PARAMETER**: = "MISSING_REQUIRED_PARAMETER"
 
-_Defined in [src/lib/util.ts:52](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L52)_
+_Defined in [src/lib/util.ts:52](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L52)_
 
 ---
 
@@ -288,7 +288,7 @@ _Defined in [src/lib/util.ts:52](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **MULTIPLE_AUTHORIZATIONS_FOUND**: = "MULTIPLE_AUTHORIZATIONS_FOUND"
 
-_Defined in [src/lib/util.ts:53](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L53)_
+_Defined in [src/lib/util.ts:53](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L53)_
 
 ---
 
@@ -296,7 +296,7 @@ _Defined in [src/lib/util.ts:53](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **NOT_AUTHORIZED**: = "NOT_AUTHORIZED"
 
-_Defined in [src/lib/util.ts:54](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L54)_
+_Defined in [src/lib/util.ts:54](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L54)_
 
 ---
 
@@ -304,7 +304,7 @@ _Defined in [src/lib/util.ts:54](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **PARTIAL_REFUND_NOT_ALLOWED**: = "PARTIAL_REFUND_NOT_ALLOWED"
 
-_Defined in [src/lib/util.ts:55](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L55)_
+_Defined in [src/lib/util.ts:55](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L55)_
 
 ---
 
@@ -312,7 +312,7 @@ _Defined in [src/lib/util.ts:55](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **PAYEE_ACCOUNT_LOCKED_OR_CLOSED**: = "PAYEE_ACCOUNT_LOCKED_OR_CLOSED"
 
-_Defined in [src/lib/util.ts:56](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L56)_
+_Defined in [src/lib/util.ts:56](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L56)_
 
 ---
 
@@ -320,7 +320,7 @@ _Defined in [src/lib/util.ts:56](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **PAYEE_ACCOUNT_RESTRICTED**: = "PAYEE_ACCOUNT_RESTRICTED"
 
-_Defined in [src/lib/util.ts:57](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L57)_
+_Defined in [src/lib/util.ts:57](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L57)_
 
 ---
 
@@ -328,7 +328,7 @@ _Defined in [src/lib/util.ts:57](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **PAYER_ACCOUNT_LOCKED_OR_CLOSED**: = "PAYER_ACCOUNT_LOCKED_OR_CLOSED"
 
-_Defined in [src/lib/util.ts:58](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L58)_
+_Defined in [src/lib/util.ts:58](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L58)_
 
 ---
 
@@ -336,7 +336,7 @@ _Defined in [src/lib/util.ts:58](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **PAYER_CANNOT_PAY**: = "PAYER_CANNOT_PAY"
 
-_Defined in [src/lib/util.ts:59](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L59)_
+_Defined in [src/lib/util.ts:59](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L59)_
 
 ---
 
@@ -344,7 +344,7 @@ _Defined in [src/lib/util.ts:59](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **PENDING_CAPTURE**: = "PENDING_CAPTURE"
 
-_Defined in [src/lib/util.ts:60](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L60)_
+_Defined in [src/lib/util.ts:60](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L60)_
 
 ---
 
@@ -352,7 +352,7 @@ _Defined in [src/lib/util.ts:60](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **PERMISSION_DENIED**: = "PERMISSION_DENIED"
 
-_Defined in [src/lib/util.ts:61](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L61)_
+_Defined in [src/lib/util.ts:61](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L61)_
 
 ---
 
@@ -360,7 +360,7 @@ _Defined in [src/lib/util.ts:61](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **PERMISSION_NOT_GRANTED**: = "PERMISSION_NOT_GRANTED"
 
-_Defined in [src/lib/util.ts:62](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L62)_
+_Defined in [src/lib/util.ts:62](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L62)_
 
 ---
 
@@ -368,7 +368,7 @@ _Defined in [src/lib/util.ts:62](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **PREVIOUSLY_CAPTURED**: = "PREVIOUSLY_CAPTURED"
 
-_Defined in [src/lib/util.ts:63](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L63)_
+_Defined in [src/lib/util.ts:63](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L63)_
 
 ---
 
@@ -376,7 +376,7 @@ _Defined in [src/lib/util.ts:63](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **PREVIOUSLY_VOIDED**: = "PREVIOUSLY_VOIDED"
 
-_Defined in [src/lib/util.ts:64](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L64)_
+_Defined in [src/lib/util.ts:64](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L64)_
 
 ---
 
@@ -384,7 +384,7 @@ _Defined in [src/lib/util.ts:64](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **REFUND_AMOUNT_EXCEEDED**: = "REFUND_AMOUNT_EXCEEDED"
 
-_Defined in [src/lib/util.ts:65](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L65)_
+_Defined in [src/lib/util.ts:65](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L65)_
 
 ---
 
@@ -392,7 +392,7 @@ _Defined in [src/lib/util.ts:65](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **REFUND_AMOUNT_TOO_LOW**: = "REFUND_AMOUNT_TOO_LOW"
 
-_Defined in [src/lib/util.ts:66](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L66)_
+_Defined in [src/lib/util.ts:66](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L66)_
 
 ---
 
@@ -400,7 +400,7 @@ _Defined in [src/lib/util.ts:66](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **REFUND_CAPTURE_CURRENCY_MISMATCH**: = "REFUND_CAPTURE_CURRENCY_MISMATCH"
 
-_Defined in [src/lib/util.ts:67](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L67)_
+_Defined in [src/lib/util.ts:67](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L67)_
 
 ---
 
@@ -408,7 +408,7 @@ _Defined in [src/lib/util.ts:67](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **REFUND_FAILED_BY_PAYMENT_SOURCE**: = "REFUND_FAILED_BY_PAYMENT_SOURCE"
 
-_Defined in [src/lib/util.ts:74](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L74)_
+_Defined in [src/lib/util.ts:74](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L74)_
 
 ---
 
@@ -416,7 +416,7 @@ _Defined in [src/lib/util.ts:74](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **REFUND_FAILED_INSUFFICIENT_FUNDS**: = "REFUND_FAILED_INSUFFICIENT_FUNDS"
 
-_Defined in [src/lib/util.ts:68](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L68)_
+_Defined in [src/lib/util.ts:68](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L68)_
 
 ---
 
@@ -424,7 +424,7 @@ _Defined in [src/lib/util.ts:68](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **REFUND_NOT_ALLOWED**: = "REFUND_NOT_ALLOWED"
 
-_Defined in [src/lib/util.ts:69](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L69)_
+_Defined in [src/lib/util.ts:69](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L69)_
 
 ---
 
@@ -432,7 +432,7 @@ _Defined in [src/lib/util.ts:69](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **REFUND_NOT_PERMITTED_DUE_TO_CHARGEBACK**: = "REFUND_NOT_PERMITTED_DUE_TO_CHARGEBACK"
 
-_Defined in [src/lib/util.ts:32](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L32)_
+_Defined in [src/lib/util.ts:32](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L32)_
 
 ---
 
@@ -440,7 +440,7 @@ _Defined in [src/lib/util.ts:32](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **REFUND_NOT_SUPPORTED_FOR_PAYMENT_SOURCE**: = "REFUND_NOT_SUPPORTED_FOR_PAYMENT_SOURCE"
 
-_Defined in [src/lib/util.ts:72](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L72)_
+_Defined in [src/lib/util.ts:72](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L72)_
 
 ---
 
@@ -448,7 +448,7 @@ _Defined in [src/lib/util.ts:72](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **REFUND_TIME_EXCEEDED_FOR_PAYMENT_SOURCE**: = "REFUND_TIME_EXCEEDED_FOR_PAYMENT_SOURCE"
 
-_Defined in [src/lib/util.ts:73](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L73)_
+_Defined in [src/lib/util.ts:73](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L73)_
 
 ---
 
@@ -456,7 +456,7 @@ _Defined in [src/lib/util.ts:73](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **REFUND_TIME_LIMIT_EXCEEDED**: = "REFUND_TIME_LIMIT_EXCEEDED"
 
-_Defined in [src/lib/util.ts:70](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L70)_
+_Defined in [src/lib/util.ts:70](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L70)_
 
 ---
 
@@ -464,4 +464,4 @@ _Defined in [src/lib/util.ts:70](https://github.com/ELEVATORmedia/paymigo/blob/6
 
 • **TRANSACTION_REFUSED**: = "TRANSACTION_REFUSED"
 
-_Defined in [src/lib/util.ts:71](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/lib/util.ts#L71)_
+_Defined in [src/lib/util.ts:71](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/lib/util.ts#L71)_

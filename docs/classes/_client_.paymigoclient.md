@@ -28,7 +28,7 @@
 
 \+ **new PaymigoClient**(`options`: [ClientOptions](../modules/_types_client_.md#clientoptions)): _[PaymigoClient](_client_.paymigoclient.md)_
 
-_Defined in [src/Client.ts:17](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/Client.ts#L17)_
+_Defined in [src/Client.ts:17](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/Client.ts#L17)_
 
 **Parameters:**
 
@@ -44,7 +44,7 @@ _Defined in [src/Client.ts:17](https://github.com/ELEVATORmedia/paymigo/blob/659
 
 • **\_client**: _PayPalHttpClient_
 
-_Defined in [src/Client.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/Client.ts#L11)_
+_Defined in [src/Client.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/Client.ts#L11)_
 
 ---
 
@@ -52,7 +52,7 @@ _Defined in [src/Client.ts:11](https://github.com/ELEVATORmedia/paymigo/blob/659
 
 • **disputes**: _[DisputesClient](_lib_disputes_disputesclient_.disputesclient.md)_
 
-_Defined in [src/Client.ts:15](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/Client.ts#L15)_
+_Defined in [src/Client.ts:15](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/Client.ts#L15)_
 
 ---
 
@@ -60,7 +60,7 @@ _Defined in [src/Client.ts:15](https://github.com/ELEVATORmedia/paymigo/blob/659
 
 • **mode**: _[ClientMode](../modules/_types_client_.md#clientmode)_
 
-_Defined in [src/Client.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/Client.ts#L10)_
+_Defined in [src/Client.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/Client.ts#L10)_
 
 ---
 
@@ -68,7 +68,7 @@ _Defined in [src/Client.ts:10](https://github.com/ELEVATORmedia/paymigo/blob/659
 
 • **orders**: _[OrdersClient](_lib_orders_.ordersclient.md)_
 
-_Defined in [src/Client.ts:13](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/Client.ts#L13)_
+_Defined in [src/Client.ts:13](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/Client.ts#L13)_
 
 ---
 
@@ -76,7 +76,7 @@ _Defined in [src/Client.ts:13](https://github.com/ELEVATORmedia/paymigo/blob/659
 
 • **payflow**: _[PayflowClient](_lib_payflow_.payflowclient.md)_
 
-_Defined in [src/Client.ts:17](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/Client.ts#L17)_
+_Defined in [src/Client.ts:17](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/Client.ts#L17)_
 
 ---
 
@@ -84,7 +84,7 @@ _Defined in [src/Client.ts:17](https://github.com/ELEVATORmedia/paymigo/blob/659
 
 • **payments**: _[PaymentsClient](_lib_payments_.paymentsclient.md)_
 
-_Defined in [src/Client.ts:14](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/Client.ts#L14)_
+_Defined in [src/Client.ts:14](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/Client.ts#L14)_
 
 ---
 
@@ -92,4 +92,4 @@ _Defined in [src/Client.ts:14](https://github.com/ELEVATORmedia/paymigo/blob/659
 
 • **reporting**: _ReportingClient_
 
-_Defined in [src/Client.ts:16](https://github.com/ELEVATORmedia/paymigo/blob/6591146/src/Client.ts#L16)_
+_Defined in [src/Client.ts:16](https://github.com/ELEVATORmedia/paymigo/blob/3f5d74d/src/Client.ts#L16)_
